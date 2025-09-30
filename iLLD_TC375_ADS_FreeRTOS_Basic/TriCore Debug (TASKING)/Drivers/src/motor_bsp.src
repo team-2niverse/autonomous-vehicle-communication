@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc21068a --dep-file=Drivers/src/motor_bsp.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc37x -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Configurations -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\Infra -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\Service -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Io -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\OS -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\OS\\\\FreeRTOS -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\OS\\\\FreeRTOS\\\\include -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\OS\\\\FreeRTOS\\\\portable -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\OS\\\\FreeRTOS\\\\portable\\\\Tasking -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\OS\\\\FreeRTOS\\\\portable\\\\Tasking\\\\TC3 -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Can -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Std -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\App -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\App\\\\include -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\App\\\\src -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Drivers -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Drivers\\\\include -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Drivers\\\\src -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Drivers/src/motor_bsp.src ../Drivers/src/motor_bsp.c"
+	.compiler_invocation	"ctc -f cc42380a --dep-file=Drivers/src/motor_bsp.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc37x -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Configurations -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\Infra -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\Service -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Io -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\OS -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\OS\\\\FreeRTOS -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\OS\\\\FreeRTOS\\\\include -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\OS\\\\FreeRTOS\\\\portable -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\OS\\\\FreeRTOS\\\\portable\\\\Tasking -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\OS\\\\FreeRTOS\\\\portable\\\\Tasking\\\\TC3 -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Can -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Std -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\App -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\App\\\\include -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\App\\\\src -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Drivers -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Drivers\\\\include -IC:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Drivers\\\\src -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Drivers/src/motor_bsp.src ../Drivers/src/motor_bsp.c"
 	.compiler_name		"ctc"
 	;source	'../Drivers/src/motor_bsp.c'
 
@@ -13,84 +13,84 @@ $TC162
 	
 	.global	Motor_Init
 ; Function Motor_Init
-.L15:
+.L17:
 Motor_Init:	.type	func
 	movh.a	a15,#61444
 	ld.bu	d0,[a15]@los(0xf003aa11)
-.L81:
+.L83:
 	mov	d15,#16
-.L82:
+.L84:
 	insert	d15,d0,d15,#3,#5
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003aa11),d15
-.L83:
+.L85:
 	movh.a	a15,#61444
 	ld.bu	d0,[a15]@los(0xf003a217)
-.L84:
+.L86:
 	mov	d15,#16
-.L85:
+.L87:
 	insert	d15,d0,d15,#3,#5
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003a217),d15
-.L86:
+.L88:
 	movh.a	a15,#61444
 	ld.bu	d0,[a15]@los(0xf003aa12)
-.L87:
+.L89:
 	mov	d15,#16
-.L88:
+.L90:
 	insert	d15,d0,d15,#3,#5
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003aa12),d15
-.L89:
+.L91:
 	movh.a	a15,#61444
 	ld.bu	d0,[a15]@los(0xf003a216)
-.L90:
+.L92:
 	mov	d15,#16
-.L91:
+.L93:
 	insert	d15,d0,d15,#3,#5
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003a216),d15
-.L92:
-	movh.a	a15,#61444
-	ld.bu	d15,[a15]@los(0xf003a200)
-.L93:
-	or	d15,#128
-	movh.a	a15,#61444
-	st.b	[a15]@los(0xf003a200),d15
 .L94:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003a200)
 .L95:
-	or	d15,#64
+	or	d15,#128
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003a200),d15
 .L96:
 	movh.a	a15,#61444
-	ld.bu	d15,[a15]@los(0xf003aa00)
+	ld.bu	d15,[a15]@los(0xf003a200)
 .L97:
-	or	d15,#2
+	or	d15,#64
 	movh.a	a15,#61444
-	st.b	[a15]@los(0xf003aa00),d15
+	st.b	[a15]@los(0xf003a200),d15
 .L98:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003aa00)
 .L99:
-	or	d15,#4
+	or	d15,#2
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003aa00),d15
 .L100:
+	movh.a	a15,#61444
+	ld.bu	d15,[a15]@los(0xf003aa00)
+.L101:
+	or	d15,#4
+	movh.a	a15,#61444
+	st.b	[a15]@los(0xf003aa00),d15
+.L102:
 	mov	d4,#0
 	call	Gtm_Atom_Pwm_Set_Duty_Cycle_A
-.L101:
+.L103:
 	mov	d4,#0
 	call	Gtm_Atom_Pwm_Set_Duty_Cycle_B
-.L102:
+.L104:
 	ret
-.L53:
+.L55:
 	
 __Motor_Init_function_end:
 	.size	Motor_Init,__Motor_Init_function_end-Motor_Init
-.L32:
+.L34:
 	; End of function
 	
 	.sdecl	'.text.motor_bsp.Motor_Set_Left',code,cluster('Motor_Set_Left')
@@ -99,51 +99,37 @@ __Motor_Init_function_end:
 	
 	.global	Motor_Set_Left
 ; Function Motor_Set_Left
-.L17:
+.L19:
 Motor_Set_Left:	.type	func
 	mov	d15,d4
-.L64:
-	mov	d8,d5
 .L66:
+	mov	d8,d5
+.L68:
 	call	Can_Get_Aeb
-.L63:
+.L65:
 	jeq	d2,#0,.L2
-.L107:
+.L109:
 	jeq	d15,#0,.L3
-.L108:
-	j	.L4
+.L110:
+	jlt.u	d8,#1,.L4
+.L111:
+	j	.L5
+.L4:
 .L3:
 .L2:
 	movh.a	a15,#61444
 	ld.bu	d0,[a15]@los(0xf003a200)
-.L109:
-	jnz.t	d0:7,.L5
-.L110:
-	movh.a	a15,#61444
-	ld.bu	d0,[a15]@los(0xf003aa00)
-	extr.u	d0,d0,#1,#1
-.L111:
-	jeq	d15,d0,.L6
 .L112:
-	call	Motor_Stop_Left
+	jnz.t	d0:7,.L6
 .L113:
 	movh.a	a15,#61444
 	ld.bu	d0,[a15]@los(0xf003aa00)
+	extr.u	d0,d0,#1,#1
 .L114:
-	insert	d15,d0,d15,#1,#1
-.L65:
-	movh.a	a15,#61444
-	st.b	[a15]@los(0xf003aa00),d15
+	jeq	d15,d0,.L7
 .L115:
-	movh.a	a15,#61444
-	ld.bu	d15,[a15]@los(0xf003a200)
+	call	Motor_Stop_Left
 .L116:
-	insert	d15,d15,#0,#7,#1
-	movh.a	a15,#61444
-	st.b	[a15]@los(0xf003a200),d15
-.L6:
-	j	.L7
-.L5:
 	movh.a	a15,#61444
 	ld.bu	d0,[a15]@los(0xf003aa00)
 .L117:
@@ -159,22 +145,39 @@ Motor_Set_Left:	.type	func
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003a200),d15
 .L7:
-	utof	d15,d8
+	j	.L8
+.L6:
+	movh.a	a15,#61444
+	ld.bu	d0,[a15]@los(0xf003aa00)
 .L120:
+	insert	d15,d0,d15,#1,#1
+.L69:
+	movh.a	a15,#61444
+	st.b	[a15]@los(0xf003aa00),d15
+.L121:
+	movh.a	a15,#61444
+	ld.bu	d15,[a15]@los(0xf003a200)
+.L122:
+	insert	d15,d15,#0,#7,#1
+	movh.a	a15,#61444
+	st.b	[a15]@los(0xf003a200),d15
+.L8:
+	utof	d15,d8
+.L123:
 	mov.u	d0,#64257
 	addih	d0,d0,#16506
-.L121:
+.L124:
 	mul.f	d15,d15,d0
-.L122:
+.L125:
 	ftouz	d4,d15
 	call	Gtm_Atom_Pwm_Set_Duty_Cycle_A
-.L4:
+.L5:
 	ret
-.L54:
+.L56:
 	
 __Motor_Set_Left_function_end:
 	.size	Motor_Set_Left,__Motor_Set_Left_function_end-Motor_Set_Left
-.L37:
+.L39:
 	; End of function
 	
 	.sdecl	'.text.motor_bsp.Motor_Stop_Left',code,cluster('Motor_Stop_Left')
@@ -183,28 +186,28 @@ __Motor_Set_Left_function_end:
 	
 	.global	Motor_Stop_Left
 ; Function Motor_Stop_Left
-.L19:
+.L21:
 Motor_Stop_Left:	.type	func
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003a200)
-.L127:
+.L130:
 	or	d15,#128
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003a200),d15
-.L128:
+.L131:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003aa00)
-.L129:
+.L132:
 	or	d15,#2
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003aa00),d15
-.L130:
+.L133:
 	ret
-.L58:
+.L60:
 	
 __Motor_Stop_Left_function_end:
 	.size	Motor_Stop_Left,__Motor_Stop_Left_function_end-Motor_Stop_Left
-.L42:
+.L44:
 	; End of function
 	
 	.sdecl	'.text.motor_bsp.Motor_Set_Right',code,cluster('Motor_Set_Right')
@@ -213,82 +216,85 @@ __Motor_Stop_Left_function_end:
 	
 	.global	Motor_Set_Right
 ; Function Motor_Set_Right
-.L21:
+.L23:
 Motor_Set_Right:	.type	func
 	mov	d15,d4
-.L69:
-	mov	d8,d5
 .L71:
+	mov	d8,d5
+.L73:
 	call	Can_Get_Aeb
-.L68:
-	jeq	d2,#0,.L8
-.L135:
-	jeq	d15,#0,.L9
-.L136:
-	j	.L10
+.L70:
+	jeq	d2,#0,.L9
+.L138:
+	jeq	d15,#0,.L10
+.L139:
+	jlt.u	d8,#1,.L11
+.L140:
+	j	.L12
+.L11:
+.L10:
 .L9:
-.L8:
 	movh.a	a15,#61444
 	ld.bu	d0,[a15]@los(0xf003a200)
-.L137:
-	jnz.t	d0:6,.L11
-.L138:
+.L141:
+	jnz.t	d0:6,.L13
+.L142:
 	movh.a	a15,#61444
 	ld.bu	d0,[a15]@los(0xf003aa00)
 	extr.u	d0,d0,#2,#1
-.L139:
-	jeq	d15,d0,.L12
-.L140:
-	call	Motor_Stop_Right
-.L141:
-	movh.a	a15,#61444
-	ld.bu	d0,[a15]@los(0xf003aa00)
-.L142:
-	insert	d15,d0,d15,#2,#1
-.L70:
-	movh.a	a15,#61444
-	st.b	[a15]@los(0xf003aa00),d15
 .L143:
-	movh.a	a15,#61444
-	ld.bu	d15,[a15]@los(0xf003a200)
+	jeq	d15,d0,.L14
 .L144:
-	insert	d15,d15,#0,#6,#1
-	movh.a	a15,#61444
-	st.b	[a15]@los(0xf003a200),d15
-.L12:
-	j	.L13
-.L11:
+	call	Motor_Stop_Right
+.L145:
 	movh.a	a15,#61444
 	ld.bu	d0,[a15]@los(0xf003aa00)
-.L145:
+.L146:
 	insert	d15,d0,d15,#2,#1
 .L72:
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003aa00),d15
-.L146:
+.L147:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003a200)
-.L147:
+.L148:
 	insert	d15,d15,#0,#6,#1
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003a200),d15
+.L14:
+	j	.L15
 .L13:
+	movh.a	a15,#61444
+	ld.bu	d0,[a15]@los(0xf003aa00)
+.L149:
+	insert	d15,d0,d15,#2,#1
+.L74:
+	movh.a	a15,#61444
+	st.b	[a15]@los(0xf003aa00),d15
+.L150:
+	movh.a	a15,#61444
+	ld.bu	d15,[a15]@los(0xf003a200)
+.L151:
+	insert	d15,d15,#0,#6,#1
+	movh.a	a15,#61444
+	st.b	[a15]@los(0xf003a200),d15
+.L15:
 	utof	d15,d8
-.L148:
+.L152:
 	mov.u	d0,#64257
 	addih	d0,d0,#16506
-.L149:
+.L153:
 	mul.f	d15,d15,d0
-.L150:
+.L154:
 	ftouz	d4,d15
 	call	Gtm_Atom_Pwm_Set_Duty_Cycle_B
-.L10:
+.L12:
 	ret
-.L59:
+.L61:
 	
 __Motor_Set_Right_function_end:
 	.size	Motor_Set_Right,__Motor_Set_Right_function_end-Motor_Set_Right
-.L47:
+.L49:
 	; End of function
 	
 	.sdecl	'.text.motor_bsp.Motor_Stop_Right',code,cluster('Motor_Stop_Right')
@@ -297,28 +303,28 @@ __Motor_Set_Right_function_end:
 	
 	.global	Motor_Stop_Right
 ; Function Motor_Stop_Right
-.L23:
+.L25:
 Motor_Stop_Right:	.type	func
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003a200)
-.L155:
+.L159:
 	or	d15,#64
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003a200),d15
-.L156:
+.L160:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003aa00)
-.L157:
+.L161:
 	or	d15,#4
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003aa00),d15
-.L158:
+.L162:
 	ret
-.L62:
+.L64:
 	
 __Motor_Stop_Right_function_end:
 	.size	Motor_Stop_Right,__Motor_Stop_Right_function_end-Motor_Stop_Right
-.L52:
+.L54:
 	; End of function
 	
 	.calls	'Motor_Init','Gtm_Atom_Pwm_Set_Duty_Cycle_A'
@@ -339,18 +345,18 @@ __Motor_Stop_Right_function_end:
 	.calls	'Motor_Stop_Right','',0
 	.sdecl	'.debug_info',debug
 	.sect	'.debug_info'
-.L25:
+.L27:
 	.word	659358
 	.half	3
-	.word	.L26
+	.word	.L28
 	.byte	4
-.L24:
+.L26:
 	.byte	1
 	.byte	'../Drivers/src/motor_bsp.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\USER\\Desktop\\FreeRTOS\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\TriCore Debug (TASKING)\\',0
 	.byte	12,1
-	.word	.L27
+	.word	.L29
 	.byte	2,1,1,3
 	.word	236
 	.byte	4
@@ -434,7 +440,7 @@ __Motor_Stop_Right_function_end:
 	.byte	'B',0
 	.word	698
 	.byte	4,2,35,0,0
-.L55:
+.L57:
 	.byte	9
 	.byte	'unsigned char',0,1,8,9
 	.byte	'unsigned short int',0,2,7,11
@@ -94047,7 +94053,7 @@ __Motor_Stop_Right_function_end:
 	.byte	0
 	.sdecl	'.debug_abbrev',debug
 	.sect	'.debug_abbrev'
-.L26:
+.L28:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,21,0,54,15,39,12,0,0,3,15,0,73,19,0,0,4,46,1,3,8,32,13
 	.byte	58,15,59,15,57,15,54,15,39,12,0,0,5,5,0,3,8,58,15,59,15,57,15,73,19,0,0,6,11,0,0,0,7,59,0,3,8,0,0,8,53
 	.byte	0,73,19,0,0,9,36,0,3,8,11,15,62,15,0,0,10,46,1,3,8,32,13,58,15,59,15,57,15,73,19,54,15,39,12,0,0,11,19
@@ -94059,12 +94065,12 @@ __Motor_Stop_Right_function_end:
 	.byte	0,0,28,21,0,54,15,0,0,29,19,1,58,15,59,15,57,15,11,15,0,0,30,38,0,73,19,0,0,0
 	.sdecl	'.debug_line',debug
 	.sect	'.debug_line'
-.L27:
-	.word	.L74-.L73
-.L73:
-	.half	3
+.L29:
 	.word	.L76-.L75
 .L75:
+	.half	3
+	.word	.L78-.L77
+.L77:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'C:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg',0
 	.byte	'C:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std',0
@@ -94165,478 +94171,482 @@ __Motor_Stop_Right_function_end:
 	.byte	'C:\\\\Users\\\\USER\\\\Desktop\\\\FreeRTOS\\\\autonomous-vehicle-FreeRTOS\\\\iLLD_TC375_ADS_FreeRTOS_Basic\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\Port\\Io\\IfxPort_Io.h',0
 	.byte	0,0,0
 	.byte	'IfxCan_Can.h',0,8,0,0,0
+.L78:
 .L76:
-.L74:
 	.sdecl	'.debug_info',debug,cluster('Motor_Init')
 	.sect	'.debug_info'
-.L28:
+.L30:
 	.word	282
 	.half	3
-	.word	.L29
+	.word	.L31
 	.byte	4,1
 	.byte	'../Drivers/src/motor_bsp.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\USER\\Desktop\\FreeRTOS\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\TriCore Debug (TASKING)\\',0
 	.byte	12,1
-	.word	.L31,.L30
+	.word	.L33,.L32
 	.byte	2
-	.word	.L24
+	.word	.L26
 	.byte	3
 	.byte	'Motor_Init',0,1,15,6,1,1,1
-	.word	.L15,.L53,.L14
+	.word	.L17,.L55,.L16
 	.byte	4
-	.word	.L15,.L53
+	.word	.L17,.L55
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('Motor_Init')
 	.sect	'.debug_abbrev'
-.L29:
+.L31:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('Motor_Init')
 	.sect	'.debug_line'
-.L30:
-	.word	.L78-.L77
-.L77:
-	.half	3
+.L32:
 	.word	.L80-.L79
 .L79:
+	.half	3
+	.word	.L82-.L81
+.L81:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../Drivers/src/motor_bsp.c',0,0,0,0,0
-.L80:
+.L82:
 	.byte	5,23,7,0,5,2
-	.word	.L15
+	.word	.L17
 	.byte	3,15,1,5,30,9
-	.half	.L81-.L15
+	.half	.L83-.L17
 	.byte	1,5,28,9
-	.half	.L82-.L81
-	.byte	1,5,23,9
-	.half	.L83-.L82
-	.byte	3,1,1,5,30,9
 	.half	.L84-.L83
-	.byte	1,5,28,9
+	.byte	1,5,23,9
 	.half	.L85-.L84
-	.byte	1,5,23,9
-	.half	.L86-.L85
-	.byte	3,2,1,5,30,9
-	.half	.L87-.L86
-	.byte	1,5,28,9
-	.half	.L88-.L87
-	.byte	1,5,23,9
-	.half	.L89-.L88
 	.byte	3,1,1,5,30,9
-	.half	.L90-.L89
+	.half	.L86-.L85
 	.byte	1,5,28,9
+	.half	.L87-.L86
+	.byte	1,5,23,9
+	.half	.L88-.L87
+	.byte	3,2,1,5,30,9
+	.half	.L89-.L88
+	.byte	1,5,28,9
+	.half	.L90-.L89
+	.byte	1,5,23,9
 	.half	.L91-.L90
-	.byte	1,5,21,9
+	.byte	3,1,1,5,30,9
 	.half	.L92-.L91
-	.byte	3,2,1,5,25,9
+	.byte	1,5,28,9
 	.half	.L93-.L92
 	.byte	1,5,21,9
 	.half	.L94-.L93
-	.byte	3,1,1,5,25,9
+	.byte	3,2,1,5,25,9
 	.half	.L95-.L94
 	.byte	1,5,21,9
 	.half	.L96-.L95
-	.byte	3,2,1,5,25,9
+	.byte	3,1,1,5,25,9
 	.half	.L97-.L96
 	.byte	1,5,21,9
 	.half	.L98-.L97
-	.byte	3,1,1,5,25,9
+	.byte	3,2,1,5,25,9
 	.half	.L99-.L98
-	.byte	1,5,35,9
+	.byte	1,5,21,9
 	.half	.L100-.L99
-	.byte	3,4,1,9
+	.byte	3,1,1,5,25,9
 	.half	.L101-.L100
-	.byte	3,1,1,5,1,9
+	.byte	1,5,35,9
 	.half	.L102-.L101
+	.byte	3,4,1,9
+	.half	.L103-.L102
+	.byte	3,1,1,5,1,9
+	.half	.L104-.L103
 	.byte	3,1,1,7,9
-	.half	.L32-.L102
+	.half	.L34-.L104
 	.byte	0,1,1
-.L78:
+.L80:
 	.sdecl	'.debug_ranges',debug,cluster('Motor_Init')
 	.sect	'.debug_ranges'
-.L31:
-	.word	-1,.L15,0,.L32-.L15,0,0
+.L33:
+	.word	-1,.L17,0,.L34-.L17,0,0
 	.sdecl	'.debug_info',debug,cluster('Motor_Set_Left')
 	.sect	'.debug_info'
-.L33:
+.L35:
 	.word	319
 	.half	3
-	.word	.L34
+	.word	.L36
 	.byte	4,1
 	.byte	'../Drivers/src/motor_bsp.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\USER\\Desktop\\FreeRTOS\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\TriCore Debug (TASKING)\\',0
 	.byte	12,1
-	.word	.L36,.L35
+	.word	.L38,.L37
 	.byte	2
-	.word	.L24
+	.word	.L26
 	.byte	3
 	.byte	'Motor_Set_Left',0,1,34,6,1,1,1
-	.word	.L17,.L54,.L16
+	.word	.L19,.L56,.L18
 	.byte	4
 	.byte	'dir',0,1,34,27
-	.word	.L55,.L56
+	.word	.L57,.L58
 	.byte	4
 	.byte	'duty',0,1,34,38
-	.word	.L55,.L57
+	.word	.L57,.L59
 	.byte	5
-	.word	.L17,.L54
+	.word	.L19,.L56
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('Motor_Set_Left')
 	.sect	'.debug_abbrev'
-.L34:
+.L36:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('Motor_Set_Left')
 	.sect	'.debug_line'
-.L35:
-	.word	.L104-.L103
-.L103:
-	.half	3
+.L37:
 	.word	.L106-.L105
 .L105:
+	.half	3
+	.word	.L108-.L107
+.L107:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../Drivers/src/motor_bsp.c',0,0,0,0,0
-.L106:
+.L108:
 	.byte	5,6,7,0,5,2
-	.word	.L17
+	.word	.L19
 	.byte	3,33,1,5,20,9
-	.half	.L66-.L17
+	.half	.L68-.L19
 	.byte	3,1,1,5,9,9
-	.half	.L63-.L66
+	.half	.L65-.L68
 	.byte	1,5,26,7,9
-	.half	.L107-.L63
-	.byte	1,5,13,7,9
-	.half	.L108-.L107
-	.byte	3,1,1,5,25,9
-	.half	.L2-.L108
-	.byte	3,3,1,5,5,9
-	.half	.L109-.L2
-	.byte	1,5,29,7,9
+	.half	.L109-.L65
+	.byte	1,5,38,7,9
 	.half	.L110-.L109
-	.byte	3,1,1,5,9,9
+	.byte	1,5,13,7,9
 	.half	.L111-.L110
-	.byte	1,5,28,7,9
-	.half	.L112-.L111
-	.byte	3,1,1,5,29,9
+	.byte	3,1,1,5,25,9
+	.half	.L2-.L111
+	.byte	3,3,1,5,5,9
+	.half	.L112-.L2
+	.byte	1,5,29,7,9
 	.half	.L113-.L112
-	.byte	3,1,1,5,33,9
+	.byte	3,1,1,5,9,9
 	.half	.L114-.L113
-	.byte	1,5,29,9
+	.byte	1,5,28,7,9
 	.half	.L115-.L114
-	.byte	3,1,1,5,33,9
-	.half	.L116-.L115
-	.byte	1,5,9,9
-	.half	.L6-.L116
-	.byte	3,125,1,5,25,9
-	.half	.L5-.L6
-	.byte	3,6,1,5,29,9
-	.half	.L117-.L5
-	.byte	1,5,25,9
-	.half	.L118-.L117
 	.byte	3,1,1,5,29,9
+	.half	.L116-.L115
+	.byte	3,1,1,5,33,9
+	.half	.L117-.L116
+	.byte	1,5,29,9
+	.half	.L118-.L117
+	.byte	3,1,1,5,33,9
 	.half	.L119-.L118
-	.byte	1,5,44,9
+	.byte	1,5,9,9
 	.half	.L7-.L119
-	.byte	3,2,1,5,49,9
-	.half	.L120-.L7
-	.byte	1,5,48,9
+	.byte	3,125,1,5,25,9
+	.half	.L6-.L7
+	.byte	3,6,1,5,29,9
+	.half	.L120-.L6
+	.byte	1,5,25,9
 	.half	.L121-.L120
-	.byte	1,5,35,9
+	.byte	3,1,1,5,29,9
 	.half	.L122-.L121
+	.byte	1,5,44,9
+	.half	.L8-.L122
+	.byte	3,2,1,5,49,9
+	.half	.L123-.L8
+	.byte	1,5,48,9
+	.half	.L124-.L123
+	.byte	1,5,35,9
+	.half	.L125-.L124
 	.byte	1,5,1,9
-	.half	.L4-.L122
+	.half	.L5-.L125
 	.byte	3,1,1,7,9
-	.half	.L37-.L4
+	.half	.L39-.L5
 	.byte	0,1,1
-.L104:
+.L106:
 	.sdecl	'.debug_ranges',debug,cluster('Motor_Set_Left')
 	.sect	'.debug_ranges'
-.L36:
-	.word	-1,.L17,0,.L37-.L17,0,0
+.L38:
+	.word	-1,.L19,0,.L39-.L19,0,0
 	.sdecl	'.debug_info',debug,cluster('Motor_Stop_Left')
 	.sect	'.debug_info'
-.L38:
+.L40:
 	.word	287
 	.half	3
-	.word	.L39
+	.word	.L41
 	.byte	4,1
 	.byte	'../Drivers/src/motor_bsp.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\USER\\Desktop\\FreeRTOS\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\TriCore Debug (TASKING)\\',0
 	.byte	12,1
-	.word	.L41,.L40
+	.word	.L43,.L42
 	.byte	2
-	.word	.L24
+	.word	.L26
 	.byte	3
 	.byte	'Motor_Stop_Left',0,1,52,6,1,1,1
-	.word	.L19,.L58,.L18
+	.word	.L21,.L60,.L20
 	.byte	4
-	.word	.L19,.L58
+	.word	.L21,.L60
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('Motor_Stop_Left')
 	.sect	'.debug_abbrev'
-.L39:
+.L41:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('Motor_Stop_Left')
 	.sect	'.debug_line'
-.L40:
-	.word	.L124-.L123
-.L123:
+.L42:
+	.word	.L127-.L126
+.L126:
 	.half	3
-	.word	.L126-.L125
-.L125:
+	.word	.L129-.L128
+.L128:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../Drivers/src/motor_bsp.c',0,0,0,0,0
-.L126:
+.L129:
 	.byte	5,21,7,0,5,2
-	.word	.L19
+	.word	.L21
 	.byte	3,52,1,5,25,9
-	.half	.L127-.L19
+	.half	.L130-.L21
 	.byte	1,5,21,9
-	.half	.L128-.L127
+	.half	.L131-.L130
 	.byte	3,1,1,5,25,9
-	.half	.L129-.L128
+	.half	.L132-.L131
 	.byte	1,5,1,9
-	.half	.L130-.L129
+	.half	.L133-.L132
 	.byte	3,2,1,7,9
-	.half	.L42-.L130
+	.half	.L44-.L133
 	.byte	0,1,1
-.L124:
+.L127:
 	.sdecl	'.debug_ranges',debug,cluster('Motor_Stop_Left')
 	.sect	'.debug_ranges'
-.L41:
-	.word	-1,.L19,0,.L42-.L19,0,0
+.L43:
+	.word	-1,.L21,0,.L44-.L21,0,0
 	.sdecl	'.debug_info',debug,cluster('Motor_Set_Right')
 	.sect	'.debug_info'
-.L43:
+.L45:
 	.word	320
 	.half	3
-	.word	.L44
+	.word	.L46
 	.byte	4,1
 	.byte	'../Drivers/src/motor_bsp.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\USER\\Desktop\\FreeRTOS\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\TriCore Debug (TASKING)\\',0
 	.byte	12,1
-	.word	.L46,.L45
+	.word	.L48,.L47
 	.byte	2
-	.word	.L24
+	.word	.L26
 	.byte	3
 	.byte	'Motor_Set_Right',0,1,58,6,1,1,1
-	.word	.L21,.L59,.L20
+	.word	.L23,.L61,.L22
 	.byte	4
 	.byte	'dir',0,1,58,28
-	.word	.L55,.L60
+	.word	.L57,.L62
 	.byte	4
 	.byte	'duty',0,1,58,39
-	.word	.L55,.L61
+	.word	.L57,.L63
 	.byte	5
-	.word	.L21,.L59
+	.word	.L23,.L61
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('Motor_Set_Right')
 	.sect	'.debug_abbrev'
-.L44:
+.L46:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('Motor_Set_Right')
 	.sect	'.debug_line'
-.L45:
-	.word	.L132-.L131
-.L131:
+.L47:
+	.word	.L135-.L134
+.L134:
 	.half	3
-	.word	.L134-.L133
-.L133:
+	.word	.L137-.L136
+.L136:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../Drivers/src/motor_bsp.c',0,0,0,0,0
-.L134:
+.L137:
 	.byte	5,6,7,0,5,2
-	.word	.L21
+	.word	.L23
 	.byte	3,57,1,5,20,9
-	.half	.L71-.L21
+	.half	.L73-.L23
 	.byte	3,1,1,5,9,9
-	.half	.L68-.L71
+	.half	.L70-.L73
 	.byte	1,5,26,7,9
-	.half	.L135-.L68
-	.byte	1,5,13,7,9
-	.half	.L136-.L135
-	.byte	3,1,1,5,25,9
-	.half	.L8-.L136
-	.byte	3,3,1,5,5,9
-	.half	.L137-.L8
-	.byte	1,5,29,7,9
-	.half	.L138-.L137
-	.byte	3,1,1,5,9,9
+	.half	.L138-.L70
+	.byte	1,5,38,7,9
 	.half	.L139-.L138
-	.byte	1,5,29,7,9
+	.byte	1,5,13,7,9
 	.half	.L140-.L139
-	.byte	3,1,1,9
-	.half	.L141-.L140
-	.byte	3,1,1,5,33,9
+	.byte	3,1,1,5,25,9
+	.half	.L9-.L140
+	.byte	3,3,1,5,5,9
+	.half	.L141-.L9
+	.byte	1,5,29,7,9
 	.half	.L142-.L141
-	.byte	1,5,29,9
+	.byte	3,1,1,5,9,9
 	.half	.L143-.L142
-	.byte	3,1,1,5,33,9
+	.byte	1,5,29,7,9
 	.half	.L144-.L143
-	.byte	1,5,9,9
-	.half	.L12-.L144
-	.byte	3,125,1,5,25,9
-	.half	.L11-.L12
-	.byte	3,6,1,5,29,9
-	.half	.L145-.L11
-	.byte	1,5,25,9
+	.byte	3,1,1,9
+	.half	.L145-.L144
+	.byte	3,1,1,5,33,9
 	.half	.L146-.L145
-	.byte	3,1,1,5,29,9
+	.byte	1,5,29,9
 	.half	.L147-.L146
-	.byte	1,5,44,9
-	.half	.L13-.L147
-	.byte	3,2,1,5,49,9
-	.half	.L148-.L13
-	.byte	1,5,48,9
-	.half	.L149-.L148
-	.byte	1,5,35,9
+	.byte	3,1,1,5,33,9
+	.half	.L148-.L147
+	.byte	1,5,9,9
+	.half	.L14-.L148
+	.byte	3,125,1,5,25,9
+	.half	.L13-.L14
+	.byte	3,6,1,5,29,9
+	.half	.L149-.L13
+	.byte	1,5,25,9
 	.half	.L150-.L149
+	.byte	3,1,1,5,29,9
+	.half	.L151-.L150
+	.byte	1,5,44,9
+	.half	.L15-.L151
+	.byte	3,2,1,5,49,9
+	.half	.L152-.L15
+	.byte	1,5,48,9
+	.half	.L153-.L152
+	.byte	1,5,35,9
+	.half	.L154-.L153
 	.byte	1,5,1,9
-	.half	.L10-.L150
+	.half	.L12-.L154
 	.byte	3,1,1,7,9
-	.half	.L47-.L10
+	.half	.L49-.L12
 	.byte	0,1,1
-.L132:
+.L135:
 	.sdecl	'.debug_ranges',debug,cluster('Motor_Set_Right')
 	.sect	'.debug_ranges'
-.L46:
-	.word	-1,.L21,0,.L47-.L21,0,0
+.L48:
+	.word	-1,.L23,0,.L49-.L23,0,0
 	.sdecl	'.debug_info',debug,cluster('Motor_Stop_Right')
 	.sect	'.debug_info'
-.L48:
+.L50:
 	.word	288
 	.half	3
-	.word	.L49
+	.word	.L51
 	.byte	4,1
 	.byte	'../Drivers/src/motor_bsp.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\USER\\Desktop\\FreeRTOS\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\TriCore Debug (TASKING)\\',0
 	.byte	12,1
-	.word	.L51,.L50
+	.word	.L53,.L52
 	.byte	2
-	.word	.L24
+	.word	.L26
 	.byte	3
 	.byte	'Motor_Stop_Right',0,1,76,6,1,1,1
-	.word	.L23,.L62,.L22
+	.word	.L25,.L64,.L24
 	.byte	4
-	.word	.L23,.L62
+	.word	.L25,.L64
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('Motor_Stop_Right')
 	.sect	'.debug_abbrev'
-.L49:
+.L51:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('Motor_Stop_Right')
 	.sect	'.debug_line'
-.L50:
-	.word	.L152-.L151
-.L151:
+.L52:
+	.word	.L156-.L155
+.L155:
 	.half	3
-	.word	.L154-.L153
-.L153:
+	.word	.L158-.L157
+.L157:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../Drivers/src/motor_bsp.c',0,0,0,0,0
-.L154:
+.L158:
 	.byte	5,21,7,0,5,2
-	.word	.L23
+	.word	.L25
 	.byte	3,204,0,1,5,25,9
-	.half	.L155-.L23
+	.half	.L159-.L25
 	.byte	1,5,21,9
-	.half	.L156-.L155
+	.half	.L160-.L159
 	.byte	3,1,1,5,25,9
-	.half	.L157-.L156
+	.half	.L161-.L160
 	.byte	1,5,1,9
-	.half	.L158-.L157
+	.half	.L162-.L161
 	.byte	3,2,1,7,9
-	.half	.L52-.L158
+	.half	.L54-.L162
 	.byte	0,1,1
-.L152:
+.L156:
 	.sdecl	'.debug_ranges',debug,cluster('Motor_Stop_Right')
 	.sect	'.debug_ranges'
-.L51:
-	.word	-1,.L23,0,.L52-.L23,0,0
+.L53:
+	.word	-1,.L25,0,.L54-.L25,0,0
 	.sdecl	'.debug_loc',debug,cluster('Motor_Init')
 	.sect	'.debug_loc'
-.L14:
-	.word	-1,.L15,0,.L53-.L15
+.L16:
+	.word	-1,.L17,0,.L55-.L17
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('Motor_Set_Left')
 	.sect	'.debug_loc'
-.L16:
-	.word	-1,.L17,0,.L54-.L17
+.L18:
+	.word	-1,.L19,0,.L56-.L19
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L56:
-	.word	-1,.L17,0,.L63-.L17
+.L58:
+	.word	-1,.L19,0,.L65-.L19
 	.half	1
 	.byte	84
-	.word	.L64-.L17,.L65-.L17
+	.word	.L66-.L19,.L67-.L19
 	.half	1
 	.byte	95
-	.word	.L5-.L17,.L67-.L17
+	.word	.L6-.L19,.L69-.L19
 	.half	1
 	.byte	95
 	.word	0,0
-.L57:
-	.word	-1,.L17,0,.L63-.L17
+.L59:
+	.word	-1,.L19,0,.L65-.L19
 	.half	1
 	.byte	85
-	.word	.L66-.L17,.L54-.L17
+	.word	.L68-.L19,.L56-.L19
 	.half	1
 	.byte	88
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('Motor_Set_Right')
 	.sect	'.debug_loc'
-.L20:
-	.word	-1,.L21,0,.L59-.L21
+.L22:
+	.word	-1,.L23,0,.L61-.L23
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L60:
-	.word	-1,.L21,0,.L68-.L21
+.L62:
+	.word	-1,.L23,0,.L70-.L23
 	.half	1
 	.byte	84
-	.word	.L69-.L21,.L70-.L21
+	.word	.L71-.L23,.L72-.L23
 	.half	1
 	.byte	95
-	.word	.L11-.L21,.L72-.L21
+	.word	.L13-.L23,.L74-.L23
 	.half	1
 	.byte	95
 	.word	0,0
-.L61:
-	.word	-1,.L21,0,.L68-.L21
+.L63:
+	.word	-1,.L23,0,.L70-.L23
 	.half	1
 	.byte	85
-	.word	.L71-.L21,.L59-.L21
+	.word	.L73-.L23,.L61-.L23
 	.half	1
 	.byte	88
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('Motor_Stop_Left')
 	.sect	'.debug_loc'
-.L18:
-	.word	-1,.L19,0,.L58-.L19
+.L20:
+	.word	-1,.L21,0,.L60-.L21
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('Motor_Stop_Right')
 	.sect	'.debug_loc'
-.L22:
-	.word	-1,.L23,0,.L62-.L23
+.L24:
+	.word	-1,.L25,0,.L64-.L25
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_frame',debug
 	.sect	'.debug_frame'
-.L159:
+.L163:
 	.word	48
 	.word	-1
 	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
@@ -94644,23 +94654,23 @@ __Motor_Stop_Right_function_end:
 	.sdecl	'.debug_frame',debug,cluster('Motor_Init')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L159,.L15,.L53-.L15
+	.word	.L163,.L17,.L55-.L17
 	.sdecl	'.debug_frame',debug,cluster('Motor_Set_Left')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L159,.L17,.L54-.L17
+	.word	.L163,.L19,.L56-.L19
 	.sdecl	'.debug_frame',debug,cluster('Motor_Stop_Left')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L159,.L19,.L58-.L19
+	.word	.L163,.L21,.L60-.L21
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
 	.sdecl	'.debug_frame',debug,cluster('Motor_Set_Right')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L159,.L21,.L59-.L21
+	.word	.L163,.L23,.L61-.L23
 	.sdecl	'.debug_frame',debug,cluster('Motor_Stop_Right')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L159,.L23,.L62-.L23
+	.word	.L163,.L25,.L64-.L25
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
 	; Module end

@@ -392,3 +392,7 @@ can_task.o :	"C:\\Users\\USER\\Desktop\\FreeRTOS\\autonomous-vehicle-FreeRTOS\\i
 "C:\\Users\\USER\\Desktop\\FreeRTOS\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\OS\\FreeRTOS\\include\list.h" :
 can_task.o :	"C:\\Users\\USER\\Desktop\\FreeRTOS\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\OS\\FreeRTOS\\include\queue.h"
 "C:\\Users\\USER\\Desktop\\FreeRTOS\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\OS\\FreeRTOS\\include\queue.h" :
+can_task.o :	"C:\\Users\\USER\\Desktop\\FreeRTOS\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\App\include\parking_task.h"
+"C:\\Users\\USER\\Desktop\\FreeRTOS\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\App\include\parking_task.h" :
+can_task.o :	"C:\\Users\\USER\\Desktop\\FreeRTOS\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\OS\\FreeRTOS\\include\semphr.h"
+"C:\\Users\\USER\\Desktop\\FreeRTOS\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\OS\\FreeRTOS\\include\semphr.h" :

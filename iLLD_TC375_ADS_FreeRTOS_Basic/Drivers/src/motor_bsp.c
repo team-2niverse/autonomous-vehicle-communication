@@ -32,7 +32,7 @@ void Motor_Init(void) {
 }
 
 void Motor_Set_Left(uint8 dir, uint8 duty) {
-    if (Can_Get_Aeb() && dir) {
+    if (Can_Get_Aeb() && dir && duty > 0) {
             return;
     }
 
@@ -56,7 +56,7 @@ void Motor_Stop_Left(void) {
 }
 
 void Motor_Set_Right(uint8 dir, uint8 duty) {
-    if (Can_Get_Aeb() && dir) {
+    if (Can_Get_Aeb() && dir && duty > 0) {
             return;
     }
 

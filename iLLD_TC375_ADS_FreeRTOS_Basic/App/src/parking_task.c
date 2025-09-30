@@ -41,9 +41,11 @@ void vAutonomousParkingTask(void *pvParameters)
             {
                 float left_dist = Ultrasonic_Get_Left_Dist();
                 float rear_dist = Ultrasonic_Get_Back_Dist();
+                my_printf("Parking state: %d, Left dist: %d cm\n", state, (int)left_dist);
 
                 if (state == 0) // 공간 탐색 및 시간 측정
                 {
+                    my_printf("Parking state 0: AEB status: %d, Front dist: %d mm\n", Can_Get_Aeb(), Can_Get_Front_Dist());
                     Motor_Set_Left(1, 80);
                     Motor_Set_Right(1, 80);
 

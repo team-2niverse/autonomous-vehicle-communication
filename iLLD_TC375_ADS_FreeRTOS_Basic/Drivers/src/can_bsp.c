@@ -219,8 +219,8 @@ void Can_Aeb_Off(void)
     Can_Send_Msg(0x300, &data, 1);
 
     // [TEMP] AEB 해제 후 모터를 기본 상태로 복귀
-    Motor_Set_Left(1, 100);  // 정방향, 100 PWM
-    Motor_Set_Right(1, 100); // 정방향, 100 PWM
+//    Motor_Set_Left(1, 100);  // 정방향, 100 PWM
+//    Motor_Set_Right(1, 100); // 정방향, 100 PWM
 }
 
 void Can_Rx_Isr_Handler (void)
