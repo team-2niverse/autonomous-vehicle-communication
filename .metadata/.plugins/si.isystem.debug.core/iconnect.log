@@ -1,0 +1,24 @@
+18   INFO  [main] Log5J : ***  24.6652  ***  **********************************************************
+21   INFO  [main] Log5J : ***  27.2101  ***  Logger configuration successful. Configuration file used: 
+21   INFO  [main] Log5J : ***  27.3458  ***  C:\Infineon\AURIX-Studio-1.10.16\configuration\org.eclipse.osgi\397\0\.cp\lib\log4j.properties
+21   INFO  [main] Log5J : ***  27.4123  ***  **********************************************************
+32   INFO  [main] ISysProductFactory : ***  38.6457  ***  Found product: Name: com.infineon.aurix.buildsystem.aurixide, winIDEA package: winIDEA_IFX_ADS
+34   INFO  [main] CmdRunner : Running: 'C:\Users\USER\AppData\Local\iSYSTEM\b18\PackageManager.exe init --afr-path="C:\Infineon\AURIX-Studio-1.10.16\local_AFR" --owner="C:\Infineon\AURIX-Studio-1.10.16\AURIX-studio.exe"'
+1362 INFO  [main] CmdRunner : Operation finished in 1327ms Return code: 0
+1363 INFO  [main] CmdRunner : Output: >>><<<
+1363 INFO  [main] WinIdeaUpdateManager : WinIdeaUpdateManager: initialization:
+1363 INFO  [main] WinIdeaUpdateManager :  - Product folder: C:\Infineon\AURIX-Studio-1.10.16
+1363 INFO  [main] WinIdeaUpdateManager :  - Product exe (owner): C:\Infineon\AURIX-Studio-1.10.16\AURIX-studio.exe
+1363 INFO  [main] WinIdeaUpdateManager :  - Package manager: C:\Users\USER\AppData\Local\iSYSTEM\b18\PackageManager.exe
+1364 INFO  [main] WinIdeaUpdateManager :  - Local AFR: C:\Infineon\AURIX-Studio-1.10.16\local_AFR
+1364 INFO  [main] WinIdeaUpdateManager :  - Update channel: Production
+1365 INFO  [main] ISysPluginConfiguration : ***  1371.3355  ***  Loading debug plugin properties from 'C:\Infineon\AURIX-Studio-1.10.16\isys_debugger_configuration.json'
+1367 INFO  [main] ISysPluginConfiguration : ***  1372.8054  ***  Loaded plugin configuration:
+	 - Enable embedded: false
+	 - Enable portable false
+	 - Default selection: Custom
+	 - Default install path: '\winIDEA'
+1367 INFO  [main] ISystemPreferences : ***  1373.3964  ***  State location loaded at C:\Users\USER\Desktop\workspace_all\project2\autonomous-vehicle-FreeRTOS\.metadata\.plugins\si.isystem.eclipse.debug
+1373 INFO  [main] ISystemPreferences : ***  1379.2447  ***  Preferences loaded: Install type: Custom, Custom path: '\winIDEA'
+1377 INFO  [main] ISysDebugPlugin : ***  1383.5015  ***  Starting Plugin si.isystem.eclipse.debug version 921.33400.216241.
+1378 INFO  [main] ISysDebugPlugin : ***  1384.2914  ***  Plugin si.isystem.eclipse.debug started.

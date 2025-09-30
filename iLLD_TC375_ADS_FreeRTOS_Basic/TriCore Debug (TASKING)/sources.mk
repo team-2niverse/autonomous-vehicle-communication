@@ -34,6 +34,15 @@ App/src \
 Configurations \
 . \
 Drivers/src \
+Libraries/Ethernet/Phy_Dp83825i \
+Libraries/Ethernet/lwip/port/src \
+Libraries/Ethernet/lwip/src/api \
+Libraries/Ethernet/lwip/src/core \
+Libraries/Ethernet/lwip/src/core/ipv4 \
+Libraries/Ethernet/lwip/src/core/ipv6 \
+Libraries/Ethernet/lwip/src/netif \
+Libraries/Ethernet/lwip/src/netif/ppp \
+Libraries/Ethernet/lwip/src/netif/ppp/polarssl \
 Libraries/Infra/Platform/Tricore/Compilers \
 Libraries/Infra/Ssw/TC37A/Tricore \
 Libraries/iLLD/TC37A/Tricore/Can/Can \
@@ -41,6 +50,8 @@ Libraries/iLLD/TC37A/Tricore/Can/Std \
 Libraries/iLLD/TC37A/Tricore/Cpu/Irq \
 Libraries/iLLD/TC37A/Tricore/Cpu/Std \
 Libraries/iLLD/TC37A/Tricore/Cpu/Trap \
+Libraries/iLLD/TC37A/Tricore/Geth/Eth \
+Libraries/iLLD/TC37A/Tricore/Geth/Std \
 Libraries/iLLD/TC37A/Tricore/Gtm/Atom/Pwm \
 Libraries/iLLD/TC37A/Tricore/Gtm/Std \
 Libraries/iLLD/TC37A/Tricore/Mtu/Std \
@@ -49,8 +60,10 @@ Libraries/iLLD/TC37A/Tricore/Port/Io \
 Libraries/iLLD/TC37A/Tricore/Port/Std \
 Libraries/iLLD/TC37A/Tricore/Scu/Std \
 Libraries/iLLD/TC37A/Tricore/Src/Std \
+Libraries/iLLD/TC37A/Tricore/Stm/Std \
 Libraries/iLLD/TC37A/Tricore/_Impl \
 Libraries/iLLD/TC37A/Tricore/_PinMap \
+Libraries/lwip-freertos-integration-master/arch \
 OS/FreeRTOS \
 OS/FreeRTOS/portable/MemMang \
 OS/FreeRTOS/portable/Tasking/TC3 \

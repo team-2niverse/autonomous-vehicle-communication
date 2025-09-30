@@ -1,0 +1,18 @@
+Build started...
+23:01:35 **** Incremental Build of configuration TriCore Debug (TASKING) for project iLLD_TC375_ADS_FreeRTOS_Basic ****
+amk -j12 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc37x "-fC:/Users/USER/Desktop/workspace_all/project2/autonomous-vehicle-FreeRTOS/iLLD_TC375_ADS_FreeRTOS_Basic/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc37x -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu0_Main.o" "Cpu0_Main.src"
+Building target: iLLD_TC375_ADS_FreeRTOS_Basic.elf
+Invoking: TASKING Linker
+cctc -f .iLLD_TC375_ADS_FreeRTOS_Basic.elf.opt
+Finished building target: iLLD_TC375_ADS_FreeRTOS_Basic.elf
+ 
+Invoking: Print Size
+elfsize  "iLLD_TC375_ADS_FreeRTOS_Basic.elf"
+Total sizes:
+ROM: 0x6161 (24929) = code: 0x4ce0 (19680) + romdata: 0x1481 (5249)
+RAM: 0x21803 (137219) = data + bss
+Finished building: iLLD_TC375_ADS_FreeRTOS_Basic.siz
+ 

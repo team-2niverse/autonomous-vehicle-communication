@@ -11,8 +11,10 @@ RM := rm -rf
 -include OS/FreeRTOS/portable/Tasking/TC3/subdir.mk
 -include OS/FreeRTOS/portable/MemMang/subdir.mk
 -include OS/FreeRTOS/subdir.mk
+-include Libraries/lwip-freertos-integration-master/arch/subdir.mk
 -include Libraries/iLLD/TC37A/Tricore/_PinMap/subdir.mk
 -include Libraries/iLLD/TC37A/Tricore/_Impl/subdir.mk
+-include Libraries/iLLD/TC37A/Tricore/Stm/Std/subdir.mk
 -include Libraries/iLLD/TC37A/Tricore/Src/Std/subdir.mk
 -include Libraries/iLLD/TC37A/Tricore/Scu/Std/subdir.mk
 -include Libraries/iLLD/TC37A/Tricore/Port/Std/subdir.mk
@@ -21,6 +23,8 @@ RM := rm -rf
 -include Libraries/iLLD/TC37A/Tricore/Mtu/Std/subdir.mk
 -include Libraries/iLLD/TC37A/Tricore/Gtm/Std/subdir.mk
 -include Libraries/iLLD/TC37A/Tricore/Gtm/Atom/Pwm/subdir.mk
+-include Libraries/iLLD/TC37A/Tricore/Geth/Std/subdir.mk
+-include Libraries/iLLD/TC37A/Tricore/Geth/Eth/subdir.mk
 -include Libraries/iLLD/TC37A/Tricore/Cpu/Trap/subdir.mk
 -include Libraries/iLLD/TC37A/Tricore/Cpu/Std/subdir.mk
 -include Libraries/iLLD/TC37A/Tricore/Cpu/Irq/subdir.mk
@@ -28,6 +32,15 @@ RM := rm -rf
 -include Libraries/iLLD/TC37A/Tricore/Can/Can/subdir.mk
 -include Libraries/Infra/Ssw/TC37A/Tricore/subdir.mk
 -include Libraries/Infra/Platform/Tricore/Compilers/subdir.mk
+-include Libraries/Ethernet/lwip/src/netif/ppp/polarssl/subdir.mk
+-include Libraries/Ethernet/lwip/src/netif/ppp/subdir.mk
+-include Libraries/Ethernet/lwip/src/netif/subdir.mk
+-include Libraries/Ethernet/lwip/src/core/ipv6/subdir.mk
+-include Libraries/Ethernet/lwip/src/core/ipv4/subdir.mk
+-include Libraries/Ethernet/lwip/src/core/subdir.mk
+-include Libraries/Ethernet/lwip/src/api/subdir.mk
+-include Libraries/Ethernet/lwip/port/src/subdir.mk
+-include Libraries/Ethernet/Phy_Dp83825i/subdir.mk
 -include Drivers/src/subdir.mk
 -include Configurations/subdir.mk
 -include App/src/subdir.mk

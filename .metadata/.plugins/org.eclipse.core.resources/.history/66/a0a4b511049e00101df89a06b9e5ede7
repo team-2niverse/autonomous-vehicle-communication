@@ -1,0 +1,48 @@
+#include <Stm.h>
+#include "IfxStm.h"
+#include "IfxSrc.h"
+#include "FreeRTOSConfig.h" /* FreeRTOS 설정을 직접 사용하기 위해 포함 */
+
+/**
+ * @brief Initializes the STM module to generate the FreeRTOS tick interrupt.
+ */
+void Stm_Init(void)
+{
+    boolean interruptState = IfxCpu_disableInterrupts();
+
+    IfxStm_CompareConfig stmCompareConfig;
+    IfxStm_initCompareConfig(&stmCompareConfig); /* 기본값으로 초기화 */
+
+    /* FreeRTOS 설정 파일의 값을 직접 사용하여 일관성 보장 */
+    stmCompareConfig.triggerPriority     = configTIMER_INTERRUPT_PRIORITY;
+    stmCompareConfig.typeOfService       = (IfxSrc_Tos)configCPU_NR;
+    
+    /* STM0의 Compare Match 0번과 인터럽트 요청 0번(SR0)을 사용 */
+    stmCompareConfig.comparatorInterrupt = IfxStm_ComparatorInterrupt_ir0;
+
+    /* 1ms 틱을 위한 타이머 카운트 값 계산 (100MHz / 1000Hz) */
+    const uint32 ticks_for_1ms = configSTM_CLOCK_HZ / 1000; /* Tick rate is 1000 Hz */
+    stmCompareConfig.ticks = ticks_for_1ms;
+
+    /* 설정된 값으로 STM Compare 기능 초기화 */
+    IfxStm_initCompare(&MODULE_STM0, &stmCompareConfig);
+
+    IfxCpu_restoreInterrupts(interruptState);
+}
+
+
+/* 아래 함수들은 타이머 값을 읽기 위한 유틸리티 함수로, 그대로 둡니다. */
+uint64 Stm_Get_Tick(void) {
+    uint64 result = MODULE_STM0.TIM0.U | ((uint64)MODULE_STM0.CAP.U << 32);
+    return result;
+}
+
+uint64 Stm_Get_Time_Us(void) {
+    uint64 result = Stm_Get_Tick();
+    return result / (configSTM_CLOCK_HZ / 1000000);
+}
+
+uint64 Stm_Get_Time_Ms(void) {
+    uint64 result = Stm_Get_Tick();
+    return result / (configSTM_CLOCK_HZ / 1000);
+}

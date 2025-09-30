@@ -35,50 +35,51 @@
  * \documents See README.md
  * \lastUpdated 2023-04-27
  *********************************************************************************************************************/
-#include <Drivers.h> // 새로운 BSP 초기화 헤더 파일
+//#include <Drivers.h>
+#include "IfxCpu.h"
+#include "IfxScuWdt.h"
 
+#include "App_Config.h"
 #include "FreeRTOS.h"
 #include "task.h"
 
-// 새로운 애플리케이션 태스크들을 위한 헤더 파일
-#include "App/include/can_task.h"
-#include "App/include/parking_task.h"
-#include "App/include/button_motor_task.h" // 버튼 모터 제어 태스크 헤더 파일 추가
-// 필요에 따라 다른 태스크 헤더 파일 추가
-#include "App_Config.h"
-#include "encoder_task.h"
-#include "App/include/ultrasonic_task.h"
-#include "App/include/aeb_task.h"
+#include "lwip/api.h"
 
-//IFX_ALIGN(4) IfxCpu_syncEvent g_cpuSyncEvent = 0;
-
+// Global variable to store the task handle
+//TaskHandle_t g_ledTaskHandle = NULL;
+IFX_ALIGN(4) IfxCpu_syncEvent g_cpuSyncEvent2 = 0;
 void core0_main(void)
 {
-    // BSP 초기화 함수 호출
-    System_Init();
+    // 1. Minimal hardware initialization
+    //System_Init();
 
-    // 기존 FreeRTOS 예제 태스크 생성 코드
-//    xTaskCreate(task_app_led1, "APP LED1", configMINIMAL_STACK_SIZE, NULL, 0, NULL);
-//    xTaskCreate(task_app_led2, "APP LED2", configMINIMAL_STACK_SIZE, NULL, 0, NULL);
+    // 2. Create ONLY the LED task and store its handle
+    IfxCpu_enableInterrupts();
 
-    // 새로운 FreeRTOS 태스크 생성
-    xTaskCreate(vCanMessageHandlerTask, "CAN Handler", configMINIMAL_STACK_SIZE * 2, NULL, 1, NULL);
-    xTaskCreate(vAutonomousParkingTask, "Parking", configMINIMAL_STACK_SIZE * 4, NULL, 1, NULL);
-//    xTaskCreate(vButtonMotorControlTask, "Button Motor", configMINIMAL_STACK_SIZE * 2, NULL, 1, NULL);
-    // 필요에 따라 다른 태스크들도 여기에 추가
-    xTaskCreate(vEncoderProcessingTask, "Encoder Task", configMINIMAL_STACK_SIZE, NULL, 1, NULL);
-    xTaskCreate(vUltrasonicProcessingTask, "Ultrasonic", configMINIMAL_STACK_SIZE * 2, NULL, 2, NULL);
-    xTaskCreate(vUltrasonicTriggerTask, "Ultrasonic Trig", configMINIMAL_STACK_SIZE, NULL, 3, NULL);
-    xTaskCreate(vAebTask, "AEB Task", configMINIMAL_STACK_SIZE, NULL, 3, NULL);
+    /* !!WATCHDOG0 AND SAFETY WATCHDOG ARE DISABLED HERE!!
+     * Enable the watchdogs and service them periodically if it is required
+     */
+    IfxScuWdt_disableCpuWatchdog(IfxScuWdt_getCpuWatchdogPassword());
+    IfxScuWdt_disableSafetyWatchdog(IfxScuWdt_getSafetyWatchdogPassword());
+
+    /* Wait for CPU sync event */
+    IfxCpu_emitEvent(&g_cpuSyncEvent2);
+    IfxCpu_waitEvent(&g_cpuSyncEvent2, 1);
+
+    /* Create LED1 app task */
+    xTaskCreate(task_app_led1, "APP LED1", configMINIMAL_STACK_SIZE, NULL, 0, NULL);
+
+    /* Create LED2 app task */
+    //xTaskCreate(task_app_led2, "APP LED2", configMINIMAL_STACK_SIZE, NULL, 0, NULL);
 
     /* Start the scheduler */
     vTaskStartScheduler();
-
-    // 스케줄러가 시작되면 이 루프는 실행되지 않습니다.
+    // The scheduler should never return. If it does, we loop here.
     while (1)
     {
     }
 }
+
 
 /* Required FreeRTOS callback, called in case of a stack overflow.
  * For the sake of simplicity, this function will loop indefinitely

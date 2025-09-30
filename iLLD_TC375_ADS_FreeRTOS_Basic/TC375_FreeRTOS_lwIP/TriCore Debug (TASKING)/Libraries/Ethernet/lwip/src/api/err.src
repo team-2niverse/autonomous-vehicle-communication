@@ -1,0 +1,646 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\cc55728a --dep-file=Libraries/Ethernet/lwip/src/api/err.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc37x -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Configurations -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\Ethernet -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\Ethernet\\\\Phy_Dp83825i -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\Ethernet\\\\lwip -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\port -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include\\\\arch -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\arpa -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\net -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\sys -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\stdc -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\apps -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\priv -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\prot -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif\\\\ppp -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif\\\\ppp\\\\polarssl -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\Infra -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\Service -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\UART -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\iLLD\\\\TC37A -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Eth -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Std -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Io -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\OS -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\OS\\\\FreeRTOS -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\OS\\\\FreeRTOS\\\\include -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\OS\\\\FreeRTOS\\\\portable -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\OS\\\\FreeRTOS\\\\portable\\\\Tasking -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\OS\\\\FreeRTOS\\\\portable\\\\Tasking\\\\TC3 -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Libraries/Ethernet/lwip/src/api/err.src ../Libraries/Ethernet/lwip/src/api/err.c"
+	.compiler_name		"ctc"
+	;source	'../Libraries/Ethernet/lwip/src/api/err.c'
+
+	
+$TC162
+	
+	.sdecl	'.text.err.err_to_errno',code,cluster('err_to_errno')
+	.sect	'.text.err.err_to_errno'
+	.align	2
+	
+	.global	err_to_errno
+; Function err_to_errno
+.L11:
+err_to_errno:	.type	func
+	jge	d4,#1,.L2
+.L65:
+	mov	d0,d4
+.L42:
+	rsub	d0,#0
+.L41:
+	mov	d15,#17
+.L66:
+	jlt	d0,d15,.L3
+.L2:
+	mov	d2,#5
+.L67:
+	j	.L4
+.L3:
+	rsub	d4,#0
+.L43:
+	mul	d15,d4,#4
+.L68:
+	movh.a	a15,#@his(err_to_errno_table)
+	lea	a15,[a15]@los(err_to_errno_table)
+.L69:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d2,[a15]
+.L70:
+	j	.L5
+.L5:
+.L4:
+	ret
+.L37:
+	
+__err_to_errno_function_end:
+	.size	err_to_errno,__err_to_errno_function_end-err_to_errno
+.L27:
+	; End of function
+	
+	.sdecl	'.text.err.lwip_strerr',code,cluster('lwip_strerr')
+	.sect	'.text.err.lwip_strerr'
+	.align	2
+	
+	.global	lwip_strerr
+; Function lwip_strerr
+.L13:
+lwip_strerr:	.type	func
+	jge	d4,#1,.L6
+.L55:
+	mov	d0,d4
+.L45:
+	rsub	d0,#0
+.L44:
+	mov	d15,#17
+.L56:
+	jlt	d0,d15,.L7
+.L6:
+	movh.a	a2,#@his(.18.str)
+	lea	a2,[a2]@los(.18.str)
+.L57:
+	j	.L8
+.L7:
+	rsub	d4,#0
+.L46:
+	mul	d15,d4,#4
+.L58:
+	movh.a	a15,#@his(err_strerr)
+	lea	a15,[a15]@los(err_strerr)
+.L59:
+	addsc.a	a15,a15,d15,#0
+	ld.a	a2,[a15]
+.L60:
+	j	.L9
+.L9:
+.L8:
+	ret
+.L33:
+	
+__lwip_strerr_function_end:
+	.size	lwip_strerr,__lwip_strerr_function_end-lwip_strerr
+.L22:
+	; End of function
+	
+	.sdecl	'.rodata.err.err_to_errno_table',data,rom,cluster('err_to_errno_table')
+	.sect	'.rodata.err.err_to_errno_table'
+	.align	2
+err_to_errno_table:	.type	object
+	.size	err_to_errno_table,68
+	.space	4
+	.word	12,105,11,113,115,22,11,98
+	.word	114,106,107,-1,103,104,107,5
+	.sdecl	'.rodata.err..1.str',data,rom
+	.sect	'.rodata.err..1.str'
+.1.str:	.type	object
+	.size	.1.str,4
+	.byte	79,107,46
+	.space	1
+	.sdecl	'.rodata.err..2.str',data,rom
+	.sect	'.rodata.err..2.str'
+.2.str:	.type	object
+	.size	.2.str,21
+	.byte	79,117,116,32,111,102,32,109
+	.byte	101,109,111,114,121,32,101,114
+	.byte	114,111,114,46
+	.space	1
+	.sdecl	'.rodata.err..3.str',data,rom
+	.sect	'.rodata.err..3.str'
+.3.str:	.type	object
+	.size	.3.str,14
+	.byte	66,117,102,102,101,114,32,101
+	.byte	114,114,111,114
+	.byte	46
+	.space	1
+	.sdecl	'.rodata.err..4.str',data,rom
+	.sect	'.rodata.err..4.str'
+.4.str:	.type	object
+	.size	.4.str,9
+	.byte	84,105,109,101,111,117,116,46
+	.space	1
+	.sdecl	'.rodata.err..5.str',data,rom
+	.sect	'.rodata.err..5.str'
+.5.str:	.type	object
+	.size	.5.str,17
+	.byte	82,111,117,116,105,110,103,32
+	.byte	112,114,111,98,108,101,109,46
+	.space	1
+	.sdecl	'.rodata.err..6.str',data,rom
+	.sect	'.rodata.err..6.str'
+.6.str:	.type	object
+	.size	.6.str,23
+	.byte	79,112,101,114,97,116,105,111
+	.byte	110,32,105,110,32,112,114,111
+	.byte	103,114,101,115
+	.byte	115,46
+	.space	1
+	.sdecl	'.rodata.err..7.str',data,rom
+	.sect	'.rodata.err..7.str'
+.7.str:	.type	object
+	.size	.7.str,15
+	.byte	73,108,108,101,103,97,108,32
+	.byte	118,97,108,117
+	.byte	101,46
+	.space	1
+	.sdecl	'.rodata.err..8.str',data,rom
+	.sect	'.rodata.err..8.str'
+.8.str:	.type	object
+	.size	.8.str,23
+	.byte	79,112,101,114,97,116,105,111
+	.byte	110,32,119,111,117,108,100,32
+	.byte	98,108,111,99
+	.byte	107,46
+	.space	1
+	.sdecl	'.rodata.err..9.str',data,rom
+	.sect	'.rodata.err..9.str'
+.9.str:	.type	object
+	.size	.9.str,16
+	.byte	65,100,100,114,101,115,115,32
+	.byte	105,110,32,117
+	.byte	115,101,46
+	.space	1
+	.sdecl	'.rodata.err..10.str',data,rom
+	.sect	'.rodata.err..10.str'
+.10.str:	.type	object
+	.size	.10.str,20
+	.byte	65,108,114,101,97,100,121,32
+	.byte	99,111,110,110,101,99,116,105
+	.byte	110,103,46
+	.space	1
+	.sdecl	'.rodata.err..11.str',data,rom
+	.sect	'.rodata.err..11.str'
+.11.str:	.type	object
+	.size	.11.str,19
+	.byte	65,108,114,101,97,100,121,32
+	.byte	99,111,110,110,101,99,116,101
+	.byte	100,46
+	.space	1
+	.sdecl	'.rodata.err..12.str',data,rom
+	.sect	'.rodata.err..12.str'
+.12.str:	.type	object
+	.size	.12.str,15
+	.byte	78,111,116,32,99,111,110,110
+	.byte	101,99,116,101
+	.byte	100,46
+	.space	1
+	.sdecl	'.rodata.err..13.str',data,rom
+	.sect	'.rodata.err..13.str'
+.13.str:	.type	object
+	.size	.13.str,23
+	.byte	76,111,119,45,108,101,118,101
+	.byte	108,32,110,101,116,105,102,32
+	.byte	101,114,114,111
+	.byte	114,46
+	.space	1
+	.sdecl	'.rodata.err..14.str',data,rom
+	.sect	'.rodata.err..14.str'
+.14.str:	.type	object
+	.size	.14.str,20
+	.byte	67,111,110,110,101,99,116,105
+	.byte	111,110,32,97,98,111,114,116
+	.byte	101,100,46
+	.space	1
+	.sdecl	'.rodata.err..15.str',data,rom
+	.sect	'.rodata.err..15.str'
+.15.str:	.type	object
+	.size	.15.str,18
+	.byte	67,111,110,110,101,99,116,105
+	.byte	111,110,32,114,101,115,101,116
+	.byte	46
+	.space	1
+	.sdecl	'.rodata.err..16.str',data,rom
+	.sect	'.rodata.err..16.str'
+.16.str:	.type	object
+	.size	.16.str,19
+	.byte	67,111,110,110,101,99,116,105
+	.byte	111,110,32,99,108,111,115,101
+	.byte	100,46
+	.space	1
+	.sdecl	'.rodata.err..17.str',data,rom
+	.sect	'.rodata.err..17.str'
+.17.str:	.type	object
+	.size	.17.str,18
+	.byte	73,108,108,101,103,97,108,32
+	.byte	97,114,103,117,109,101,110,116
+	.byte	46
+	.space	1
+	.sdecl	'.data.err.err_strerr',data,cluster('err_strerr')
+	.sect	'.data.err.err_strerr'
+	.align	4
+err_strerr:	.type	object
+	.size	err_strerr,68
+	.word	.1.str,.2.str,.3.str,.4.str,.5.str,.6.str,.7.str,.8.str
+	.word	.9.str,.10.str,.11.str,.12.str,.13.str,.14.str,.15.str,.16.str
+	.word	.17.str
+	.sdecl	'.rodata.err..18.str',data,rom
+	.sect	'.rodata.err..18.str'
+.18.str:	.type	object
+	.size	.18.str,15
+	.byte	85,110,107,110,111,119,110,32
+	.byte	101,114,114,111
+	.byte	114,46
+	.space	1
+	.calls	'err_to_errno','',0
+	.calls	'lwip_strerr','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L15:
+	.word	753
+	.half	3
+	.word	.L16
+	.byte	4
+.L14:
+	.byte	1
+	.byte	'../Libraries/Ethernet/lwip/src/api/err.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\Desktop\\workspace_all\\project2\\TC375_FreeRTOS_lwIP\\TriCore Debug (TASKING)\\',0
+	.byte	12,1
+	.word	.L17
+	.byte	2
+	.byte	'char',0,1,6,3
+	.word	226
+.L32:
+	.byte	4
+	.word	234
+.L34:
+	.byte	2
+	.byte	'char',0,1,6
+.L36:
+	.byte	2
+	.byte	'int',0,4,5,2
+	.byte	'short int',0,2,5,5
+	.byte	'__wchar_t',0,1,1,1
+	.word	259
+	.byte	2
+	.byte	'unsigned int',0,4,7,5
+	.byte	'__size_t',0,1,1,1
+	.word	290
+	.byte	5
+	.byte	'__ptrdiff_t',0,1,1,1
+	.word	252
+	.byte	6,1,4
+	.word	343
+	.byte	5
+	.byte	'__codeptr',0,1,1,1
+	.word	345
+	.byte	5
+	.byte	'__intptr_t',0,1,1,1
+	.word	252
+	.byte	5
+	.byte	'__uintptr_t',0,1,1,1
+	.word	290
+	.byte	2
+	.byte	'unsigned char',0,1,8,5
+	.byte	'uint8',0,2,108,29
+	.word	407
+	.byte	2
+	.byte	'unsigned short int',0,2,7,5
+	.byte	'uint16',0,2,112,29
+	.word	438
+	.byte	2
+	.byte	'unsigned long int',0,4,7,5
+	.byte	'uint32',0,2,116,29
+	.word	475
+	.byte	5
+	.byte	'sint8',0,2,125,29
+	.word	244
+	.byte	5
+	.byte	'sint16',0,2,129,1,29
+	.word	259
+	.byte	2
+	.byte	'long int',0,4,5,5
+	.byte	'sint32',0,2,134,1,29
+	.word	541
+	.byte	2
+	.byte	'long long int',0,8,5,5
+	.byte	'sint64',0,2,141,1,29
+	.word	569
+	.byte	2
+	.byte	'float',0,4,4,5
+	.byte	'float32',0,2,170,1,29
+	.word	602
+	.byte	7
+	.byte	'void',0,4
+	.word	628
+	.byte	5
+	.byte	'pvoid',0,3,54,28
+	.word	634
+	.byte	5
+	.byte	'Ifx_TickTime',0,3,76,28
+	.word	569
+	.byte	5
+	.byte	'u32_t',0,4,87,16
+	.word	475
+	.byte	5
+	.byte	's8_t',0,4,88,16
+	.word	244
+	.byte	5
+	.byte	'intmax_t',0,5,198,2,41
+	.word	569
+	.byte	5
+	.byte	'err_t',0,6,96,14
+	.word	244
+	.byte	8,68
+	.word	252
+	.byte	9,16,0
+.L39:
+	.byte	3
+	.word	733
+.L40:
+	.byte	8,68
+	.word	239
+	.byte	9,16,0,0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L16:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,38,0,73,19,0,0,4,15,0,73,19
+	.byte	0,0,5,22,0,3,8,58,15,59,15,57,15,73,19,0,0,6,21,0,54,15,0,0,7,59,0,3,8,0,0,8,1,1,11,15,73,19,0,0,9,33
+	.byte	0,47,15,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L17:
+	.word	.L48-.L47
+.L47:
+	.half	3
+	.word	.L50-.L49
+.L49:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'C:\\Infineon\\AURIX-Studio-1.10.16\\tools\\Compilers\\Tasking_1.1r8\\ctc\\include\\',0,0
+	.byte	'../Libraries/Ethernet/lwip/src/api/err.c',0,0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\Cpu\\Std\\Platform_Types.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\Cpu\\Std\\Ifx_Types.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include\\arch\\cc.h',0
+	.byte	0,0,0
+	.byte	'stdint.h',0,1,0,0
+	.byte	'C:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\TC375_FreeRTOS_lwIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\err.h',0
+	.byte	0,0,0,0
+.L50:
+.L48:
+	.sdecl	'.debug_info',debug,cluster('lwip_strerr')
+	.sect	'.debug_info'
+.L18:
+	.word	293
+	.half	3
+	.word	.L19
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/api/err.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\Desktop\\workspace_all\\project2\\TC375_FreeRTOS_lwIP\\TriCore Debug (TASKING)\\',0
+	.byte	12,1
+	.word	.L21,.L20
+	.byte	2
+	.word	.L14
+	.byte	3
+	.byte	'lwip_strerr',0,1,107,1
+	.word	.L32
+	.byte	1,1,1
+	.word	.L13,.L33,.L12
+	.byte	4
+	.byte	'err',0,1,107,19
+	.word	.L34,.L35
+	.byte	5
+	.word	.L13,.L33
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('lwip_strerr')
+	.sect	'.debug_abbrev'
+.L19:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('lwip_strerr')
+	.sect	'.debug_line'
+.L20:
+	.word	.L52-.L51
+.L51:
+	.half	3
+	.word	.L54-.L53
+.L53:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/api/err.c',0,0,0,0,0
+.L54:
+	.byte	5,7,7,0,5,2
+	.word	.L13
+	.byte	3,236,0,1,5,22,7,9
+	.half	.L55-.L13
+	.byte	1,5,21,9
+	.half	.L45-.L55
+	.byte	1,5,29,9
+	.half	.L44-.L45
+	.byte	1,5,26,9
+	.half	.L56-.L44
+	.byte	1,5,12,7,9
+	.half	.L6-.L56
+	.byte	3,1,1,5,5,9
+	.half	.L57-.L6
+	.byte	1,5,21,9
+	.half	.L7-.L57
+	.byte	3,2,1,5,20,9
+	.half	.L46-.L7
+	.byte	1,5,10,9
+	.half	.L58-.L46
+	.byte	1,5,20,9
+	.half	.L59-.L58
+	.byte	1,5,3,9
+	.half	.L60-.L59
+	.byte	1,5,1,9
+	.half	.L8-.L60
+	.byte	3,1,1,7,9
+	.half	.L22-.L8
+	.byte	0,1,1
+.L52:
+	.sdecl	'.debug_ranges',debug,cluster('lwip_strerr')
+	.sect	'.debug_ranges'
+.L21:
+	.word	-1,.L13,0,.L22-.L13,0,0
+	.sdecl	'.debug_info',debug,cluster('err_to_errno')
+	.sect	'.debug_info'
+.L23:
+	.word	294
+	.half	3
+	.word	.L24
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/api/err.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\Desktop\\workspace_all\\project2\\TC375_FreeRTOS_lwIP\\TriCore Debug (TASKING)\\',0
+	.byte	12,1
+	.word	.L26,.L25
+	.byte	2
+	.word	.L14
+	.byte	3
+	.byte	'err_to_errno',0,1,69,1
+	.word	.L36
+	.byte	1,1,1
+	.word	.L11,.L37,.L10
+	.byte	4
+	.byte	'err',0,1,69,20
+	.word	.L34,.L38
+	.byte	5
+	.word	.L11,.L37
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('err_to_errno')
+	.sect	'.debug_abbrev'
+.L24:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('err_to_errno')
+	.sect	'.debug_line'
+.L25:
+	.word	.L62-.L61
+.L61:
+	.half	3
+	.word	.L64-.L63
+.L63:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/api/err.c',0,0,0,0,0
+.L64:
+	.byte	5,7,7,0,5,2
+	.word	.L11
+	.byte	3,198,0,1,5,22,7,9
+	.half	.L65-.L11
+	.byte	1,5,21,9
+	.half	.L42-.L65
+	.byte	1,5,29,9
+	.half	.L41-.L42
+	.byte	1,5,26,9
+	.half	.L66-.L41
+	.byte	1,5,12,7,9
+	.half	.L2-.L66
+	.byte	3,1,1,5,5,9
+	.half	.L67-.L2
+	.byte	1,5,29,9
+	.half	.L3-.L67
+	.byte	3,2,1,5,28,9
+	.half	.L43-.L3
+	.byte	1,5,10,9
+	.half	.L68-.L43
+	.byte	1,5,28,9
+	.half	.L69-.L68
+	.byte	1,5,3,9
+	.half	.L70-.L69
+	.byte	1,5,1,9
+	.half	.L4-.L70
+	.byte	3,1,1,7,9
+	.half	.L27-.L4
+	.byte	0,1,1
+.L62:
+	.sdecl	'.debug_ranges',debug,cluster('err_to_errno')
+	.sect	'.debug_ranges'
+.L26:
+	.word	-1,.L11,0,.L27-.L11,0,0
+	.sdecl	'.debug_info',debug,cluster('err_to_errno_table')
+	.sect	'.debug_info'
+.L28:
+	.word	257
+	.half	3
+	.word	.L29
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/api/err.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\Desktop\\workspace_all\\project2\\TC375_FreeRTOS_lwIP\\TriCore Debug (TASKING)\\',0
+	.byte	12,1,2
+	.word	.L14
+	.byte	3
+	.byte	'err_to_errno_table',0,1,48,18
+	.word	.L39
+	.byte	5,3
+	.word	err_to_errno_table
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('err_to_errno_table')
+	.sect	'.debug_abbrev'
+.L29:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('err_strerr')
+	.sect	'.debug_info'
+.L30:
+	.word	249
+	.half	3
+	.word	.L31
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/api/err.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\Desktop\\workspace_all\\project2\\TC375_FreeRTOS_lwIP\\TriCore Debug (TASKING)\\',0
+	.byte	12,1,2
+	.word	.L14
+	.byte	3
+	.byte	'err_strerr',0,1,80,20
+	.word	.L40
+	.byte	5,3
+	.word	err_strerr
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('err_strerr')
+	.sect	'.debug_abbrev'
+.L31:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_loc',debug,cluster('err_to_errno')
+	.sect	'.debug_loc'
+.L38:
+	.word	-1,.L11,0,.L41-.L11
+	.half	1
+	.byte	84
+	.word	.L42-.L11,.L2-.L11
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L3-.L11,.L43-.L11
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L3-.L11,.L4-.L11
+	.half	1
+	.byte	84
+	.word	0,0
+.L10:
+	.word	-1,.L11,0,.L37-.L11
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('lwip_strerr')
+	.sect	'.debug_loc'
+.L35:
+	.word	-1,.L13,0,.L44-.L13
+	.half	1
+	.byte	84
+	.word	.L45-.L13,.L6-.L13
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L7-.L13,.L46-.L13
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L7-.L13,.L8-.L13
+	.half	1
+	.byte	84
+	.word	0,0
+.L12:
+	.word	-1,.L13,0,.L33-.L13
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L71:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('err_to_errno')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L71,.L11,.L37-.L11
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('lwip_strerr')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L71,.L13,.L33-.L13
+	.byte	8,19,8,20,8,21,8,22,8,23,0,0
+	; Module end

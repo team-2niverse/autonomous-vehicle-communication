@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="completion_proposal_size">
+	</section>
+	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration">
+	</section>
+	<section name="PDOMSearchPage">
+		<item key="caseSensitive" value="false"/>
+		<item key="searchFlags" value="227191"/>
+		<list key="previousPatterns">
+			<item value="FreeRTOS"/>
+			<item value="FreeRtos"/>
+			<item value="FreeRtosh"/>
+			<item value="lwip"/>
+			<item value="sys_arch"/>
+			<item value="IfxPort_State_toggled"/>
+			<item value="g_ReqIn"/>
+			<item value="IfxScuEru_InputNodePointer_0"/>
+			<item value="IfxScuEru"/>
+		</list>
+	</section>
+</section>

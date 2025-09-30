@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdtprojectproperties>
+  <section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.IncludePaths">
+    <language id="org.eclipse.cdt.core.gcc" name="C Source File">
+      <includepath workspace_path="true">/${ProjName}/</includepath>
+      <includepath workspace_path="true">/${ProjName}/Configurations</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Ethernet</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Ethernet/Phy_Dp83825i</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Ethernet/lwip</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Ethernet/lwip/port</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Ethernet/lwip/port/include</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Ethernet/lwip/port/include/arch</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Ethernet/lwip/src</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Ethernet/lwip/src/include</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Ethernet/lwip/src/include/compat</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Ethernet/lwip/src/include/compat/posix</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Ethernet/lwip/src/include/compat/posix/arpa</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Ethernet/lwip/src/include/compat/posix/net</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Ethernet/lwip/src/include/compat/posix/sys</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Ethernet/lwip/src/include/compat/stdc</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Ethernet/lwip/src/include/lwip</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Ethernet/lwip/src/include/lwip/apps</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Ethernet/lwip/src/include/lwip/priv</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Ethernet/lwip/src/include/lwip/prot</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Ethernet/lwip/src/include/netif</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Ethernet/lwip/src/include/netif/ppp</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Ethernet/lwip/src/include/netif/ppp/polarssl</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Infra</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Infra/Platform</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Infra/Platform/Tricore</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Infra/Platform/Tricore/Compilers</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Infra/Sfr</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Infra/Sfr/TC37A</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Infra/Sfr/TC37A/_Reg</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Infra/Ssw</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Infra/Ssw/TC37A</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Infra/Ssw/TC37A/Tricore</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Service</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Service/CpuGeneric</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Service/CpuGeneric/StdIf</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Service/CpuGeneric/SysSe</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Service/CpuGeneric/SysSe/Comm</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Service/CpuGeneric/_Utilities</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/UART</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Asclin</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Asclin/Asc</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Asclin/Std</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Cpu</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Cpu/Irq</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Cpu/Std</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Cpu/Trap</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Geth</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Geth/Eth</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Geth/Std</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Gtm</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Gtm/Std</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Mtu</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Mtu/Std</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Pms</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Pms/Std</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Port</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Port/Std</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Scu</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Scu/Std</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Src</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Src/Std</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Stm</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Stm/Std</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/_Impl</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/_Lib</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/_Lib/DataHandling</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/_PinMap</includepath>
+    </language>
+    <language id="org.eclipse.cdt.core.g++" name="C++ Source File">
+      <includepath workspace_path="true">/${ProjName}/</includepath>
+      <includepath workspace_path="true">/${ProjName}/Configurations</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Ethernet</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Ethernet/Phy_Dp83825i</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Ethernet/lwip</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Ethernet/lwip/port</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Ethernet/lwip/port/include</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Ethernet/lwip/port/include/arch</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Ethernet/lwip/src</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Ethernet/lwip/src/include</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Ethernet/lwip/src/include/compat</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Ethernet/lwip/src/include/compat/posix</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Ethernet/lwip/src/include/compat/posix/arpa</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Ethernet/lwip/src/include/compat/posix/net</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Ethernet/lwip/src/include/compat/posix/sys</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Ethernet/lwip/src/include/compat/stdc</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Ethernet/lwip/src/include/lwip</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Ethernet/lwip/src/include/lwip/apps</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Ethernet/lwip/src/include/lwip/priv</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Ethernet/lwip/src/include/lwip/prot</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Ethernet/lwip/src/include/netif</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Ethernet/lwip/src/include/netif/ppp</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Ethernet/lwip/src/include/netif/ppp/polarssl</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Infra</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Infra/Platform</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Infra/Platform/Tricore</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Infra/Platform/Tricore/Compilers</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Infra/Sfr</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Infra/Sfr/TC37A</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Infra/Sfr/TC37A/_Reg</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Infra/Ssw</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Infra/Ssw/TC37A</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Infra/Ssw/TC37A/Tricore</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Service</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Service/CpuGeneric</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Service/CpuGeneric/StdIf</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Service/CpuGeneric/SysSe</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Service/CpuGeneric/SysSe/Comm</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/Service/CpuGeneric/_Utilities</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/UART</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Asclin</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Asclin/Asc</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Asclin/Std</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Cpu</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Cpu/Irq</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Cpu/Std</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Cpu/Trap</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Geth</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Geth/Eth</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Geth/Std</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Gtm</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Gtm/Std</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Mtu</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Mtu/Std</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Pms</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Pms/Std</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Port</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Port/Std</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Scu</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Scu/Std</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Src</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Src/Std</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Stm</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/Stm/Std</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/_Impl</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/_Lib</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/_Lib/DataHandling</includepath>
+      <includepath workspace_path="true">/${ProjName}/Libraries/iLLD/TC37A/Tricore/_PinMap</includepath>
+    </language>
+    <language name="src"/>
+  </section>
+  <section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.Macros">
+    <language id="org.eclipse.cdt.core.gcc" name="C Source File">
+      <macro>
+        <name>__CPU__</name>
+        <value>tc37x</value>
+      </macro>
+    </language>
+    <language id="org.eclipse.cdt.core.g++" name="C++ Source File">
+      <macro>
+        <name>__CPU__</name>
+        <value>tc37x</value>
+      </macro>
+    </language>
+    <language name="src"/>
+  </section>
+</cdtprojectproperties>

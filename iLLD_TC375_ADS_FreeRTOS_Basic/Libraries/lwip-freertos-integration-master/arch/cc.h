@@ -1,0 +1,38 @@
+#ifndef LWIP_ARCH_CC_H
+#define LWIP_ARCH_CC_H
+
+/* Include FreeRTOS headers */
+#include "FreeRTOS.h"
+#include "task.h"
+
+/* Include standard C headers */
+#include <stdio.h>
+#include <stdlib.h>
+#include <errno.h>
+
+/* Define platform-specific diagnostic output. */
+#define LWIP_PLATFORM_DIAG(x) do {printf x;} while(0)
+/* Define platform-specific assertions. */
+#define LWIP_PLATFORM_ASSERT(x)  do {printf("Assertion \"%s\" failed at line %d in %s\n", \
+                                     x, __LINE__, __FILE__); abort();} while(0)
+
+/* ---------- PACKING OPTIONS for different compilers ---------- */
+#if defined(__GNUC__) || defined(__DCC__)
+#define PACK_STRUCT_BEGIN
+#define PACK_STRUCT_STRUCT __attribute__ ((__packed__))
+#define PACK_STRUCT_END
+#define PACK_STRUCT_FIELD(x) x
+#elif defined(__ICCARM__)
+#define PACK_STRUCT_BEGIN __packed
+#define PACK_STRUCT_STRUCT
+#define PACK_STRUCT_END
+#define PACK_STRUCT_FIELD(x) x
+#elif defined(__TASKING__) || defined(__ghs__)
+#define LWIP_SKIP_PACKING_CHECK 1
+#define PACK_STRUCT_BEGIN
+#define PACK_STRUCT_STRUCT
+#define PACK_STRUCT_END
+#define PACK_STRUCT_FIELD(x) x
+#endif
+
+#endif /* LWIP_ARCH_CC_H */
