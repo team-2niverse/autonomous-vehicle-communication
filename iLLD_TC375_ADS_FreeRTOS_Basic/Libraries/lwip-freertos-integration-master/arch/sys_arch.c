@@ -104,6 +104,10 @@ static SemaphoreHandle_t sys_arch_protect_mutex;
 static sys_prot_t sys_arch_protect_nesting;
 #endif
 
+/* For debugging memory corruption */
+//volatile void* g_dbg_mutex_addr = NULL;
+//volatile void* g_dbg_mutex_handle = NULL;
+
 /* Initialize this module (see description in sys.h) */
 void
 sys_init(void)
@@ -202,6 +206,11 @@ sys_mutex_new(sys_mutex_t *mutex)
   LWIP_ASSERT("mutex != NULL", mutex != NULL);
 
   mutex->mut = xSemaphoreCreateRecursiveMutex();
+
+  /* For debugging memory corruption */
+//  g_dbg_mutex_addr = (void*)mutex;
+//  g_dbg_mutex_handle = (void*)mutex->mut;
+
   if(mutex->mut == NULL) {
     SYS_STATS_INC(mutex.err);
     return ERR_MEM;

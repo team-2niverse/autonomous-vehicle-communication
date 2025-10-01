@@ -1,0 +1,63 @@
+/*
+ * echo_task.c
+ *
+ *  Created on: 2025. 9. 30.
+ *      Author: USER
+ */
+
+#include "echo_task.h"
+
+
+// Task function
+void echo_server_task(void *pvParameters)
+{
+  int sock, new_sock;
+  struct sockaddr_in server_addr, client_addr;
+  socklen_t client_addr_len;
+  char buffer[128];
+  int n;
+
+  // Create a socket
+  sock = lwip_socket(AF_INET, SOCK_STREAM, 0);
+  if (sock < 0) {
+      // Handle error
+      vTaskDelete(NULL);
+      return;
+  }
+
+  // Bind to a port
+  server_addr.sin_family = AF_INET;
+  server_addr.sin_port = htons(7); // Port 7 for echo
+  server_addr.sin_addr.s_addr = INADDR_ANY;
+  lwip_bind(sock, (struct sockaddr *)&server_addr, sizeof(server_addr));
+
+  // Listen for connections
+  lwip_listen(sock, 5);
+
+  for (;;) // Infinite loop
+  {
+      client_addr_len = sizeof(client_addr);
+      // Wait for a new connection
+      new_sock = lwip_accept(sock, (struct sockaddr *)&client_addr, &client_addr_len);
+
+      if (new_sock >= 0)
+      {
+          // Read data from client
+          while ((n = lwip_read(new_sock, buffer, sizeof(buffer))) > 0)
+          {
+              // Echo data back to client
+              lwip_write(new_sock, buffer, n);
+          }
+          // Close connection
+          lwip_close(new_sock);
+      }
+  }
+}
+
+// In your main setup, create the task
+void create_echo_task(void)
+{
+  xTaskCreate(echo_server_task, "EchoTask", configMINIMAL_STACK_SIZE * 2, NULL, tskIDLE_PRIORITY + 1,
+NULL);
+}
+

@@ -1265,3 +1265,556 @@ C Model Exception: C Model Status [Element arch does not exist.]
 
 !ENTRY com.infineon.aurix.buildsystem 1 0 2025-09-30 23:01:34.148
 !MESSAGE Boosting configuration TriCore Debug (TASKING) of project iLLD_TC375_ADS_FreeRTOS_Basic boosted in 2200 milliseconds. (incremental boost)
+!SESSION 2025-10-01 08:54:16.411 -----------------------------------------------
+eclipse.buildId=1.10.16
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -perspective com.infineon.aurix.buildmanager.perspective.c
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.infineon.aurix.buildmanager.perspective.c
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-10-01 08:54:24.133
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 2 0 2025-10-01 08:54:25.534
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-10-01 08:54:25.534
+!MESSAGE Commands should really have a category: plug-in='com.infineon.aurix.buildsystem.debug', id='com.infineon.aurix.buildsystem.debug.debugActiveProjectCommand', categoryId='com.infineon.aurix.buildsystem.debug.debugActiveProjectCommand'
+
+!ENTRY org.eclipse.ui 2 0 2025-10-01 08:54:26.719
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-10-01 08:54:26.719
+!MESSAGE Commands should really have a category: plug-in='com.infineon.aurix.buildsystem.debug', id='com.infineon.aurix.buildsystem.debug.debugActiveProjectCommand', categoryId='com.infineon.aurix.buildsystem.debug.debugActiveProjectCommand'
+
+!ENTRY com.infineon.aurix.buildsystem 4 0 2025-10-01 08:54:36.437
+!MESSAGE ConnectException
+!STACK 0
+java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:573)
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:123)
+	at com.infineon.aurix.buildsystem.IFXNetworkUtils$1.run(IFXNetworkUtils.java:44)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56)
+	at java.net.http/jdk.internal.net.http.Http1Exchange.sendHeadersAsync(Http1Exchange.java:239)
+	at java.net.http/jdk.internal.net.http.Exchange.lambda$responseAsyncImpl0$9(Exchange.java:472)
+	at java.net.http/jdk.internal.net.http.Exchange.checkFor407(Exchange.java:404)
+	at java.net.http/jdk.internal.net.http.Exchange.lambda$responseAsyncImpl0$10(Exchange.java:476)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950)
+	at java.base/java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2340)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:476)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:380)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Exchange.java:372)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:408)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:449)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950)
+	at java.base/java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2340)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:439)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:341)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:157)
+	at java.base/java.util.concurrent.CompletableFuture.completeAsync(CompletableFuture.java:2673)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsync(MultiExchange.java:294)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.sendAsync(HttpClientImpl.java:654)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:552)
+	... 3 more
+Caused by: java.nio.channels.UnresolvedAddressException
+	at java.base/sun.nio.ch.Net.checkAddress(Net.java:149)
+	at java.base/sun.nio.ch.Net.checkAddress(Net.java:157)
+	at java.base/sun.nio.ch.SocketChannelImpl.checkRemote(SocketChannelImpl.java:816)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:839)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 29 more
+
+!ENTRY com.infineon.aurix.buildsystem.analytics 2 0 2025-10-01 08:54:36.591
+!MESSAGE Unable to initialize Analytics Service.
+
+!ENTRY com.infineon.aurix.buildsystem.analytics 4 0 2025-10-01 08:54:36.593
+!MESSAGE java.net.MalformedURLException: no protocol: 
+!STACK 0
+java.lang.IllegalArgumentException: java.net.MalformedURLException: no protocol: 
+	at com.google.api.client.http.GenericUrl.parseURL(GenericUrl.java:679)
+	at com.google.api.client.http.GenericUrl.<init>(GenericUrl.java:125)
+	at com.google.api.client.http.GenericUrl.<init>(GenericUrl.java:108)
+	at com.infineon.aurix.buildsystem.analytics.AnalyticsService.<init>(AnalyticsService.java:69)
+	at com.infineon.aurix.buildsystem.analytics.AnalyticsService.getInstance(AnalyticsService.java:98)
+	at com.infineon.aurix.buildsystem.Logger.logError(Logger.java:34)
+	at com.infineon.aurix.buildsystem.IFXNetworkUtils$1.run(IFXNetworkUtils.java:47)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.MalformedURLException: no protocol: 
+	at java.base/java.net.URL.<init>(URL.java:674)
+	at java.base/java.net.URL.<init>(URL.java:569)
+	at java.base/java.net.URL.<init>(URL.java:516)
+	at com.google.api.client.http.GenericUrl.parseURL(GenericUrl.java:677)
+	... 7 more
+
+!ENTRY com.infineon.aurix.buildsystem.notification 2 0 2025-10-01 08:54:36.664
+!MESSAGE Unable to initialize Notification Service.
+
+!ENTRY com.infineon.aurix.buildsystem.notification 4 0 2025-10-01 08:54:36.667
+!MESSAGE java.net.MalformedURLException: no protocol: 
+!STACK 0
+java.lang.IllegalArgumentException: java.net.MalformedURLException: no protocol: 
+	at com.google.api.client.http.GenericUrl.parseURL(GenericUrl.java:679)
+	at com.google.api.client.http.GenericUrl.<init>(GenericUrl.java:125)
+	at com.google.api.client.http.GenericUrl.<init>(GenericUrl.java:108)
+	at com.infineon.aurix.buildsystem.notification.NotificationService.<init>(NotificationService.java:64)
+	at com.infineon.aurix.buildsystem.notification.NotificationService.getInstance(NotificationService.java:89)
+	at com.infineon.aurix.buildsystem.analytics.AnalyticsService.send(AnalyticsService.java:190)
+	at com.infineon.aurix.buildsystem.AnalyticsUtils.send(AnalyticsUtils.java:24)
+	at com.infineon.aurix.buildsystem.Analytics.sendToolStarted(Analytics.java:6)
+	at com.infineon.aurix.buildsystem.AurixIDEStartup.earlyStartup(AurixIDEStartup.java:25)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:79)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.Workbench$39.run(Workbench.java:2699)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.MalformedURLException: no protocol: 
+	at java.base/java.net.URL.<init>(URL.java:674)
+	at java.base/java.net.URL.<init>(URL.java:569)
+	at java.base/java.net.URL.<init>(URL.java:516)
+	at com.google.api.client.http.GenericUrl.parseURL(GenericUrl.java:677)
+	... 13 more
+
+!ENTRY com.infineon.aurix.buildsystem.notification 4 0 2025-10-01 08:54:36.868
+!MESSAGE NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:892)
+	at com.google.api.client.util.Preconditions.checkNotNull(Preconditions.java:125)
+	at com.google.api.client.http.GenericUrl.buildAuthority(GenericUrl.java:389)
+	at com.google.api.client.http.GenericUrl.build(GenericUrl.java:374)
+	at com.google.api.client.http.HttpRequest.execute(HttpRequest.java:883)
+	at com.infineon.aurix.buildsystem.notification.NotificationService$NotificationGetJob.run(NotificationService.java:205)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-10-01 08:54:37.344
+!MESSAGE Cannot open remote device description from URL https://itools.infineon.com/aurix_ide/ADS/com.infineon.aurix.buildsystem/1.10.16/tc4-hardware.json. Resource does not exist
+
+!ENTRY com.infineon.aurix.buildsystem 4 0 2025-10-01 08:54:37.359
+!MESSAGE C:\Users\USER\ADSDocuments\1.10.16\tc4-hardware.json (지정된 파일을 찾을 수 없습니다)
+!STACK 0
+java.io.FileNotFoundException: C:\Users\USER\ADSDocuments\1.10.16\tc4-hardware.json (지정된 파일을 찾을 수 없습니다)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at com.google.common.io.Files$FileByteSource.openStream(Files.java:134)
+	at com.google.common.io.Files$FileByteSource.openStream(Files.java:122)
+	at com.google.common.io.ByteSource.openBufferedStream(ByteSource.java:120)
+	at com.infineon.aurix.buildsystem.configuration.contributor.CachedURLHardwareContainerConnector.getHardwareContainerJsonInputStream(CachedURLHardwareContainerConnector.java:60)
+	at com.infineon.aurix.buildsystem.configuration.contributor.AbstractSupportedHardwareContributor.getSupportedHardwareContribution(AbstractSupportedHardwareContributor.java:29)
+	at com.infineon.aurix.buildsystem.configuration.SupportedHardwareManager.lambda$40(SupportedHardwareManager.java:367)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at com.infineon.aurix.buildsystem.configuration.SupportedHardwareManager.getSupportedHardwareContributions(SupportedHardwareManager.java:374)
+	at com.infineon.aurix.buildsystem.configuration.SupportedHardwareManager.parseConfig(SupportedHardwareManager.java:76)
+	at com.infineon.aurix.buildsystem.configuration.SupportedHardwareManager.getInstance(SupportedHardwareManager.java:65)
+	at com.infineon.aurix.buildsystem.AurixIDEStartup.earlyStartup(AurixIDEStartup.java:37)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:79)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.Workbench$39.run(Workbench.java:2699)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.infineon.aurix.buildsystem.notification 4 0 2025-10-01 08:54:37.363
+!MESSAGE NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:892)
+	at com.google.api.client.util.Preconditions.checkNotNull(Preconditions.java:125)
+	at com.google.api.client.http.GenericUrl.buildAuthority(GenericUrl.java:389)
+	at com.google.api.client.http.GenericUrl.build(GenericUrl.java:374)
+	at com.google.api.client.http.HttpRequest.execute(HttpRequest.java:883)
+	at com.infineon.aurix.buildsystem.notification.NotificationService$NotificationGetJob.run(NotificationService.java:205)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.infineon.aurix.buildsystem 4 0 2025-10-01 08:55:58.666
+!MESSAGE Element arch does not exist.
+!STACK 1
+C Model Exception: C Model Status [Element arch does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:159)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:276)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:525)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.findUsedLibraryHeaders(iLLDAligner.java:730)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.process(iLLDAligner.java:226)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.boost(BoosterBuilder.java:70)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.build(BoosterBuilder.java:58)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:594)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:490)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:288)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2025-10-01 08:55:58.666
+!MESSAGE Element arch does not exist.
+
+!ENTRY com.infineon.aurix.buildsystem.notification 4 0 2025-10-01 08:55:58.668
+!MESSAGE NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:892)
+	at com.google.api.client.util.Preconditions.checkNotNull(Preconditions.java:125)
+	at com.google.api.client.http.GenericUrl.buildAuthority(GenericUrl.java:389)
+	at com.google.api.client.http.GenericUrl.build(GenericUrl.java:374)
+	at com.google.api.client.http.HttpRequest.execute(HttpRequest.java:883)
+	at com.infineon.aurix.buildsystem.notification.NotificationService$NotificationGetJob.run(NotificationService.java:205)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-10-01 08:56:03.282
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project iLLD_TC375_ADS_FreeRTOS_Basic boosted in 13984 milliseconds. (full boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-10-01 08:56:52.394
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project iLLD_TC375_ADS_FreeRTOS_Basic boosted in 518 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-10-01 09:02:03.575
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project iLLD_TC375_ADS_FreeRTOS_Basic boosted in 4145 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-10-01 09:03:04.690
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project iLLD_TC375_ADS_FreeRTOS_Basic boosted in 1776 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-10-01 09:07:10.777
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project iLLD_TC375_ADS_FreeRTOS_Basic boosted in 610 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-10-01 09:12:41.252
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project iLLD_TC375_ADS_FreeRTOS_Basic boosted in 558 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-10-01 09:15:12.749
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project iLLD_TC375_ADS_FreeRTOS_Basic boosted in 591 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 4 0 2025-10-01 09:38:21.990
+!MESSAGE Element arch does not exist.
+!STACK 1
+C Model Exception: C Model Status [Element arch does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:159)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:276)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:525)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.findUsedLibraryHeaders(iLLDAligner.java:730)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.process(iLLDAligner.java:226)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.boost(BoosterBuilder.java:74)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.build(BoosterBuilder.java:58)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:594)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:490)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:288)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2025-10-01 09:38:21.990
+!MESSAGE Element arch does not exist.
+
+!ENTRY com.infineon.aurix.buildsystem.notification 4 0 2025-10-01 09:38:21.991
+!MESSAGE NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:892)
+	at com.google.api.client.util.Preconditions.checkNotNull(Preconditions.java:125)
+	at com.google.api.client.http.GenericUrl.buildAuthority(GenericUrl.java:389)
+	at com.google.api.client.http.GenericUrl.build(GenericUrl.java:374)
+	at com.google.api.client.http.HttpRequest.execute(HttpRequest.java:883)
+	at com.infineon.aurix.buildsystem.notification.NotificationService$NotificationGetJob.run(NotificationService.java:205)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-10-01 09:38:23.591
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project iLLD_TC375_ADS_FreeRTOS_Basic boosted in 1947 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 4 0 2025-10-01 09:38:46.673
+!MESSAGE Element arch does not exist.
+!STACK 1
+C Model Exception: C Model Status [Element arch does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:159)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:276)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:525)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.findUsedLibraryHeaders(iLLDAligner.java:730)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.process(iLLDAligner.java:226)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.boost(BoosterBuilder.java:74)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.build(BoosterBuilder.java:58)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:594)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:490)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:288)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2025-10-01 09:38:46.673
+!MESSAGE Element arch does not exist.
+
+!ENTRY com.infineon.aurix.buildsystem.notification 4 0 2025-10-01 09:38:46.674
+!MESSAGE NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:892)
+	at com.google.api.client.util.Preconditions.checkNotNull(Preconditions.java:125)
+	at com.google.api.client.http.GenericUrl.buildAuthority(GenericUrl.java:389)
+	at com.google.api.client.http.GenericUrl.build(GenericUrl.java:374)
+	at com.google.api.client.http.HttpRequest.execute(HttpRequest.java:883)
+	at com.infineon.aurix.buildsystem.notification.NotificationService$NotificationGetJob.run(NotificationService.java:205)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-10-01 09:38:48.172
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project iLLD_TC375_ADS_FreeRTOS_Basic boosted in 1802 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 4 0 2025-10-01 09:40:35.133
+!MESSAGE Element arch does not exist.
+!STACK 1
+C Model Exception: C Model Status [Element arch does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:159)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:276)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:525)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.findUsedLibraryHeaders(iLLDAligner.java:730)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.process(iLLDAligner.java:226)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.boost(BoosterBuilder.java:70)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.build(BoosterBuilder.java:58)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:594)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:490)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:288)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2025-10-01 09:40:35.133
+!MESSAGE Element arch does not exist.
+
+!ENTRY com.infineon.aurix.buildsystem.notification 4 0 2025-10-01 09:40:35.134
+!MESSAGE NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:892)
+	at com.google.api.client.util.Preconditions.checkNotNull(Preconditions.java:125)
+	at com.google.api.client.http.GenericUrl.buildAuthority(GenericUrl.java:389)
+	at com.google.api.client.http.GenericUrl.build(GenericUrl.java:374)
+	at com.google.api.client.http.HttpRequest.execute(HttpRequest.java:883)
+	at com.infineon.aurix.buildsystem.notification.NotificationService$NotificationGetJob.run(NotificationService.java:205)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-10-01 09:40:36.736
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project iLLD_TC375_ADS_FreeRTOS_Basic boosted in 2455 milliseconds. (full boost)
+
+!ENTRY com.infineon.aurix.buildsystem 4 0 2025-10-01 09:41:41.951
+!MESSAGE Element arch does not exist.
+!STACK 1
+C Model Exception: C Model Status [Element arch does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:159)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:276)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:525)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.findUsedLibraryHeaders(iLLDAligner.java:730)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.process(iLLDAligner.java:226)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.boost(BoosterBuilder.java:70)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.build(BoosterBuilder.java:58)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:594)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:490)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:288)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2025-10-01 09:41:41.952
+!MESSAGE Element arch does not exist.
+
+!ENTRY com.infineon.aurix.buildsystem.notification 4 0 2025-10-01 09:41:41.953
+!MESSAGE NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:892)
+	at com.google.api.client.util.Preconditions.checkNotNull(Preconditions.java:125)
+	at com.google.api.client.http.GenericUrl.buildAuthority(GenericUrl.java:389)
+	at com.google.api.client.http.GenericUrl.build(GenericUrl.java:374)
+	at com.google.api.client.http.HttpRequest.execute(HttpRequest.java:883)
+	at com.infineon.aurix.buildsystem.notification.NotificationService$NotificationGetJob.run(NotificationService.java:205)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-10-01 09:41:43.501
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project iLLD_TC375_ADS_FreeRTOS_Basic boosted in 2398 milliseconds. (full boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-10-01 10:01:26.086
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-10-01 10:01:26.090
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project iLLD_TC375_ADS_FreeRTOS_Basic boosted in 0 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 4 0 2025-10-01 10:15:09.346
+!MESSAGE Element arch does not exist.
+!STACK 1
+C Model Exception: C Model Status [Element arch does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:159)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:276)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:525)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.findUsedLibraryHeaders(iLLDAligner.java:730)
+	at com.infineon.aurix.buildsystem.build.booster.iLLDAligner.process(iLLDAligner.java:226)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.boost(BoosterBuilder.java:70)
+	at com.infineon.aurix.buildsystem.build.booster.BoosterBuilder.build(BoosterBuilder.java:58)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:594)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:490)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:288)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2025-10-01 10:15:09.346
+!MESSAGE Element arch does not exist.
+
+!ENTRY com.infineon.aurix.buildsystem.notification 4 0 2025-10-01 10:15:09.347
+!MESSAGE NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:892)
+	at com.google.api.client.util.Preconditions.checkNotNull(Preconditions.java:125)
+	at com.google.api.client.http.GenericUrl.buildAuthority(GenericUrl.java:389)
+	at com.google.api.client.http.GenericUrl.build(GenericUrl.java:374)
+	at com.google.api.client.http.HttpRequest.execute(HttpRequest.java:883)
+	at com.infineon.aurix.buildsystem.notification.NotificationService$NotificationGetJob.run(NotificationService.java:205)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-10-01 10:15:10.901
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project iLLD_TC375_ADS_FreeRTOS_Basic boosted in 2413 milliseconds. (full boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-10-01 10:18:38.791
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project iLLD_TC375_ADS_FreeRTOS_Basic boosted in 652 milliseconds. (incremental boost)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-10-01 10:31:14.727
+!MESSAGE Indexed 'iLLD_TC375_ADS_FreeRTOS_Basic' (202 sources, 920 headers) in 18.1 sec: 116,021 declarations; 200,328 references; 6 unresolved inclusions; 1,129 syntax errors; 1,269 unresolved names (0.4%)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-10-01 10:34:59.895
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project iLLD_TC375_ADS_FreeRTOS_Basic boosted in 3403 milliseconds. (full boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-10-01 10:41:56.226
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project iLLD_TC375_ADS_FreeRTOS_Basic boosted in 761 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-10-01 10:45:11.349
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project iLLD_TC375_ADS_FreeRTOS_Basic boosted in 2698 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-10-01 10:48:33.084
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project iLLD_TC375_ADS_FreeRTOS_Basic boosted in 2666 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-10-01 10:48:47.761
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project iLLD_TC375_ADS_FreeRTOS_Basic boosted in 3542 milliseconds. (full boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-10-01 10:51:01.150
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project iLLD_TC375_ADS_FreeRTOS_Basic boosted in 355 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-10-01 10:51:47.511
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-10-01 10:51:47.512
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project iLLD_TC375_ADS_FreeRTOS_Basic boosted in 0 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-10-01 10:52:24.537
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project iLLD_TC375_ADS_FreeRTOS_Basic boosted in 3159 milliseconds. (full boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-10-01 10:56:32.128
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project iLLD_TC375_ADS_FreeRTOS_Basic boosted in 2700 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-10-01 11:00:40.007
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project iLLD_TC375_ADS_FreeRTOS_Basic boosted in 473 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-10-01 11:10:55.132
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project iLLD_TC375_ADS_FreeRTOS_Basic boosted in 2980 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-10-01 11:17:45.302
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project iLLD_TC375_ADS_FreeRTOS_Basic boosted in 2572 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-10-01 11:19:45.376
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project iLLD_TC375_ADS_FreeRTOS_Basic boosted in 3606 milliseconds. (full boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-10-01 11:26:22.428
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project iLLD_TC375_ADS_FreeRTOS_Basic boosted in 3259 milliseconds. (full boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-10-01 11:41:04.277
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project iLLD_TC375_ADS_FreeRTOS_Basic boosted in 2736 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2025-10-01 11:46:01.075
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project iLLD_TC375_ADS_FreeRTOS_Basic boosted in 3173 milliseconds. (full boost)

@@ -35,49 +35,75 @@
  * \documents See README.md
  * \lastUpdated 2023-04-27
  *********************************************************************************************************************/
-//#include <Drivers.h>
-#include "IfxCpu.h"
-#include "IfxScuWdt.h"
-
-#include "App_Config.h"
+#include <Drivers.h>
 #include "FreeRTOS.h"
 #include "task.h"
+#include "App_Config.h"
+#include "echo_task.h"
+#include "Ifx_Lwip.h"
+// Forward declaration for the startup task
+void startup_task(void *pvParameters);
 
-#include "lwip/api.h"
+// Task for lwIP polling
+void lwip_polling_task(void *pvParameters)
+{
+    while (1)
+    {
+        Ifx_Lwip_pollTimerFlags();
+        Ifx_Lwip_pollReceiveFlags();
+        vTaskDelay(pdMS_TO_TICKS(1)); // Poll roughly every 1ms
+    }
+}
 
-// Global variable to store the task handle
-//TaskHandle_t g_ledTaskHandle = NULL;
-IFX_ALIGN(4) IfxCpu_syncEvent g_cpuSyncEvent2 = 0;
+// Global variable to store the task handle (optional, for debugging)
+TaskHandle_t g_ledTaskHandle = NULL;
+
 void core0_main(void)
 {
     // 1. Minimal hardware initialization
-    //System_Init();
+    System_Init();
+    my_printf("sys init\n");
 
-    // 2. Create ONLY the LED task and store its handle
-    IfxCpu_enableInterrupts();
+    // 2. Create the main startup task
+    xTaskCreate(startup_task, "StartupTask", configMINIMAL_STACK_SIZE * 8, NULL, tskIDLE_PRIORITY + 3, NULL);
 
-    /* !!WATCHDOG0 AND SAFETY WATCHDOG ARE DISABLED HERE!!
-     * Enable the watchdogs and service them periodically if it is required
-     */
-    IfxScuWdt_disableCpuWatchdog(IfxScuWdt_getCpuWatchdogPassword());
-    IfxScuWdt_disableSafetyWatchdog(IfxScuWdt_getSafetyWatchdogPassword());
-
-    /* Wait for CPU sync event */
-    IfxCpu_emitEvent(&g_cpuSyncEvent2);
-    IfxCpu_waitEvent(&g_cpuSyncEvent2, 1);
-
-    /* Create LED1 app task */
-    xTaskCreate(task_app_led1, "APP LED1", configMINIMAL_STACK_SIZE, NULL, 0, NULL);
-
-    /* Create LED2 app task */
-    //xTaskCreate(task_app_led2, "APP LED2", configMINIMAL_STACK_SIZE, NULL, 0, NULL);
-
-    /* Start the scheduler */
+    // 3. Start the scheduler. This is the LAST call in main.
     vTaskStartScheduler();
-    // The scheduler should never return. If it does, we loop here.
+
+    // The code below this line will not be reached
     while (1)
     {
     }
+}
+
+void startup_task(void *pvParameters)
+{
+    // This task runs after the scheduler has started.
+    // Now we can do complex initializations.
+
+//     1. Initialize lwIP
+    eth_addr_t ethAddr;
+    ethAddr.addr[0] = 0xDE;
+    ethAddr.addr[1] = 0xAD;
+    ethAddr.addr[2] = 0xBE;
+    ethAddr.addr[3] = 0xEF;
+    ethAddr.addr[4] = 0xFE;
+    ethAddr.addr[5] = 0xED;
+    Ifx_Lwip_init(ethAddr);
+    my_printf("lwIP Init Done\n");
+
+    // 2. Create all other application tasks
+    xTaskCreate(lwip_polling_task, "LwipPoll", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 2, NULL);
+    my_printf("Lwip Polling Task Created\n");
+
+    create_echo_task();
+    my_printf("Echo Task Created\n");
+
+    xTaskCreate(task_app_led1, "APP LED1", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1, &g_ledTaskHandle);
+    my_printf("LED Task Created\n");
+
+    // 3. Initialization is done, this task can be deleted.
+    vTaskDelete(NULL);
 }
 
 

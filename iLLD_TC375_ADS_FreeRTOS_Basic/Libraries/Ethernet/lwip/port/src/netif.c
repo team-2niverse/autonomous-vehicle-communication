@@ -92,6 +92,7 @@
 #include "netif/ppp/pppoe.h"
 
 #include "IfxGeth_Eth.h"
+#include "IfxGeth.h"
 #include "Ifx_Lwip.h"
 #include "Ifx_Netif.h"
 #include "IfxGeth_Phy_Dp83825i.h"

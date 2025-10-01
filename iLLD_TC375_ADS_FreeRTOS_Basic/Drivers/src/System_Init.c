@@ -39,7 +39,8 @@ void System_Init(void)
      * Step 3: Call all individual MCAL driver initialization functions
      * Enable them one by one for incremental testing.
      * ================================================================================== */
-    Stm_Init(); // STM 타이머가 다른 기능(예: 초음파)에 필요할 수 있으므로 먼저 초기화
+//    Stm_Init(); // STM 타이머가 다른 기능(예: 초음파)에 필요할 수 있으므로 먼저 초기화
+
     IfxGeth_enableModule(&MODULE_GETH);                     /* Enable Gigabit Ethernet Media Access Controller (GETH) module*/
 
     /* Basic I/O */
@@ -51,7 +52,7 @@ void System_Init(void)
 
     Gpt12_Gpt1_Init();
     Gpt12_Gpt2_Init();
-    Gtm_Atom_Pwm_Init();
+//    Gtm_Atom_Pwm_Init();
 
 
     /* Sensors */
@@ -60,7 +61,7 @@ void System_Init(void)
     // ToF_Sensor_Init(); // ToF 센서가 있다면 여기에 추가
 
     /* Actuators */
-    Motor_Init();
+    //Motor_Init();
 
     /* Communication */
     Asclin0_InitUart(); // UART

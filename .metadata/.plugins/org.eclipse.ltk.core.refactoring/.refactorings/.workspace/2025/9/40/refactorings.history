@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;iLLD_TC375_ADS_FreeRTOS_Basic/TC375_FreeRTOS_lwIP&apos;" deleteContents="false" description="Delete resource &apos;iLLD_TC375_ADS_FreeRTOS_Basic/TC375_FreeRTOS_lwIP&apos;" element1="/iLLD_TC375_ADS_FreeRTOS_Basic/TC375_FreeRTOS_lwIP" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1759276609698"/>
+</session>

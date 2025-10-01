@@ -170,6 +170,136 @@ Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehi
 "C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Ethernet\\lwip\\src\\include\lwip\errno.h" :
 Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h"
 "C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Ethernet\\lwip\\src\\include\lwip\opt.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Drivers\\include\Asclin.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Drivers\\include\Asclin.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Drivers\\include\Isr_Priority.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Drivers\\include\Isr_Priority.h" :
+Ifx_Lwip.o :	"C:\Infineon\AURIX-Studio-1.10.16\tools\Compilers\Tasking_1.1r8\ctc\include\string.h"
+"C:\Infineon\AURIX-Studio-1.10.16\tools\Compilers\Tasking_1.1r8\ctc\include\string.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\Ifx_reg.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\Ifx_reg.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxAsclin_reg.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxAsclin_reg.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxAsclin_regdef.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxAsclin_regdef.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxCan_reg.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxCan_reg.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxCan_regdef.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxCan_regdef.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxCcu6_reg.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxCcu6_reg.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxCcu6_regdef.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxCcu6_regdef.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxConverter_reg.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxConverter_reg.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxConverter_regdef.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxConverter_regdef.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxDma_reg.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxDma_reg.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxDma_regdef.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxDma_regdef.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxDom_reg.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxDom_reg.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxDom_regdef.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxDom_regdef.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEdsadc_reg.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEdsadc_reg.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEdsadc_regdef.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEdsadc_regdef.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEray_reg.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEray_reg.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEray_regdef.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEray_regdef.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEvadc_reg.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEvadc_reg.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEvadc_regdef.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEvadc_regdef.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxFce_reg.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxFce_reg.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxFce_regdef.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxFce_regdef.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxFsi_reg.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxFsi_reg.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxFsi_regdef.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxFsi_regdef.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxGpt12_reg.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxGpt12_reg.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxGpt12_regdef.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxGpt12_regdef.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxGtm_reg.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxGtm_reg.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxGtm_regdef.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxGtm_regdef.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxHsct_reg.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxHsct_reg.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxHsct_regdef.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxHsct_regdef.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxHssl_reg.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxHssl_reg.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxHssl_regdef.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxHssl_regdef.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxI2c_reg.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxI2c_reg.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxI2c_regdef.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxI2c_regdef.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxInt_reg.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxInt_reg.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxInt_regdef.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxInt_regdef.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxIom_reg.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxIom_reg.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxIom_regdef.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxIom_regdef.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMinimcds_reg.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMinimcds_reg.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMinimcds_regdef.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMinimcds_regdef.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMsc_reg.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMsc_reg.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMsc_regdef.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMsc_regdef.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMtu_reg.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMtu_reg.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMtu_regdef.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMtu_regdef.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPfi_reg.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPfi_reg.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPfi_regdef.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPfi_regdef.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPms_reg.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPms_reg.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPms_regdef.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPms_regdef.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPmu_reg.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPmu_reg.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPmu_regdef.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPmu_regdef.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPsi5_reg.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPsi5_reg.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPsi5_regdef.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPsi5_regdef.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPsi5s_reg.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPsi5s_reg.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPsi5s_regdef.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPsi5s_regdef.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxQspi_reg.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxQspi_reg.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxQspi_regdef.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxQspi_regdef.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxSbcu_reg.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxSbcu_reg.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxSbcu_regdef.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxSbcu_regdef.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxSent_reg.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxSent_reg.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxSent_regdef.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxSent_regdef.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxAsclin_bf.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxAsclin_bf.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\iLLD\\TC37A\\Tricore\\Scu\\Std\IfxScuWdt.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\iLLD\\TC37A\\Tricore\\Scu\\Std\IfxScuWdt.h" :
+Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\Libraries\Infra\Platform\Tricore\Compilers\CompilerTasking.h"
+"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\Libraries\Infra\Platform\Tricore\Compilers\CompilerTasking.h" :
 Ifx_Lwip.o :	"C:\Infineon\AURIX-Studio-1.10.16\tools\Compilers\Tasking_1.1r8\ctc\include\inttypes.h"
 "C:\Infineon\AURIX-Studio-1.10.16\tools\Compilers\Tasking_1.1r8\ctc\include\inttypes.h" :
 Ifx_Lwip.o :	"C:\Infineon\AURIX-Studio-1.10.16\tools\Compilers\Tasking_1.1r8\ctc\include\limits.h"
@@ -456,135 +586,5 @@ Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehi
 "C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\iLLD\\TC37A\\Tricore\Port\Std\IfxPort.h" :
 Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Configurations\ConfigurationIsr.h"
 "C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Configurations\ConfigurationIsr.h" :
-Ifx_Lwip.o :	"C:\Infineon\AURIX-Studio-1.10.16\tools\Compilers\Tasking_1.1r8\ctc\include\string.h"
-"C:\Infineon\AURIX-Studio-1.10.16\tools\Compilers\Tasking_1.1r8\ctc\include\string.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Drivers\\include\Asclin.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Drivers\\include\Asclin.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Drivers\\include\Isr_Priority.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Drivers\\include\Isr_Priority.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\Ifx_reg.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\Ifx_reg.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxAsclin_reg.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxAsclin_reg.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxAsclin_regdef.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxAsclin_regdef.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxCan_reg.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxCan_reg.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxCan_regdef.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxCan_regdef.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxCcu6_reg.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxCcu6_reg.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxCcu6_regdef.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxCcu6_regdef.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxConverter_reg.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxConverter_reg.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxConverter_regdef.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxConverter_regdef.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxDma_reg.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxDma_reg.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxDma_regdef.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxDma_regdef.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxDom_reg.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxDom_reg.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxDom_regdef.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxDom_regdef.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEdsadc_reg.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEdsadc_reg.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEdsadc_regdef.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEdsadc_regdef.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEray_reg.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEray_reg.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEray_regdef.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEray_regdef.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEvadc_reg.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEvadc_reg.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEvadc_regdef.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxEvadc_regdef.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxFce_reg.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxFce_reg.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxFce_regdef.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxFce_regdef.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxFsi_reg.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxFsi_reg.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxFsi_regdef.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxFsi_regdef.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxGpt12_reg.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxGpt12_reg.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxGpt12_regdef.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxGpt12_regdef.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxGtm_reg.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxGtm_reg.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxGtm_regdef.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxGtm_regdef.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxHsct_reg.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxHsct_reg.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxHsct_regdef.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxHsct_regdef.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxHssl_reg.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxHssl_reg.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxHssl_regdef.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxHssl_regdef.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxI2c_reg.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxI2c_reg.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxI2c_regdef.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxI2c_regdef.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxInt_reg.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxInt_reg.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxInt_regdef.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxInt_regdef.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxIom_reg.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxIom_reg.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxIom_regdef.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxIom_regdef.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMinimcds_reg.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMinimcds_reg.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMinimcds_regdef.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMinimcds_regdef.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMsc_reg.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMsc_reg.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMsc_regdef.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMsc_regdef.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMtu_reg.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMtu_reg.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMtu_regdef.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxMtu_regdef.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPfi_reg.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPfi_reg.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPfi_regdef.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPfi_regdef.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPms_reg.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPms_reg.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPms_regdef.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPms_regdef.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPmu_reg.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPmu_reg.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPmu_regdef.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPmu_regdef.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPsi5_reg.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPsi5_reg.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPsi5_regdef.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPsi5_regdef.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPsi5s_reg.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPsi5s_reg.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPsi5s_regdef.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxPsi5s_regdef.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxQspi_reg.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxQspi_reg.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxQspi_regdef.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxQspi_regdef.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxSbcu_reg.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxSbcu_reg.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxSbcu_regdef.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxSbcu_regdef.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxSent_reg.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxSent_reg.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxSent_regdef.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxSent_regdef.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxAsclin_bf.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxAsclin_bf.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\iLLD\\TC37A\\Tricore\\Scu\\Std\IfxScuWdt.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Libraries\\iLLD\\TC37A\\Tricore\\Scu\\Std\IfxScuWdt.h" :
-Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\Libraries\Infra\Platform\Tricore\Compilers\CompilerTasking.h"
-"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\Libraries\Infra\Platform\Tricore\Compilers\CompilerTasking.h" :
 Ifx_Lwip.o :	"C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Configurations\Configuration.h"
 "C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\iLLD_TC375_ADS_FreeRTOS_Basic\\Configurations\Configuration.h" :

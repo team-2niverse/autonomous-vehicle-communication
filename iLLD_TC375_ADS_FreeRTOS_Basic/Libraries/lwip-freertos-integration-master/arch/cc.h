@@ -5,16 +5,47 @@
 #include "FreeRTOS.h"
 #include "task.h"
 
+#define LWIP_NO_STDINT_H 1
+
+#include <Cpu/Std/Ifx_Types.h>
+#include "lwipopts.h"
+
+typedef uint8  u8_t;
+typedef uint16 u16_t;
+typedef uint32 u32_t;
+typedef sint8  s8_t;
+typedef sint16 s16_t;
+typedef sint32 s32_t;
+
+typedef u32_t  mem_ptr_t;
+
+/* printf formatters for data types */
+#define U16_F              "u"
+#define S16_F              "d"
+#define X16_F              "x"
+#define U32_F              "u"
+#define S32_F              "d"
+#define X32_F              "x"
+#define SZT_F              "zu"
+
+
 /* Include standard C headers */
 #include <stdio.h>
 #include <stdlib.h>
 #include <errno.h>
-
+#include "Asclin.h"
 /* Define platform-specific diagnostic output. */
-#define LWIP_PLATFORM_DIAG(x) do {printf x;} while(0)
-/* Define platform-specific assertions. */
-#define LWIP_PLATFORM_ASSERT(x)  do {printf("Assertion \"%s\" failed at line %d in %s\n", \
-                                     x, __LINE__, __FILE__); abort();} while(0)
+//#define LWIP_PLATFORM_DIAG(x) do {my_printf x;} while(0)
+///* Define platform-specific assertions. */
+//#define LWIP_PLATFORM_ASSERT(x)  do {my_printf("Assertion \"%s\" failed at line %d in %s\n", \
+//                                     x, __LINE__, __FILE__); abort();} while(0)
+
+
+s8_t Ifx_Lwip_printf(const char *s, ...);
+#define LWIP_PLATFORM_ASSERT(msg)                                                           \
+    Ifx_Lwip_printf("Assertion \"%s\" failed at line %d in %s\n", msg, __LINE__, __FILE__); \
+    abort()
+#define LWIP_PLATFORM_DIAG(msg)   Ifx_Lwip_printf msg
 
 /* ---------- PACKING OPTIONS for different compilers ---------- */
 #if defined(__GNUC__) || defined(__DCC__)

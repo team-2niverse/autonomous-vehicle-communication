@@ -57,7 +57,7 @@
 #define LWIP_DHCP               0                   /* Disable DHCP protocol                                                 */
 #define LWIP_NETCONN            1                   /* Enable Netconn API                                                   */
 #define LWIP_SOCKET             1                   /* Enable the Socket API                                                */
-#define SYS_LIGHTWEIGHT_PROT    1
+#define SYS_LIGHTWEIGHT_PROT    0
 #define LWIP_PROVIDE_ERRNO      1                   /* Enable inter-task protection (using semaphores)                      */
 
 
