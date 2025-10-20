@@ -1,0 +1,29 @@
+{
+    "unicast" : "192.168.2.10",
+    "netmask" : "255.255.255.0",
+    "logging" :
+    {
+        "level" : "debug",
+        "console" : "true"
+    },
+    "applications" :
+    [
+        {
+            "name" : "ControlClient",
+            "id" : "0x1343"
+        }
+    ],
+    "services" :
+    [
+        {
+            "service" : "0x0100",
+            "instance" : "0x0001",
+            "unicast" : "192.168.2.20",
+            "unreliable" : "30509"
+        }
+    ],
+    "service-discovery" :
+    {
+        "enable" : "false"
+    }
+}
