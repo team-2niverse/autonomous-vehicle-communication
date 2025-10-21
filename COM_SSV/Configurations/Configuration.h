@@ -59,6 +59,7 @@
 #define PN_SD                           30490U                  // Ethernet Port Number: SOME/IP-SD (Fixed value)
 #define PN_SERVICE_1                    30509U                  // Ethernet Port Number: SOME/IP_service (User Definable)
 #define PN_SOMEIPSD                     30490U
+#define PN_EVENT                        30510U
 #define ETH_SOMEIP_PROT_VER             0x01                    // Ethernet SOME/IP Protocol Version
 #define ETH_SOMEIP_IFACE_VER            0x01                    // Ethernet SOME/IP Service Interface Version
 

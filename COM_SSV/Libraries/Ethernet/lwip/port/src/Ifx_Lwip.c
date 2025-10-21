@@ -69,6 +69,7 @@
 #define IFX_LWIP_DHCP_COARSE_PERIOD (DHCP_COARSE_TIMER_MSECS / IFX_LWIP_TIMER_TICK_MS)
 #define IFX_LWIP_DHCP_FINE_PERIOD   (DHCP_FINE_TIMER_MSECS / IFX_LWIP_TIMER_TICK_MS)
 #define IFX_LWIP_LINK_PERIOD        (100U / IFX_LWIP_TIMER_TICK_MS) /* 100 ms */
+#define IFX_LWIP_EVENT_PERIOD        (100U / IFX_LWIP_TIMER_TICK_MS) /* 100 ms */
 
 #define IFX_LWIP_FLAG_ARP           (1U << 1)
 #define IFX_LWIP_FLAG_TCP_FAST      (1U << 2)
@@ -76,7 +77,7 @@
 #define IFX_LWIP_FLAG_LINK          (1U << 4)
 #define IFX_LWIP_FLAG_DHCP_COARSE   (1U << 5)
 #define IFX_LWIP_FLAG_DHCP_FINE     (1U << 6)
-
+#define IFX_LWIP_FLAG_EVENT         (1U << 7)
 /******************************************************************************/
 /*--------------------------------Enumerations--------------------------------*/
 /******************************************************************************/
@@ -257,11 +258,13 @@ void Ifx_Lwip_onTimerTick(void)
 #endif
 
     Ifx_Lwip_timerIncr(lwip->timer.link, IFX_LWIP_LINK_PERIOD, IFX_LWIP_FLAG_LINK);
+    Ifx_Lwip_timerIncr(lwip->timer.event, IFX_LWIP_EVENT_PERIOD, IFX_LWIP_FLAG_EVENT); // 100ms event timer
 
     lwip->timerFlags = timerFlags;
 }
 
-
+int SOMEIP_CheckSubscribers(int i); //전방선언
+void SOMEIP_SendEvent(int i);      //전방선언
 /** \brief Polling the timer event flags */
 void Ifx_Lwip_pollTimerFlags(void)
 {
@@ -341,6 +344,18 @@ void Ifx_Lwip_pollTimerFlags(void)
     		netif_set_link_up(&g_Lwip.netif);
     	}
     }
+    if (timerFlags & IFX_LWIP_FLAG_EVENT)
+    {
+        //Calc_RPM();
+        /* only if we have a link we will check the arp */
+        if (g_Lwip.netif.flags & NETIF_FLAG_LINK_UP){
+            for (int i=0 ; i < 2 ; i++ )
+            {
+                if (SOMEIP_CheckSubscribers(i))
+                    SOMEIP_SendEvent(i);
+            }
+        }
+    }
 }
 
 
@@ -396,6 +411,10 @@ void Ifx_Lwip_init(eth_addr_t ethAddr, ip_addr_t ipAddr)
     netif_add(&g_Lwip.netif, &ipAddr, &default_netmask, NULL,
         (void *)0, ifx_netif_init, ethernet_input);
     netif_set_default(&g_Lwip.netif);
+
+    g_Lwip.netif.flags |= NETIF_FLAG_IGMP;
+    igmp_start(&g_Lwip.netif);
+
     netif_set_up(&g_Lwip.netif);
 
 #if LWIP_NETIF_HOSTNAME
@@ -414,6 +433,23 @@ void Ifx_Lwip_init(eth_addr_t ethAddr, ip_addr_t ipAddr)
     netif_add_ext_callback(&g_extCallback, netif_state_changed);
 #endif
     LWIP_DEBUGF(IFX_LWIP_DEBUG, ("Ifx_Lwip_init end!\n"));
+
+#if LWIP_IGMP
+    ip_addr_t multicast_ip;
+    IP4_ADDR(&multicast_ip, 224, 224, 224, 245); // 예시 멀티캐스트 그룹 주소
+
+    err_t err = igmp_joingroup(&ipAddr, &multicast_ip);
+    if (err == ERR_OK) {
+        LWIP_DEBUGF(IFX_LWIP_DEBUG, ("IGMP Join!\n"));
+        // 성공: 해당 그룹의 멀티캐스트 패킷을 받을 준비가 됨
+        //my_printf("IGMP Group Joined: 224.224.224.245 \n");
+
+    } else {
+        LWIP_DEBUGF(IFX_LWIP_DEBUG, ("IGMP Fail!\n"));
+        // 실패: 오류 처리
+        //my_printf("IGMP Group Join Failed: %d\n", err);
+    }
+#endif
 }
 
 /** Returns the current time in milliseconds,

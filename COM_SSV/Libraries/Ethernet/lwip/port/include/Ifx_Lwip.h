@@ -110,6 +110,7 @@ typedef struct
         uint16 tcp_fast;
         uint16 tcp_slow;
         uint16 link;
+        uint16 event;
     }               timer;
 
     volatile uint16 timerFlags;

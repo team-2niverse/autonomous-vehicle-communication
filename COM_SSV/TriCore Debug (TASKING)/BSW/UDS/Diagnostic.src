@@ -1,0 +1,2526 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\cc26788a --dep-file=BSW/UDS/Diagnostic.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc37x -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\BSW -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\BSW\\\\CAN -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\BSW\\\\DOIP -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\BSW\\\\ENCODER -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\BSW\\\\GETH -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\BSW\\\\GTM_ATOM_PWM -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\BSW\\\\ISR -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\BSW\\\\LED -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\BSW\\\\MOTOR -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\BSW\\\\SOMEIP -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\BSW\\\\SOTA -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\BSW\\\\STM -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\BSW\\\\SYS -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\BSW\\\\TOF -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\BSW\\\\UDS -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\BSW\\\\ULTRASONIC -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Configurations -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\Ethernet -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\Ethernet\\\\Phy_Dp83825i -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\Ethernet\\\\lwip -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\Ethernet\\\\lwip\\\\port -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include\\\\arch -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\arpa -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\net -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\sys -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\stdc -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\apps -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\priv -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\prot -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif\\\\ppp -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif\\\\ppp\\\\polarssl -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\Infra -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\Service -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Comm -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\UART -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\iLLD\\\\TC37A -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Can -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Std -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Flash -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Flash\\\\Std -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Eth -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Std -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o BSW/UDS/Diagnostic.src ../BSW/UDS/Diagnostic.c"
+	.compiler_name		"ctc"
+	;source	'../BSW/UDS/Diagnostic.c'
+
+	
+$TC162
+	
+	.sdecl	'.text.Diagnostic.DTC_Manager_Init',code,cluster('DTC_Manager_Init')
+	.sect	'.text.Diagnostic.DTC_Manager_Init'
+	.align	2
+	
+	.global	DTC_Manager_Init
+; Function DTC_Manager_Init
+.L45:
+DTC_Manager_Init:	.type	func
+	movh.a	a15,#@his(DTC_memory)
+	lea	a15,[a15]@los(DTC_memory)
+.L213:
+	mov	d15,#4371
+	addih	d15,d15,#154
+.L214:
+	st.w	[a15],d15
+.L215:
+	movh.a	a15,#@his(DTC_memory)
+	lea	a15,[a15]@los(DTC_memory)
+.L216:
+	mov	d15,#0
+.L217:
+	st.b	[a15]4,d15
+.L218:
+	movh.a	a15,#@his(DTC_memory)
+	lea	a15,[a15]@los(DTC_memory)
+.L219:
+	mov	d15,#4627
+	addih	d15,d15,#154
+.L220:
+	st.w	[a15]6,d15
+.L221:
+	movh.a	a15,#@his(DTC_memory)
+	lea	a15,[a15]@los(DTC_memory)
+.L222:
+	mov	d15,#0
+.L223:
+	st.b	[a15]10,d15
+.L224:
+	movh.a	a15,#@his(DTC_memory)
+	lea	a15,[a15]@los(DTC_memory)
+.L225:
+	mov	d15,#4883
+	addih	d15,d15,#154
+.L226:
+	st.w	[a15]12,d15
+.L227:
+	movh.a	a15,#@his(DTC_memory)
+	lea	a15,[a15]@los(DTC_memory)
+.L228:
+	mov	d15,#0
+.L229:
+	st.b	[a15]16,d15
+.L230:
+	movh.a	a15,#@his(DTC_memory)
+	lea	a15,[a15]@los(DTC_memory)
+.L231:
+	mov	d15,#12563
+	addih	d15,d15,#91
+.L232:
+	st.w	[a15]18,d15
+.L233:
+	movh.a	a15,#@his(DTC_memory)
+	lea	a15,[a15]@los(DTC_memory)
+.L234:
+	mov	d15,#0
+.L235:
+	st.b	[a15]22,d15
+.L236:
+	movh.a	a15,#@his(DTC_memory)
+	lea	a15,[a15]@los(DTC_memory)
+.L237:
+	mov	d15,#13587
+	addih	d15,d15,#64
+.L238:
+	st.w	[a15]24,d15
+.L239:
+	movh.a	a15,#@his(DTC_memory)
+	lea	a15,[a15]@los(DTC_memory)
+.L240:
+	mov	d15,#0
+.L241:
+	st.b	[a15]28,d15
+.L242:
+	movh.a	a15,#@his(DTC_memory)
+	lea	a15,[a15]@los(DTC_memory)
+.L243:
+	mov	d15,#16403
+	addih	d15,d15,#64
+.L244:
+	st.w	[a15]30,d15
+.L245:
+	movh.a	a15,#@his(DTC_memory)
+	lea	a15,[a15]@los(DTC_memory)
+.L246:
+	mov	d15,#0
+.L247:
+	st.b	[a15]34,d15
+.L248:
+	ret
+.L168:
+	
+__DTC_Manager_Init_function_end:
+	.size	DTC_Manager_Init,__DTC_Manager_Init_function_end-DTC_Manager_Init
+.L84:
+	; End of function
+	
+	.sdecl	'.text.Diagnostic.DTC_Manager_Setting',code,cluster('DTC_Manager_Setting')
+	.sect	'.text.Diagnostic.DTC_Manager_Setting'
+	.align	2
+	
+	.global	DTC_Manager_Setting
+; Function DTC_Manager_Setting
+.L47:
+DTC_Manager_Setting:	.type	func
+	jne	d4,#1,.L2
+.L253:
+	movh.a	a15,#@his(DTC_Setting_Flag)
+	lea	a15,[a15]@los(DTC_Setting_Flag)
+.L254:
+	mov	d15,#1
+.L255:
+	st.b	[a15],d15
+.L256:
+	j	.L3
+.L2:
+	movh.a	a15,#@his(DTC_Setting_Flag)
+	lea	a15,[a15]@los(DTC_Setting_Flag)
+.L257:
+	mov	d15,#0
+.L258:
+	st.b	[a15],d15
+.L3:
+	ret
+.L169:
+	
+__DTC_Manager_Setting_function_end:
+	.size	DTC_Manager_Setting,__DTC_Manager_Setting_function_end-DTC_Manager_Setting
+.L89:
+	; End of function
+	
+	.sdecl	'.text.Diagnostic.DTC_Manager_Clear',code,cluster('DTC_Manager_Clear')
+	.sect	'.text.Diagnostic.DTC_Manager_Clear'
+	.align	2
+	
+	.global	DTC_Manager_Clear
+; Function DTC_Manager_Clear
+.L49:
+DTC_Manager_Clear:	.type	func
+	mov	d0,#0
+.L202:
+	j	.L4
+.L5:
+	mul	d15,d0,#6
+.L263:
+	movh.a	a15,#@his(DTC_memory)
+	lea	a15,[a15]@los(DTC_memory)
+.L264:
+	addsc.a	a15,a15,d15,#0
+.L265:
+	mov	d15,#0
+.L266:
+	st.b	[a15]4,d15
+.L267:
+	add	d0,#1
+.L4:
+	jlt	d0,#6,.L5
+.L173:
+	ret
+.L172:
+	
+__DTC_Manager_Clear_function_end:
+	.size	DTC_Manager_Clear,__DTC_Manager_Clear_function_end-DTC_Manager_Clear
+.L94:
+	; End of function
+	
+	.sdecl	'.text.Diagnostic.DTC_Manager_Update',code,cluster('DTC_Manager_Update')
+	.sect	'.text.Diagnostic.DTC_Manager_Update'
+	.align	2
+	
+	.global	DTC_Manager_Update
+; Function DTC_Manager_Update
+.L51:
+DTC_Manager_Update:	.type	func
+	movh.a	a15,#@his(DTC_Setting_Flag)
+	lea	a15,[a15]@los(DTC_Setting_Flag)
+	ld.bu	d15,[a15]
+.L272:
+	jeq	d15,#0,.L6
+.L273:
+	call	Check_Ultrasonic_Left_Fault
+.L274:
+	jeq	d2,#0,.L7
+.L275:
+	movh.a	a15,#@his(DTC_memory)
+	lea	a15,[a15]@los(DTC_memory)
+	movh.a	a2,#@his(DTC_memory)
+	lea	a2,[a2]@los(DTC_memory)
+.L276:
+	ld.bu	d15,[a2]4
+.L277:
+	or	d15,#8
+	st.b	[a15]4,d15
+.L7:
+	call	Check_Ultrasonic_Right_Fault
+.L278:
+	jeq	d2,#0,.L8
+.L279:
+	movh.a	a15,#@his(DTC_memory)
+	lea	a15,[a15]@los(DTC_memory)
+	movh.a	a2,#@his(DTC_memory)
+	lea	a2,[a2]@los(DTC_memory)
+.L280:
+	ld.bu	d15,[a2]10
+.L281:
+	or	d15,#8
+	st.b	[a15]10,d15
+.L8:
+	call	Check_Ultrasonic_Back_Fault
+.L282:
+	jeq	d2,#0,.L9
+.L283:
+	movh.a	a15,#@his(DTC_memory)
+	lea	a15,[a15]@los(DTC_memory)
+	movh.a	a2,#@his(DTC_memory)
+	lea	a2,[a2]@los(DTC_memory)
+.L284:
+	ld.bu	d15,[a2]16
+.L285:
+	or	d15,#8
+	st.b	[a15]16,d15
+.L9:
+	call	Check_ToF_Fault
+.L286:
+	jeq	d2,#0,.L10
+.L287:
+	movh.a	a15,#@his(DTC_memory)
+	lea	a15,[a15]@los(DTC_memory)
+	movh.a	a2,#@his(DTC_memory)
+	lea	a2,[a2]@los(DTC_memory)
+.L288:
+	ld.bu	d15,[a2]22
+.L289:
+	or	d15,#8
+	st.b	[a15]22,d15
+.L10:
+	call	Check_Encoder_Left_Fault
+.L290:
+	jeq	d2,#0,.L11
+.L291:
+	movh.a	a15,#@his(DTC_memory)
+	lea	a15,[a15]@los(DTC_memory)
+	movh.a	a2,#@his(DTC_memory)
+	lea	a2,[a2]@los(DTC_memory)
+.L292:
+	ld.bu	d15,[a2]28
+.L293:
+	or	d15,#8
+	st.b	[a15]28,d15
+.L11:
+	call	Check_Encoder_Right_Fault
+.L294:
+	jeq	d2,#0,.L12
+.L295:
+	movh.a	a15,#@his(DTC_memory)
+	lea	a15,[a15]@los(DTC_memory)
+	movh.a	a2,#@his(DTC_memory)
+	lea	a2,[a2]@los(DTC_memory)
+.L296:
+	ld.bu	d15,[a2]34
+.L297:
+	or	d15,#8
+	st.b	[a15]34,d15
+.L12:
+.L6:
+	ret
+.L175:
+	
+__DTC_Manager_Update_function_end:
+	.size	DTC_Manager_Update,__DTC_Manager_Update_function_end-DTC_Manager_Update
+.L99:
+	; End of function
+	
+	.sdecl	'.text.Diagnostic.DTC_Manager_Count',code,cluster('DTC_Manager_Count')
+	.sect	'.text.Diagnostic.DTC_Manager_Count'
+	.align	2
+	
+	.global	DTC_Manager_Count
+; Function DTC_Manager_Count
+.L53:
+DTC_Manager_Count:	.type	func
+	mov	d2,#0
+.L179:
+	mov	d0,#0
+.L204:
+	j	.L13
+.L14:
+	mul	d15,d0,#6
+.L302:
+	movh.a	a15,#@his(DTC_memory)
+	lea	a15,[a15]@los(DTC_memory)
+.L303:
+	addsc.a	a15,a15,d15,#0
+.L304:
+	ld.bu	d15,[a15]4
+.L305:
+	jeq	d15,#0,.L15
+.L306:
+	add	d2,#1
+.L203:
+	extr.u	d2,d2,#0,#16
+.L15:
+	add	d0,#1
+.L13:
+	jlt	d0,#6,.L14
+.L180:
+	j	.L16
+.L16:
+	ret
+.L177:
+	
+__DTC_Manager_Count_function_end:
+	.size	DTC_Manager_Count,__DTC_Manager_Count_function_end-DTC_Manager_Count
+.L104:
+	; End of function
+	
+	.sdecl	'.text.Diagnostic.DTC_Manager_Check',code,cluster('DTC_Manager_Check')
+	.sect	'.text.Diagnostic.DTC_Manager_Check'
+	.align	2
+	
+	.global	DTC_Manager_Check
+; Function DTC_Manager_Check
+.L55:
+DTC_Manager_Check:	.type	func
+	mul	d15,d4,#6
+.L311:
+	movh.a	a15,#@his(DTC_memory)
+	lea	a15,[a15]@los(DTC_memory)
+.L312:
+	addsc.a	a15,a15,d15,#0
+.L313:
+	ld.bu	d15,[a15]4
+.L314:
+	jeq	d15,#0,.L17
+.L315:
+	mul	d15,d4,#6
+.L316:
+	movh.a	a15,#@his(DTC_memory)
+	lea	a15,[a15]@los(DTC_memory)
+.L317:
+	addsc.a	a15,a15,d15,#0
+.L318:
+	ld.w	d15,[a15]
+.L319:
+	sh	d2,d15,#8
+.L320:
+	mul	d15,d4,#6
+.L321:
+	movh.a	a15,#@his(DTC_memory)
+	lea	a15,[a15]@los(DTC_memory)
+.L322:
+	addsc.a	a15,a15,d15,#0
+.L323:
+	ld.bu	d15,[a15]4
+.L324:
+	or	d2,d15
+.L325:
+	j	.L18
+.L17:
+	mov	d2,#0
+.L326:
+	j	.L19
+.L19:
+.L18:
+	ret
+.L183:
+	
+__DTC_Manager_Check_function_end:
+	.size	DTC_Manager_Check,__DTC_Manager_Check_function_end-DTC_Manager_Check
+.L109:
+	; End of function
+	
+	.sdecl	'.text.Diagnostic.Check_Ultrasonic_Left_Fault',code,cluster('Check_Ultrasonic_Left_Fault')
+	.sect	'.text.Diagnostic.Check_Ultrasonic_Left_Fault'
+	.align	2
+	
+	.global	Check_Ultrasonic_Left_Fault
+; Function Check_Ultrasonic_Left_Fault
+.L57:
+Check_Ultrasonic_Left_Fault:	.type	func
+	call	Stm_Get_Time_Us
+.L357:
+	mov	e8,d3,d2
+.L358:
+	call	Ultrasonic_Get_Start_Left
+.L359:
+	subx	d0,d8,d2
+	subc	d1,d9,d3
+.L360:
+	mov.u	d2,#16960
+	addih	d2,d2,#15
+	mov	d3,#0
+.L361:
+	ge.u	d15,d2,d0
+	and.eq	d15,d1,d3
+	or.lt.u	d15,d1,d3
+.L362:
+	jne	d15,#0,.L20
+.L363:
+	mov	d2,#1
+.L364:
+	j	.L21
+.L20:
+	mov	d2,#0
+.L365:
+	j	.L22
+.L22:
+.L21:
+	ret
+.L189:
+	
+__Check_Ultrasonic_Left_Fault_function_end:
+	.size	Check_Ultrasonic_Left_Fault,__Check_Ultrasonic_Left_Fault_function_end-Check_Ultrasonic_Left_Fault
+.L134:
+	; End of function
+	
+	.sdecl	'.text.Diagnostic.Check_Ultrasonic_Right_Fault',code,cluster('Check_Ultrasonic_Right_Fault')
+	.sect	'.text.Diagnostic.Check_Ultrasonic_Right_Fault'
+	.align	2
+	
+	.global	Check_Ultrasonic_Right_Fault
+; Function Check_Ultrasonic_Right_Fault
+.L59:
+Check_Ultrasonic_Right_Fault:	.type	func
+	call	Stm_Get_Time_Us
+.L370:
+	mov	e8,d3,d2
+.L371:
+	call	Ultrasonic_Get_Start_Right
+.L372:
+	subx	d0,d8,d2
+	subc	d1,d9,d3
+.L373:
+	mov.u	d2,#16960
+	addih	d2,d2,#15
+	mov	d3,#0
+.L374:
+	ge.u	d15,d2,d0
+	and.eq	d15,d1,d3
+	or.lt.u	d15,d1,d3
+.L375:
+	jne	d15,#0,.L23
+.L376:
+	mov	d2,#1
+.L377:
+	j	.L24
+.L23:
+	mov	d2,#0
+.L378:
+	j	.L25
+.L25:
+.L24:
+	ret
+.L192:
+	
+__Check_Ultrasonic_Right_Fault_function_end:
+	.size	Check_Ultrasonic_Right_Fault,__Check_Ultrasonic_Right_Fault_function_end-Check_Ultrasonic_Right_Fault
+.L139:
+	; End of function
+	
+	.sdecl	'.text.Diagnostic.Check_Ultrasonic_Back_Fault',code,cluster('Check_Ultrasonic_Back_Fault')
+	.sect	'.text.Diagnostic.Check_Ultrasonic_Back_Fault'
+	.align	2
+	
+	.global	Check_Ultrasonic_Back_Fault
+; Function Check_Ultrasonic_Back_Fault
+.L61:
+Check_Ultrasonic_Back_Fault:	.type	func
+	call	Stm_Get_Time_Us
+.L383:
+	mov	e8,d3,d2
+.L384:
+	call	Ultrasonic_Get_Start_Back
+.L385:
+	subx	d0,d8,d2
+	subc	d1,d9,d3
+.L386:
+	mov.u	d2,#16960
+	addih	d2,d2,#15
+	mov	d3,#0
+.L387:
+	ge.u	d15,d2,d0
+	and.eq	d15,d1,d3
+	or.lt.u	d15,d1,d3
+.L388:
+	jne	d15,#0,.L26
+.L389:
+	mov	d2,#1
+.L390:
+	j	.L27
+.L26:
+	mov	d2,#0
+.L391:
+	j	.L28
+.L28:
+.L27:
+	ret
+.L194:
+	
+__Check_Ultrasonic_Back_Fault_function_end:
+	.size	Check_Ultrasonic_Back_Fault,__Check_Ultrasonic_Back_Fault_function_end-Check_Ultrasonic_Back_Fault
+.L144:
+	; End of function
+	
+	.sdecl	'.text.Diagnostic.Check_ToF_Fault',code,cluster('Check_ToF_Fault')
+	.sect	'.text.Diagnostic.Check_ToF_Fault'
+	.align	2
+	
+	.global	Check_ToF_Fault
+; Function Check_ToF_Fault
+.L63:
+Check_ToF_Fault:	.type	func
+	call	Stm_Get_Time_Us
+.L396:
+	mov	e8,d3,d2
+.L397:
+	call	Tof_getTofTime
+.L398:
+	subx	d0,d8,d2
+	subc	d1,d9,d3
+.L399:
+	mov.u	d2,#16960
+	addih	d2,d2,#15
+	mov	d3,#0
+.L400:
+	ge.u	d15,d2,d0
+	and.eq	d15,d1,d3
+	or.lt.u	d15,d1,d3
+.L401:
+	jne	d15,#0,.L29
+.L402:
+	mov	d2,#1
+.L403:
+	j	.L30
+.L29:
+	mov	d2,#0
+.L404:
+	j	.L31
+.L31:
+.L30:
+	ret
+.L196:
+	
+__Check_ToF_Fault_function_end:
+	.size	Check_ToF_Fault,__Check_ToF_Fault_function_end-Check_ToF_Fault
+.L149:
+	; End of function
+	
+	.sdecl	'.text.Diagnostic.Encoder_Fault_Left_Init',code,cluster('Encoder_Fault_Left_Init')
+	.sect	'.text.Diagnostic.Encoder_Fault_Left_Init'
+	.align	2
+	
+	.global	Encoder_Fault_Left_Init
+; Function Encoder_Fault_Left_Init
+.L65:
+Encoder_Fault_Left_Init:	.type	func
+	movh.a	a15,#@his(Encoder_Fault_Left_Cnt)
+	lea	a15,[a15]@los(Encoder_Fault_Left_Cnt)
+.L331:
+	mov	d15,#0
+.L332:
+	st.h	[a15],d15
+.L333:
+	ret
+.L185:
+	
+__Encoder_Fault_Left_Init_function_end:
+	.size	Encoder_Fault_Left_Init,__Encoder_Fault_Left_Init_function_end-Encoder_Fault_Left_Init
+.L114:
+	; End of function
+	
+	.sdecl	'.text.Diagnostic.Encoder_Fault_Right_Init',code,cluster('Encoder_Fault_Right_Init')
+	.sect	'.text.Diagnostic.Encoder_Fault_Right_Init'
+	.align	2
+	
+	.global	Encoder_Fault_Right_Init
+; Function Encoder_Fault_Right_Init
+.L67:
+Encoder_Fault_Right_Init:	.type	func
+	movh.a	a15,#@his(Encoder_Fault_Right_Cnt)
+	lea	a15,[a15]@los(Encoder_Fault_Right_Cnt)
+.L338:
+	mov	d15,#0
+.L339:
+	st.h	[a15],d15
+.L340:
+	ret
+.L186:
+	
+__Encoder_Fault_Right_Init_function_end:
+	.size	Encoder_Fault_Right_Init,__Encoder_Fault_Right_Init_function_end-Encoder_Fault_Right_Init
+.L119:
+	; End of function
+	
+	.sdecl	'.text.Diagnostic.Encoder_Fault_Left_Inc',code,cluster('Encoder_Fault_Left_Inc')
+	.sect	'.text.Diagnostic.Encoder_Fault_Left_Inc'
+	.align	2
+	
+	.global	Encoder_Fault_Left_Inc
+; Function Encoder_Fault_Left_Inc
+.L69:
+Encoder_Fault_Left_Inc:	.type	func
+	movh.a	a15,#@his(Encoder_Fault_Left_Cnt)
+	lea	a15,[a15]@los(Encoder_Fault_Left_Cnt)
+	movh.a	a2,#@his(Encoder_Fault_Left_Cnt)
+	lea	a2,[a2]@los(Encoder_Fault_Left_Cnt)
+	ld.hu	d15,[a2]0
+.L345:
+	add	d15,#1
+	st.h	[a15],d15
+.L346:
+	ret
+.L187:
+	
+__Encoder_Fault_Left_Inc_function_end:
+	.size	Encoder_Fault_Left_Inc,__Encoder_Fault_Left_Inc_function_end-Encoder_Fault_Left_Inc
+.L124:
+	; End of function
+	
+	.sdecl	'.text.Diagnostic.Encoder_Fault_Right_Inc',code,cluster('Encoder_Fault_Right_Inc')
+	.sect	'.text.Diagnostic.Encoder_Fault_Right_Inc'
+	.align	2
+	
+	.global	Encoder_Fault_Right_Inc
+; Function Encoder_Fault_Right_Inc
+.L71:
+Encoder_Fault_Right_Inc:	.type	func
+	movh.a	a15,#@his(Encoder_Fault_Right_Cnt)
+	lea	a15,[a15]@los(Encoder_Fault_Right_Cnt)
+	movh.a	a2,#@his(Encoder_Fault_Right_Cnt)
+	lea	a2,[a2]@los(Encoder_Fault_Right_Cnt)
+	ld.hu	d15,[a2]0
+.L351:
+	add	d15,#1
+	st.h	[a15],d15
+.L352:
+	ret
+.L188:
+	
+__Encoder_Fault_Right_Inc_function_end:
+	.size	Encoder_Fault_Right_Inc,__Encoder_Fault_Right_Inc_function_end-Encoder_Fault_Right_Inc
+.L129:
+	; End of function
+	
+	.sdecl	'.text.Diagnostic.Check_Encoder_Left_Fault',code,cluster('Check_Encoder_Left_Fault')
+	.sect	'.text.Diagnostic.Check_Encoder_Left_Fault'
+	.align	2
+	
+	.global	Check_Encoder_Left_Fault
+; Function Check_Encoder_Left_Fault
+.L73:
+Check_Encoder_Left_Fault:	.type	func
+	call	Motor_getLeftDuty
+.L409:
+	jlt.u	d2,#1,.L32
+.L410:
+	call	Encoder_Get_Rpm_Left
+.L411:
+	jne	d2,#0,.L33
+.L412:
+	movh.a	a15,#@his(Encoder_Fault_Left_Cnt)
+	lea	a15,[a15]@los(Encoder_Fault_Left_Cnt)
+	movh.a	a2,#@his(Encoder_Fault_Left_Cnt)
+	lea	a2,[a2]@los(Encoder_Fault_Left_Cnt)
+	ld.hu	d15,[a2]0
+.L413:
+	add	d15,#1
+	st.h	[a15],d15
+.L33:
+	j	.L34
+.L32:
+	movh.a	a15,#@his(Encoder_Fault_Left_Cnt)
+	lea	a15,[a15]@los(Encoder_Fault_Left_Cnt)
+.L414:
+	mov	d15,#0
+.L415:
+	st.h	[a15],d15
+.L34:
+	movh.a	a15,#@his(Encoder_Fault_Left_Cnt)
+	lea	a15,[a15]@los(Encoder_Fault_Left_Cnt)
+	ld.hu	d15,[a15]0
+.L416:
+	jlt.u	d15,#10,.L35
+.L417:
+	movh.a	a15,#@his(Encoder_Fault_Left_Cnt)
+	lea	a15,[a15]@los(Encoder_Fault_Left_Cnt)
+.L418:
+	mov	d15,#0
+.L419:
+	st.h	[a15],d15
+.L420:
+	mov	d2,#1
+.L421:
+	j	.L36
+.L35:
+	mov	d2,#0
+.L422:
+	j	.L37
+.L37:
+.L36:
+	ret
+.L198:
+	
+__Check_Encoder_Left_Fault_function_end:
+	.size	Check_Encoder_Left_Fault,__Check_Encoder_Left_Fault_function_end-Check_Encoder_Left_Fault
+.L154:
+	; End of function
+	
+	.sdecl	'.text.Diagnostic.Check_Encoder_Right_Fault',code,cluster('Check_Encoder_Right_Fault')
+	.sect	'.text.Diagnostic.Check_Encoder_Right_Fault'
+	.align	2
+	
+	.global	Check_Encoder_Right_Fault
+; Function Check_Encoder_Right_Fault
+.L75:
+Check_Encoder_Right_Fault:	.type	func
+	call	Motor_getRightDuty
+.L427:
+	jlt.u	d2,#1,.L38
+.L428:
+	call	Encoder_Get_Rpm_Right
+.L429:
+	jne	d2,#0,.L39
+.L430:
+	movh.a	a15,#@his(Encoder_Fault_Right_Cnt)
+	lea	a15,[a15]@los(Encoder_Fault_Right_Cnt)
+	movh.a	a2,#@his(Encoder_Fault_Right_Cnt)
+	lea	a2,[a2]@los(Encoder_Fault_Right_Cnt)
+	ld.hu	d15,[a2]0
+.L431:
+	add	d15,#1
+	st.h	[a15],d15
+.L39:
+	j	.L40
+.L38:
+	movh.a	a15,#@his(Encoder_Fault_Right_Cnt)
+	lea	a15,[a15]@los(Encoder_Fault_Right_Cnt)
+.L432:
+	mov	d15,#0
+.L433:
+	st.h	[a15],d15
+.L40:
+	movh.a	a15,#@his(Encoder_Fault_Right_Cnt)
+	lea	a15,[a15]@los(Encoder_Fault_Right_Cnt)
+	ld.hu	d15,[a15]0
+.L434:
+	jlt.u	d15,#10,.L41
+.L435:
+	movh.a	a15,#@his(Encoder_Fault_Right_Cnt)
+	lea	a15,[a15]@los(Encoder_Fault_Right_Cnt)
+.L436:
+	mov	d15,#0
+.L437:
+	st.h	[a15],d15
+.L438:
+	mov	d2,#1
+.L439:
+	j	.L42
+.L41:
+	mov	d2,#0
+.L440:
+	j	.L43
+.L43:
+.L42:
+	ret
+.L199:
+	
+__Check_Encoder_Right_Fault_function_end:
+	.size	Check_Encoder_Right_Fault,__Check_Encoder_Right_Fault_function_end-Check_Encoder_Right_Fault
+.L159:
+	; End of function
+	
+	.sdecl	'.bss.Diagnostic.DTC_memory',data,cluster('DTC_memory')
+	.sect	'.bss.Diagnostic.DTC_memory'
+	.global	DTC_memory
+	.align	2
+DTC_memory:	.type	object
+	.size	DTC_memory,36
+	.space	36
+	.sdecl	'.data.Diagnostic.DTC_Setting_Flag',data,cluster('DTC_Setting_Flag')
+	.sect	'.data.Diagnostic.DTC_Setting_Flag'
+DTC_Setting_Flag:	.type	object
+	.size	DTC_Setting_Flag,1
+	.byte	1
+	.sdecl	'.data.Diagnostic.Encoder_Fault_Left_Cnt',data,cluster('Encoder_Fault_Left_Cnt')
+	.sect	'.data.Diagnostic.Encoder_Fault_Left_Cnt'
+	.align	2
+Encoder_Fault_Left_Cnt:	.type	object
+	.size	Encoder_Fault_Left_Cnt,2
+	.space	2
+	.sdecl	'.data.Diagnostic.Encoder_Fault_Right_Cnt',data,cluster('Encoder_Fault_Right_Cnt')
+	.sect	'.data.Diagnostic.Encoder_Fault_Right_Cnt'
+	.align	2
+Encoder_Fault_Right_Cnt:	.type	object
+	.size	Encoder_Fault_Right_Cnt,2
+	.space	2
+	.calls	'DTC_Manager_Update','Check_Ultrasonic_Left_Fault'
+	.calls	'DTC_Manager_Update','Check_Ultrasonic_Right_Fault'
+	.calls	'DTC_Manager_Update','Check_Ultrasonic_Back_Fault'
+	.calls	'DTC_Manager_Update','Check_ToF_Fault'
+	.calls	'DTC_Manager_Update','Check_Encoder_Left_Fault'
+	.calls	'DTC_Manager_Update','Check_Encoder_Right_Fault'
+	.calls	'Check_Ultrasonic_Left_Fault','Stm_Get_Time_Us'
+	.calls	'Check_Ultrasonic_Left_Fault','Ultrasonic_Get_Start_Left'
+	.calls	'Check_Ultrasonic_Right_Fault','Stm_Get_Time_Us'
+	.calls	'Check_Ultrasonic_Right_Fault','Ultrasonic_Get_Start_Right'
+	.calls	'Check_Ultrasonic_Back_Fault','Stm_Get_Time_Us'
+	.calls	'Check_Ultrasonic_Back_Fault','Ultrasonic_Get_Start_Back'
+	.calls	'Check_ToF_Fault','Stm_Get_Time_Us'
+	.calls	'Check_ToF_Fault','Tof_getTofTime'
+	.calls	'Check_Encoder_Left_Fault','Motor_getLeftDuty'
+	.calls	'Check_Encoder_Left_Fault','Encoder_Get_Rpm_Left'
+	.calls	'Check_Encoder_Right_Fault','Motor_getRightDuty'
+	.calls	'Check_Encoder_Right_Fault','Encoder_Get_Rpm_Right'
+	.calls	'DTC_Manager_Init','',0
+	.calls	'DTC_Manager_Setting','',0
+	.calls	'DTC_Manager_Clear','',0
+	.calls	'DTC_Manager_Update','',0
+	.calls	'DTC_Manager_Count','',0
+	.calls	'DTC_Manager_Check','',0
+	.calls	'Check_Ultrasonic_Left_Fault','',0
+	.calls	'Check_Ultrasonic_Right_Fault','',0
+	.calls	'Check_Ultrasonic_Back_Fault','',0
+	.calls	'Check_ToF_Fault','',0
+	.calls	'Encoder_Fault_Left_Init','',0
+	.calls	'Encoder_Fault_Right_Init','',0
+	.calls	'Encoder_Fault_Left_Inc','',0
+	.calls	'Encoder_Fault_Right_Inc','',0
+	.calls	'Check_Encoder_Left_Fault','',0
+	.extern	Ultrasonic_Get_Start_Left
+	.extern	Ultrasonic_Get_Start_Right
+	.extern	Ultrasonic_Get_Start_Back
+	.extern	Motor_getLeftDuty
+	.extern	Motor_getRightDuty
+	.extern	Encoder_Get_Rpm_Left
+	.extern	Encoder_Get_Rpm_Right
+	.extern	Stm_Get_Time_Us
+	.extern	Tof_getTofTime
+	.calls	'Check_Encoder_Right_Fault','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L77:
+	.word	1001
+	.half	3
+	.word	.L78
+	.byte	4
+.L76:
+	.byte	1
+	.byte	'../BSW/UDS/Diagnostic.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\COM_SSV\\TriCore Debug (TASKING)\\',0
+	.byte	12,1
+	.word	.L79
+.L170:
+	.byte	2
+	.byte	'int',0,4,5
+.L176:
+	.byte	2
+	.byte	'unsigned short int',0,2,7
+.L182:
+	.byte	2
+	.byte	'unsigned long int',0,4,7
+.L190:
+	.byte	2
+	.byte	'unsigned long long int',0,8,7,3
+	.byte	'Ultrasonic_Get_Start_Left',0,1,11,8
+	.word	275
+	.byte	1,1,1,1,3
+	.byte	'Ultrasonic_Get_Start_Right',0,1,12,8
+	.word	275
+	.byte	1,1,1,1,3
+	.byte	'Ultrasonic_Get_Start_Back',0,1,13,8
+	.word	275
+	.byte	1,1,1,1
+.L201:
+	.byte	2
+	.byte	'unsigned char',0,1,8,3
+	.byte	'Motor_getLeftDuty',0,2,14,7
+	.word	416
+	.byte	1,1,1,1,3
+	.byte	'Motor_getRightDuty',0,2,15,7
+	.word	416
+	.byte	1,1,1,1,2
+	.byte	'unsigned int',0,4,7,3
+	.byte	'Encoder_Get_Rpm_Left',0,3,5,14
+	.word	494
+	.byte	1,1,1,1,3
+	.byte	'Encoder_Get_Rpm_Right',0,3,6,14
+	.word	494
+	.byte	1,1,1,1,3
+	.byte	'Stm_Get_Time_Us',0,4,16,8
+	.word	275
+	.byte	1,1,1,1,3
+	.byte	'Tof_getTofTime',0,5,8,8
+	.word	275
+	.byte	1,1,1,1,2
+	.byte	'short int',0,2,5,4
+	.byte	'__wchar_t',0,6,1,1
+	.word	632
+	.byte	4
+	.byte	'__size_t',0,6,1,1
+	.word	494
+	.byte	4
+	.byte	'__ptrdiff_t',0,6,1,1
+	.word	225
+	.byte	5,1,6
+	.word	700
+	.byte	4
+	.byte	'__codeptr',0,6,1,1
+	.word	702
+	.byte	4
+	.byte	'uint8',0,7,108,29
+	.word	416
+	.byte	4
+	.byte	'uint16',0,7,112,29
+	.word	232
+	.byte	4
+	.byte	'uint32',0,7,116,29
+	.word	254
+	.byte	4
+	.byte	'uint64',0,7,121,29
+	.word	275
+	.byte	4
+	.byte	'sint16',0,7,129,1,29
+	.word	632
+	.byte	2
+	.byte	'long int',0,4,5,4
+	.byte	'sint32',0,7,134,1,29
+	.word	800
+	.byte	2
+	.byte	'long long int',0,8,5,4
+	.byte	'sint64',0,7,141,1,29
+	.word	828
+	.byte	2
+	.byte	'float',0,4,4,4
+	.byte	'float32',0,7,170,1,29
+	.word	861
+	.byte	7
+	.byte	'void',0,6
+	.word	887
+	.byte	4
+	.byte	'pvoid',0,8,54,28
+	.word	893
+	.byte	4
+	.byte	'Ifx_TickTime',0,8,76,28
+	.word	828
+	.byte	8,9,9,9,6,9
+	.byte	'dtc_id',0
+	.word	254
+	.byte	4,2,35,0,9
+	.byte	'status_byte',0
+	.word	416
+	.byte	1,2,35,4,0,4
+	.byte	'DTC_Info_t',0,9,13,3
+	.word	933
+.L200:
+	.byte	10,36
+	.word	933
+	.byte	11,5,0,0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L78:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,46,0,3,8,58,15,59,15,57,15
+	.byte	73,19,54,15,39,12,63,12,60,12,0,0,4,22,0,3,8,58,15,59,15,57,15,73,19,0,0,5,21,0,54,15,0,0,6,15,0,73,19
+	.byte	0,0,7,59,0,3,8,0,0,8,19,1,58,15,59,15,57,15,11,15,0,0,9,13,0,3,8,73,19,11,15,56,9,0,0,10,1,1,11,15,73
+	.byte	19,0,0,11,33,0,47,15,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L79:
+	.word	.L206-.L205
+.L205:
+	.half	3
+	.word	.L208-.L207
+.L207:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'C:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\BSW\\\\ULTRASONIC',0
+	.byte	'C:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\BSW\\\\MOTOR',0
+	.byte	'C:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\BSW\\\\ENCODER',0
+	.byte	'C:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\BSW\\\\STM',0
+	.byte	'C:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\BSW\\\\TOF',0
+	.byte	'C:\\\\Users\\\\USER\\\\Desktop\\\\workspace_all\\\\project2\\\\autonomous-vehicle-FreeRTOS\\\\COM_SSV\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std',0
+	.byte	0
+	.byte	'Ultrasonic.h',0,1,0,0
+	.byte	'Motor.h',0,2,0,0
+	.byte	'Encoder.h',0,3,0,0
+	.byte	'Stm.h',0,4,0,0
+	.byte	'Tof.h',0,5,0,0
+	.byte	'../BSW/UDS/Diagnostic.c',0,0,0,0
+	.byte	'Platform_Types.h',0,6,0,0
+	.byte	'Ifx_Types.h',0,6,0,0
+	.byte	'..\\BSW\\UDS\\Diagnostic.h',0,0,0,0,0
+.L208:
+.L206:
+	.sdecl	'.debug_info',debug,cluster('DTC_Manager_Init')
+	.sect	'.debug_info'
+.L80:
+	.word	277
+	.half	3
+	.word	.L81
+	.byte	4,1
+	.byte	'../BSW/UDS/Diagnostic.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\COM_SSV\\TriCore Debug (TASKING)\\',0
+	.byte	12,1
+	.word	.L83,.L82
+	.byte	2
+	.word	.L76
+	.byte	3
+	.byte	'DTC_Manager_Init',0,1,23,6,1,1,1
+	.word	.L45,.L168,.L44
+	.byte	4
+	.word	.L45,.L168
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('DTC_Manager_Init')
+	.sect	'.debug_abbrev'
+.L81:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('DTC_Manager_Init')
+	.sect	'.debug_line'
+.L82:
+	.word	.L210-.L209
+.L209:
+	.half	3
+	.word	.L212-.L211
+.L211:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../BSW/UDS/Diagnostic.c',0,0,0,0,0
+.L212:
+	.byte	5,5,7,0,5,2
+	.word	.L45
+	.byte	3,24,1,5,28,9
+	.half	.L213-.L45
+	.byte	1,5,26,9
+	.half	.L214-.L213
+	.byte	1,5,5,9
+	.half	.L215-.L214
+	.byte	3,1,1,5,33,9
+	.half	.L216-.L215
+	.byte	1,5,31,9
+	.half	.L217-.L216
+	.byte	1,5,5,9
+	.half	.L218-.L217
+	.byte	3,2,1,5,28,9
+	.half	.L219-.L218
+	.byte	1,5,26,9
+	.half	.L220-.L219
+	.byte	1,5,5,9
+	.half	.L221-.L220
+	.byte	3,1,1,5,33,9
+	.half	.L222-.L221
+	.byte	1,5,31,9
+	.half	.L223-.L222
+	.byte	1,5,5,9
+	.half	.L224-.L223
+	.byte	3,2,1,5,28,9
+	.half	.L225-.L224
+	.byte	1,5,26,9
+	.half	.L226-.L225
+	.byte	1,5,5,9
+	.half	.L227-.L226
+	.byte	3,1,1,5,33,9
+	.half	.L228-.L227
+	.byte	1,5,31,9
+	.half	.L229-.L228
+	.byte	1,5,5,9
+	.half	.L230-.L229
+	.byte	3,2,1,5,28,9
+	.half	.L231-.L230
+	.byte	1,5,26,9
+	.half	.L232-.L231
+	.byte	1,5,5,9
+	.half	.L233-.L232
+	.byte	3,1,1,5,33,9
+	.half	.L234-.L233
+	.byte	1,5,31,9
+	.half	.L235-.L234
+	.byte	1,5,5,9
+	.half	.L236-.L235
+	.byte	3,2,1,5,28,9
+	.half	.L237-.L236
+	.byte	1,5,26,9
+	.half	.L238-.L237
+	.byte	1,5,5,9
+	.half	.L239-.L238
+	.byte	3,1,1,5,33,9
+	.half	.L240-.L239
+	.byte	1,5,31,9
+	.half	.L241-.L240
+	.byte	1,5,5,9
+	.half	.L242-.L241
+	.byte	3,2,1,5,28,9
+	.half	.L243-.L242
+	.byte	1,5,26,9
+	.half	.L244-.L243
+	.byte	1,5,5,9
+	.half	.L245-.L244
+	.byte	3,1,1,5,33,9
+	.half	.L246-.L245
+	.byte	1,5,31,9
+	.half	.L247-.L246
+	.byte	1,5,1,9
+	.half	.L248-.L247
+	.byte	3,1,1,7,9
+	.half	.L84-.L248
+	.byte	0,1,1
+.L210:
+	.sdecl	'.debug_ranges',debug,cluster('DTC_Manager_Init')
+	.sect	'.debug_ranges'
+.L83:
+	.word	-1,.L45,0,.L84-.L45,0,0
+	.sdecl	'.debug_info',debug,cluster('DTC_Manager_Setting')
+	.sect	'.debug_info'
+.L85:
+	.word	298
+	.half	3
+	.word	.L86
+	.byte	4,1
+	.byte	'../BSW/UDS/Diagnostic.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\COM_SSV\\TriCore Debug (TASKING)\\',0
+	.byte	12,1
+	.word	.L88,.L87
+	.byte	2
+	.word	.L76
+	.byte	3
+	.byte	'DTC_Manager_Setting',0,1,44,6,1,1,1
+	.word	.L47,.L169,.L46
+	.byte	4
+	.byte	'OnOff',0,1,44,31
+	.word	.L170,.L171
+	.byte	5
+	.word	.L47,.L169
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('DTC_Manager_Setting')
+	.sect	'.debug_abbrev'
+.L86:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('DTC_Manager_Setting')
+	.sect	'.debug_line'
+.L87:
+	.word	.L250-.L249
+.L249:
+	.half	3
+	.word	.L252-.L251
+.L251:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../BSW/UDS/Diagnostic.c',0,0,0,0,0
+.L252:
+	.byte	5,5,7,0,5,2
+	.word	.L47
+	.byte	3,45,1,5,9,7,9
+	.half	.L253-.L47
+	.byte	3,1,1,5,28,9
+	.half	.L254-.L253
+	.byte	1,5,26,9
+	.half	.L255-.L254
+	.byte	1,5,29,9
+	.half	.L256-.L255
+	.byte	1,5,9,9
+	.half	.L2-.L256
+	.byte	3,2,1,5,28,9
+	.half	.L257-.L2
+	.byte	1,5,26,9
+	.half	.L258-.L257
+	.byte	1,5,1,9
+	.half	.L3-.L258
+	.byte	3,1,1,7,9
+	.half	.L89-.L3
+	.byte	0,1,1
+.L250:
+	.sdecl	'.debug_ranges',debug,cluster('DTC_Manager_Setting')
+	.sect	'.debug_ranges'
+.L88:
+	.word	-1,.L47,0,.L89-.L47,0,0
+	.sdecl	'.debug_info',debug,cluster('DTC_Manager_Clear')
+	.sect	'.debug_info'
+.L90:
+	.word	305
+	.half	3
+	.word	.L91
+	.byte	4,1
+	.byte	'../BSW/UDS/Diagnostic.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\COM_SSV\\TriCore Debug (TASKING)\\',0
+	.byte	12,1
+	.word	.L93,.L92
+	.byte	2
+	.word	.L76
+	.byte	3
+	.byte	'DTC_Manager_Clear',0,1,52,6,1,1,1
+	.word	.L49,.L172,.L48
+	.byte	4
+	.word	.L49,.L172
+	.byte	4
+	.word	.L49,.L173
+	.byte	5
+	.byte	'idx',0,1,54,13
+	.word	.L170,.L174
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('DTC_Manager_Clear')
+	.sect	'.debug_abbrev'
+.L91:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('DTC_Manager_Clear')
+	.sect	'.debug_line'
+.L92:
+	.word	.L260-.L259
+.L259:
+	.half	3
+	.word	.L262-.L261
+.L261:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../BSW/UDS/Diagnostic.c',0,0,0,0,0
+.L262:
+	.byte	5,16,7,0,5,2
+	.word	.L49
+	.byte	3,53,1,5,42,9
+	.half	.L202-.L49
+	.byte	1,5,19,9
+	.half	.L5-.L202
+	.byte	3,1,1,5,9,9
+	.half	.L263-.L5
+	.byte	1,5,19,9
+	.half	.L264-.L263
+	.byte	1,5,39,9
+	.half	.L265-.L264
+	.byte	1,5,37,9
+	.half	.L266-.L265
+	.byte	1,5,47,9
+	.half	.L267-.L266
+	.byte	3,127,1,5,42,9
+	.half	.L4-.L267
+	.byte	1,5,1,7,9
+	.half	.L173-.L4
+	.byte	3,2,1,7,9
+	.half	.L94-.L173
+	.byte	0,1,1
+.L260:
+	.sdecl	'.debug_ranges',debug,cluster('DTC_Manager_Clear')
+	.sect	'.debug_ranges'
+.L93:
+	.word	-1,.L49,0,.L94-.L49,0,0
+	.sdecl	'.debug_info',debug,cluster('DTC_Manager_Update')
+	.sect	'.debug_info'
+.L95:
+	.word	279
+	.half	3
+	.word	.L96
+	.byte	4,1
+	.byte	'../BSW/UDS/Diagnostic.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\COM_SSV\\TriCore Debug (TASKING)\\',0
+	.byte	12,1
+	.word	.L98,.L97
+	.byte	2
+	.word	.L76
+	.byte	3
+	.byte	'DTC_Manager_Update',0,1,58,6,1,1,1
+	.word	.L51,.L175,.L50
+	.byte	4
+	.word	.L51,.L175
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('DTC_Manager_Update')
+	.sect	'.debug_abbrev'
+.L96:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('DTC_Manager_Update')
+	.sect	'.debug_line'
+.L97:
+	.word	.L269-.L268
+.L268:
+	.half	3
+	.word	.L271-.L270
+.L270:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../BSW/UDS/Diagnostic.c',0,0,0,0,0
+.L271:
+	.byte	5,8,7,0,5,2
+	.word	.L51
+	.byte	3,59,1,5,5,9
+	.half	.L272-.L51
+	.byte	1,5,40,7,9
+	.half	.L273-.L272
+	.byte	3,2,1,5,9,9
+	.half	.L274-.L273
+	.byte	1,5,13,7,9
+	.half	.L275-.L274
+	.byte	3,1,1,5,26,9
+	.half	.L276-.L275
+	.byte	1,5,39,9
+	.half	.L277-.L276
+	.byte	1,5,41,9
+	.half	.L7-.L277
+	.byte	3,2,1,5,9,9
+	.half	.L278-.L7
+	.byte	1,5,13,7,9
+	.half	.L279-.L278
+	.byte	3,1,1,5,26,9
+	.half	.L280-.L279
+	.byte	1,5,39,9
+	.half	.L281-.L280
+	.byte	1,5,40,9
+	.half	.L8-.L281
+	.byte	3,2,1,5,9,9
+	.half	.L282-.L8
+	.byte	1,5,13,7,9
+	.half	.L283-.L282
+	.byte	3,1,1,5,26,9
+	.half	.L284-.L283
+	.byte	1,5,39,9
+	.half	.L285-.L284
+	.byte	1,5,28,9
+	.half	.L9-.L285
+	.byte	3,2,1,5,9,9
+	.half	.L286-.L9
+	.byte	1,5,13,7,9
+	.half	.L287-.L286
+	.byte	3,1,1,5,26,9
+	.half	.L288-.L287
+	.byte	1,5,39,9
+	.half	.L289-.L288
+	.byte	1,5,37,9
+	.half	.L10-.L289
+	.byte	3,2,1,5,9,9
+	.half	.L290-.L10
+	.byte	1,5,13,7,9
+	.half	.L291-.L290
+	.byte	3,1,1,5,26,9
+	.half	.L292-.L291
+	.byte	1,5,39,9
+	.half	.L293-.L292
+	.byte	1,5,38,9
+	.half	.L11-.L293
+	.byte	3,2,1,5,9,9
+	.half	.L294-.L11
+	.byte	1,5,13,7,9
+	.half	.L295-.L294
+	.byte	3,1,1,5,26,9
+	.half	.L296-.L295
+	.byte	1,5,39,9
+	.half	.L297-.L296
+	.byte	1,5,1,9
+	.half	.L6-.L297
+	.byte	3,2,1,7,9
+	.half	.L99-.L6
+	.byte	0,1,1
+.L269:
+	.sdecl	'.debug_ranges',debug,cluster('DTC_Manager_Update')
+	.sect	'.debug_ranges'
+.L98:
+	.word	-1,.L51,0,.L99-.L51,0,0
+	.sdecl	'.debug_info',debug,cluster('DTC_Manager_Count')
+	.sect	'.debug_info'
+.L100:
+	.word	329
+	.half	3
+	.word	.L101
+	.byte	4,1
+	.byte	'../BSW/UDS/Diagnostic.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\COM_SSV\\TriCore Debug (TASKING)\\',0
+	.byte	12,1
+	.word	.L103,.L102
+	.byte	2
+	.word	.L76
+	.byte	3
+	.byte	'DTC_Manager_Count',0,1,82,8
+	.word	.L176
+	.byte	1,1,1
+	.word	.L53,.L177,.L52
+	.byte	4
+	.word	.L53,.L177
+	.byte	5
+	.byte	'dtc_count',0,1,84,12
+	.word	.L176,.L178
+	.byte	4
+	.word	.L179,.L180
+	.byte	5
+	.byte	'i',0,1,85,14
+	.word	.L170,.L181
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('DTC_Manager_Count')
+	.sect	'.debug_abbrev'
+.L101:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('DTC_Manager_Count')
+	.sect	'.debug_line'
+.L102:
+	.word	.L299-.L298
+.L298:
+	.half	3
+	.word	.L301-.L300
+.L300:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../BSW/UDS/Diagnostic.c',0,0,0,0,0
+.L301:
+	.byte	5,22,7,0,5,2
+	.word	.L53
+	.byte	3,211,0,1,5,16,9
+	.half	.L179-.L53
+	.byte	3,1,1,5,43,9
+	.half	.L204-.L179
+	.byte	1,5,23,9
+	.half	.L14-.L204
+	.byte	3,1,1,5,13,9
+	.half	.L302-.L14
+	.byte	1,5,23,9
+	.half	.L303-.L302
+	.byte	1,5,26,9
+	.half	.L304-.L303
+	.byte	1,5,9,9
+	.half	.L305-.L304
+	.byte	1,5,22,7,9
+	.half	.L306-.L305
+	.byte	3,1,1,5,46,9
+	.half	.L15-.L306
+	.byte	3,126,1,5,43,9
+	.half	.L13-.L15
+	.byte	1,5,5,7,9
+	.half	.L180-.L13
+	.byte	3,4,1,5,1,9
+	.half	.L16-.L180
+	.byte	3,1,1,7,9
+	.half	.L104-.L16
+	.byte	0,1,1
+.L299:
+	.sdecl	'.debug_ranges',debug,cluster('DTC_Manager_Count')
+	.sect	'.debug_ranges'
+.L103:
+	.word	-1,.L53,0,.L104-.L53,0,0
+	.sdecl	'.debug_info',debug,cluster('DTC_Manager_Check')
+	.sect	'.debug_info'
+.L105:
+	.word	298
+	.half	3
+	.word	.L106
+	.byte	4,1
+	.byte	'../BSW/UDS/Diagnostic.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\COM_SSV\\TriCore Debug (TASKING)\\',0
+	.byte	12,1
+	.word	.L108,.L107
+	.byte	2
+	.word	.L76
+	.byte	3
+	.byte	'DTC_Manager_Check',0,1,92,8
+	.word	.L182
+	.byte	1,1,1
+	.word	.L55,.L183,.L54
+	.byte	4
+	.byte	'idx',0,1,92,31
+	.word	.L170,.L184
+	.byte	5
+	.word	.L55,.L183
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('DTC_Manager_Check')
+	.sect	'.debug_abbrev'
+.L106:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('DTC_Manager_Check')
+	.sect	'.debug_line'
+.L107:
+	.word	.L308-.L307
+.L307:
+	.half	3
+	.word	.L310-.L309
+.L309:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../BSW/UDS/Diagnostic.c',0,0,0,0,0
+.L310:
+	.byte	5,19,7,0,5,2
+	.word	.L55
+	.byte	3,221,0,1,5,9,9
+	.half	.L311-.L55
+	.byte	1,5,19,9
+	.half	.L312-.L311
+	.byte	1,5,24,9
+	.half	.L313-.L312
+	.byte	1,5,5,9
+	.half	.L314-.L313
+	.byte	1,5,27,7,9
+	.half	.L315-.L314
+	.byte	3,1,1,5,17,9
+	.half	.L316-.L315
+	.byte	1,5,27,9
+	.half	.L317-.L316
+	.byte	1,5,32,9
+	.half	.L318-.L317
+	.byte	1,5,40,9
+	.half	.L319-.L318
+	.byte	1,5,59,9
+	.half	.L320-.L319
+	.byte	1,5,49,9
+	.half	.L321-.L320
+	.byte	1,5,59,9
+	.half	.L322-.L321
+	.byte	1,5,64,9
+	.half	.L323-.L322
+	.byte	1,5,46,9
+	.half	.L324-.L323
+	.byte	1,5,9,9
+	.half	.L325-.L324
+	.byte	1,5,16,9
+	.half	.L17-.L325
+	.byte	3,2,1,5,9,9
+	.half	.L326-.L17
+	.byte	1,5,1,9
+	.half	.L18-.L326
+	.byte	3,1,1,7,9
+	.half	.L109-.L18
+	.byte	0,1,1
+.L308:
+	.sdecl	'.debug_ranges',debug,cluster('DTC_Manager_Check')
+	.sect	'.debug_ranges'
+.L108:
+	.word	-1,.L55,0,.L109-.L55,0,0
+	.sdecl	'.debug_info',debug,cluster('Encoder_Fault_Left_Init')
+	.sect	'.debug_info'
+.L110:
+	.word	285
+	.half	3
+	.word	.L111
+	.byte	4,1
+	.byte	'../BSW/UDS/Diagnostic.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\COM_SSV\\TriCore Debug (TASKING)\\',0
+	.byte	12,1
+	.word	.L113,.L112
+	.byte	2
+	.word	.L76
+	.byte	3
+	.byte	'Encoder_Fault_Left_Init',0,1,136,1,6,1,1,1
+	.word	.L65,.L185,.L64
+	.byte	4
+	.word	.L65,.L185
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Encoder_Fault_Left_Init')
+	.sect	'.debug_abbrev'
+.L111:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Encoder_Fault_Left_Init')
+	.sect	'.debug_line'
+.L112:
+	.word	.L328-.L327
+.L327:
+	.half	3
+	.word	.L330-.L329
+.L329:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../BSW/UDS/Diagnostic.c',0,0,0,0,0
+.L330:
+	.byte	5,5,7,0,5,2
+	.word	.L65
+	.byte	3,137,1,1,5,29,9
+	.half	.L331-.L65
+	.byte	1,5,27,9
+	.half	.L332-.L331
+	.byte	1,5,1,9
+	.half	.L333-.L332
+	.byte	3,1,1,7,9
+	.half	.L114-.L333
+	.byte	0,1,1
+.L328:
+	.sdecl	'.debug_ranges',debug,cluster('Encoder_Fault_Left_Init')
+	.sect	'.debug_ranges'
+.L113:
+	.word	-1,.L65,0,.L114-.L65,0,0
+	.sdecl	'.debug_info',debug,cluster('Encoder_Fault_Right_Init')
+	.sect	'.debug_info'
+.L115:
+	.word	286
+	.half	3
+	.word	.L116
+	.byte	4,1
+	.byte	'../BSW/UDS/Diagnostic.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\COM_SSV\\TriCore Debug (TASKING)\\',0
+	.byte	12,1
+	.word	.L118,.L117
+	.byte	2
+	.word	.L76
+	.byte	3
+	.byte	'Encoder_Fault_Right_Init',0,1,141,1,6,1,1,1
+	.word	.L67,.L186,.L66
+	.byte	4
+	.word	.L67,.L186
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Encoder_Fault_Right_Init')
+	.sect	'.debug_abbrev'
+.L116:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Encoder_Fault_Right_Init')
+	.sect	'.debug_line'
+.L117:
+	.word	.L335-.L334
+.L334:
+	.half	3
+	.word	.L337-.L336
+.L336:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../BSW/UDS/Diagnostic.c',0,0,0,0,0
+.L337:
+	.byte	5,5,7,0,5,2
+	.word	.L67
+	.byte	3,142,1,1,5,31,9
+	.half	.L338-.L67
+	.byte	1,5,29,9
+	.half	.L339-.L338
+	.byte	1,5,1,9
+	.half	.L340-.L339
+	.byte	3,1,1,7,9
+	.half	.L119-.L340
+	.byte	0,1,1
+.L335:
+	.sdecl	'.debug_ranges',debug,cluster('Encoder_Fault_Right_Init')
+	.sect	'.debug_ranges'
+.L118:
+	.word	-1,.L67,0,.L119-.L67,0,0
+	.sdecl	'.debug_info',debug,cluster('Encoder_Fault_Left_Inc')
+	.sect	'.debug_info'
+.L120:
+	.word	284
+	.half	3
+	.word	.L121
+	.byte	4,1
+	.byte	'../BSW/UDS/Diagnostic.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\COM_SSV\\TriCore Debug (TASKING)\\',0
+	.byte	12,1
+	.word	.L123,.L122
+	.byte	2
+	.word	.L76
+	.byte	3
+	.byte	'Encoder_Fault_Left_Inc',0,1,146,1,6,1,1,1
+	.word	.L69,.L187,.L68
+	.byte	4
+	.word	.L69,.L187
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Encoder_Fault_Left_Inc')
+	.sect	'.debug_abbrev'
+.L121:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Encoder_Fault_Left_Inc')
+	.sect	'.debug_line'
+.L122:
+	.word	.L342-.L341
+.L341:
+	.half	3
+	.word	.L344-.L343
+.L343:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../BSW/UDS/Diagnostic.c',0,0,0,0,0
+.L344:
+	.byte	5,5,7,0,5,2
+	.word	.L69
+	.byte	3,147,1,1,5,27,9
+	.half	.L345-.L69
+	.byte	1,5,1,9
+	.half	.L346-.L345
+	.byte	3,1,1,7,9
+	.half	.L124-.L346
+	.byte	0,1,1
+.L342:
+	.sdecl	'.debug_ranges',debug,cluster('Encoder_Fault_Left_Inc')
+	.sect	'.debug_ranges'
+.L123:
+	.word	-1,.L69,0,.L124-.L69,0,0
+	.sdecl	'.debug_info',debug,cluster('Encoder_Fault_Right_Inc')
+	.sect	'.debug_info'
+.L125:
+	.word	285
+	.half	3
+	.word	.L126
+	.byte	4,1
+	.byte	'../BSW/UDS/Diagnostic.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\COM_SSV\\TriCore Debug (TASKING)\\',0
+	.byte	12,1
+	.word	.L128,.L127
+	.byte	2
+	.word	.L76
+	.byte	3
+	.byte	'Encoder_Fault_Right_Inc',0,1,151,1,6,1,1,1
+	.word	.L71,.L188,.L70
+	.byte	4
+	.word	.L71,.L188
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Encoder_Fault_Right_Inc')
+	.sect	'.debug_abbrev'
+.L126:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Encoder_Fault_Right_Inc')
+	.sect	'.debug_line'
+.L127:
+	.word	.L348-.L347
+.L347:
+	.half	3
+	.word	.L350-.L349
+.L349:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../BSW/UDS/Diagnostic.c',0,0,0,0,0
+.L350:
+	.byte	5,5,7,0,5,2
+	.word	.L71
+	.byte	3,152,1,1,5,28,9
+	.half	.L351-.L71
+	.byte	1,5,1,9
+	.half	.L352-.L351
+	.byte	3,1,1,7,9
+	.half	.L129-.L352
+	.byte	0,1,1
+.L348:
+	.sdecl	'.debug_ranges',debug,cluster('Encoder_Fault_Right_Inc')
+	.sect	'.debug_ranges'
+.L128:
+	.word	-1,.L71,0,.L129-.L71,0,0
+	.sdecl	'.debug_info',debug,cluster('Check_Ultrasonic_Left_Fault')
+	.sect	'.debug_info'
+.L130:
+	.word	315
+	.half	3
+	.word	.L131
+	.byte	4,1
+	.byte	'../BSW/UDS/Diagnostic.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\COM_SSV\\TriCore Debug (TASKING)\\',0
+	.byte	12,1
+	.word	.L133,.L132
+	.byte	2
+	.word	.L76
+	.byte	3
+	.byte	'Check_Ultrasonic_Left_Fault',0,1,100,5
+	.word	.L170
+	.byte	1,1,1
+	.word	.L57,.L189,.L56
+	.byte	4
+	.word	.L57,.L189
+	.byte	5
+	.byte	'curr_time',0,1,102,12
+	.word	.L190,.L191
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Check_Ultrasonic_Left_Fault')
+	.sect	'.debug_abbrev'
+.L131:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Check_Ultrasonic_Left_Fault')
+	.sect	'.debug_line'
+.L132:
+	.word	.L354-.L353
+.L353:
+	.half	3
+	.word	.L356-.L355
+.L355:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../BSW/UDS/Diagnostic.c',0,0,0,0,0
+.L356:
+	.byte	5,39,7,0,5,2
+	.word	.L57
+	.byte	3,229,0,1,5,22,9
+	.half	.L357-.L57
+	.byte	1,5,46,9
+	.half	.L358-.L357
+	.byte	3,1,1,5,19,9
+	.half	.L359-.L358
+	.byte	1,5,51,9
+	.half	.L360-.L359
+	.byte	1,5,49,9
+	.half	.L361-.L360
+	.byte	1,5,5,9
+	.half	.L362-.L361
+	.byte	1,5,16,7,9
+	.half	.L363-.L362
+	.byte	3,1,1,5,9,9
+	.half	.L364-.L363
+	.byte	1,5,16,9
+	.half	.L20-.L364
+	.byte	3,2,1,5,9,9
+	.half	.L365-.L20
+	.byte	1,5,1,9
+	.half	.L21-.L365
+	.byte	3,1,1,7,9
+	.half	.L134-.L21
+	.byte	0,1,1
+.L354:
+	.sdecl	'.debug_ranges',debug,cluster('Check_Ultrasonic_Left_Fault')
+	.sect	'.debug_ranges'
+.L133:
+	.word	-1,.L57,0,.L134-.L57,0,0
+	.sdecl	'.debug_info',debug,cluster('Check_Ultrasonic_Right_Fault')
+	.sect	'.debug_info'
+.L135:
+	.word	316
+	.half	3
+	.word	.L136
+	.byte	4,1
+	.byte	'../BSW/UDS/Diagnostic.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\COM_SSV\\TriCore Debug (TASKING)\\',0
+	.byte	12,1
+	.word	.L138,.L137
+	.byte	2
+	.word	.L76
+	.byte	3
+	.byte	'Check_Ultrasonic_Right_Fault',0,1,109,5
+	.word	.L170
+	.byte	1,1,1
+	.word	.L59,.L192,.L58
+	.byte	4
+	.word	.L59,.L192
+	.byte	5
+	.byte	'curr_time',0,1,111,12
+	.word	.L190,.L193
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Check_Ultrasonic_Right_Fault')
+	.sect	'.debug_abbrev'
+.L136:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Check_Ultrasonic_Right_Fault')
+	.sect	'.debug_line'
+.L137:
+	.word	.L367-.L366
+.L366:
+	.half	3
+	.word	.L369-.L368
+.L368:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../BSW/UDS/Diagnostic.c',0,0,0,0,0
+.L369:
+	.byte	5,39,7,0,5,2
+	.word	.L59
+	.byte	3,238,0,1,5,22,9
+	.half	.L370-.L59
+	.byte	1,5,47,9
+	.half	.L371-.L370
+	.byte	3,1,1,5,19,9
+	.half	.L372-.L371
+	.byte	1,5,52,9
+	.half	.L373-.L372
+	.byte	1,5,50,9
+	.half	.L374-.L373
+	.byte	1,5,5,9
+	.half	.L375-.L374
+	.byte	1,5,16,7,9
+	.half	.L376-.L375
+	.byte	3,1,1,5,9,9
+	.half	.L377-.L376
+	.byte	1,5,16,9
+	.half	.L23-.L377
+	.byte	3,2,1,5,9,9
+	.half	.L378-.L23
+	.byte	1,5,1,9
+	.half	.L24-.L378
+	.byte	3,1,1,7,9
+	.half	.L139-.L24
+	.byte	0,1,1
+.L367:
+	.sdecl	'.debug_ranges',debug,cluster('Check_Ultrasonic_Right_Fault')
+	.sect	'.debug_ranges'
+.L138:
+	.word	-1,.L59,0,.L139-.L59,0,0
+	.sdecl	'.debug_info',debug,cluster('Check_Ultrasonic_Back_Fault')
+	.sect	'.debug_info'
+.L140:
+	.word	315
+	.half	3
+	.word	.L141
+	.byte	4,1
+	.byte	'../BSW/UDS/Diagnostic.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\COM_SSV\\TriCore Debug (TASKING)\\',0
+	.byte	12,1
+	.word	.L143,.L142
+	.byte	2
+	.word	.L76
+	.byte	3
+	.byte	'Check_Ultrasonic_Back_Fault',0,1,118,5
+	.word	.L170
+	.byte	1,1,1
+	.word	.L61,.L194,.L60
+	.byte	4
+	.word	.L61,.L194
+	.byte	5
+	.byte	'curr_time',0,1,120,12
+	.word	.L190,.L195
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Check_Ultrasonic_Back_Fault')
+	.sect	'.debug_abbrev'
+.L141:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Check_Ultrasonic_Back_Fault')
+	.sect	'.debug_line'
+.L142:
+	.word	.L380-.L379
+.L379:
+	.half	3
+	.word	.L382-.L381
+.L381:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../BSW/UDS/Diagnostic.c',0,0,0,0,0
+.L382:
+	.byte	5,39,7,0,5,2
+	.word	.L61
+	.byte	3,247,0,1,5,22,9
+	.half	.L383-.L61
+	.byte	1,5,46,9
+	.half	.L384-.L383
+	.byte	3,1,1,5,19,9
+	.half	.L385-.L384
+	.byte	1,5,51,9
+	.half	.L386-.L385
+	.byte	1,5,49,9
+	.half	.L387-.L386
+	.byte	1,5,5,9
+	.half	.L388-.L387
+	.byte	1,5,16,7,9
+	.half	.L389-.L388
+	.byte	3,1,1,5,9,9
+	.half	.L390-.L389
+	.byte	1,5,16,9
+	.half	.L26-.L390
+	.byte	3,2,1,5,9,9
+	.half	.L391-.L26
+	.byte	1,5,1,9
+	.half	.L27-.L391
+	.byte	3,1,1,7,9
+	.half	.L144-.L27
+	.byte	0,1,1
+.L380:
+	.sdecl	'.debug_ranges',debug,cluster('Check_Ultrasonic_Back_Fault')
+	.sect	'.debug_ranges'
+.L143:
+	.word	-1,.L61,0,.L144-.L61,0,0
+	.sdecl	'.debug_info',debug,cluster('Check_ToF_Fault')
+	.sect	'.debug_info'
+.L145:
+	.word	304
+	.half	3
+	.word	.L146
+	.byte	4,1
+	.byte	'../BSW/UDS/Diagnostic.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\COM_SSV\\TriCore Debug (TASKING)\\',0
+	.byte	12,1
+	.word	.L148,.L147
+	.byte	2
+	.word	.L76
+	.byte	3
+	.byte	'Check_ToF_Fault',0,1,127,5
+	.word	.L170
+	.byte	1,1,1
+	.word	.L63,.L196,.L62
+	.byte	4
+	.word	.L63,.L196
+	.byte	5
+	.byte	'curr_time',0,1,129,1,12
+	.word	.L190,.L197
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Check_ToF_Fault')
+	.sect	'.debug_abbrev'
+.L146:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Check_ToF_Fault')
+	.sect	'.debug_line'
+.L147:
+	.word	.L393-.L392
+.L392:
+	.half	3
+	.word	.L395-.L394
+.L394:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../BSW/UDS/Diagnostic.c',0,0,0,0,0
+.L395:
+	.byte	5,39,7,0,5,2
+	.word	.L63
+	.byte	3,128,1,1,5,22,9
+	.half	.L396-.L63
+	.byte	1,5,34,9
+	.half	.L397-.L396
+	.byte	3,1,1,5,18,9
+	.half	.L398-.L397
+	.byte	1,5,39,9
+	.half	.L399-.L398
+	.byte	1,5,37,9
+	.half	.L400-.L399
+	.byte	1,5,5,9
+	.half	.L401-.L400
+	.byte	1,5,16,7,9
+	.half	.L402-.L401
+	.byte	3,1,1,5,9,9
+	.half	.L403-.L402
+	.byte	1,5,16,9
+	.half	.L29-.L403
+	.byte	3,2,1,5,9,9
+	.half	.L404-.L29
+	.byte	1,5,1,9
+	.half	.L30-.L404
+	.byte	3,1,1,7,9
+	.half	.L149-.L30
+	.byte	0,1,1
+.L393:
+	.sdecl	'.debug_ranges',debug,cluster('Check_ToF_Fault')
+	.sect	'.debug_ranges'
+.L148:
+	.word	-1,.L63,0,.L149-.L63,0,0
+	.sdecl	'.debug_info',debug,cluster('Check_Encoder_Left_Fault')
+	.sect	'.debug_info'
+.L150:
+	.word	290
+	.half	3
+	.word	.L151
+	.byte	4,1
+	.byte	'../BSW/UDS/Diagnostic.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\COM_SSV\\TriCore Debug (TASKING)\\',0
+	.byte	12,1
+	.word	.L153,.L152
+	.byte	2
+	.word	.L76
+	.byte	3
+	.byte	'Check_Encoder_Left_Fault',0,1,156,1,5
+	.word	.L170
+	.byte	1,1,1
+	.word	.L73,.L198,.L72
+	.byte	4
+	.word	.L73,.L198
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Check_Encoder_Left_Fault')
+	.sect	'.debug_abbrev'
+.L151:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Check_Encoder_Left_Fault')
+	.sect	'.debug_line'
+.L152:
+	.word	.L406-.L405
+.L405:
+	.half	3
+	.word	.L408-.L407
+.L407:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../BSW/UDS/Diagnostic.c',0,0,0,0,0
+.L408:
+	.byte	5,25,7,0,5,2
+	.word	.L73
+	.byte	3,157,1,1,5,5,9
+	.half	.L409-.L73
+	.byte	1,5,32,7,9
+	.half	.L410-.L409
+	.byte	3,2,1,5,9,9
+	.half	.L411-.L410
+	.byte	1,5,13,7,9
+	.half	.L412-.L411
+	.byte	3,1,1,5,35,9
+	.half	.L413-.L412
+	.byte	1,5,9,9
+	.half	.L33-.L413
+	.byte	3,127,1,9
+	.half	.L32-.L33
+	.byte	3,5,1,5,34,9
+	.half	.L414-.L32
+	.byte	1,5,32,9
+	.half	.L415-.L414
+	.byte	1,5,8,9
+	.half	.L34-.L415
+	.byte	3,3,1,5,5,9
+	.half	.L416-.L34
+	.byte	1,5,9,7,9
+	.half	.L417-.L416
+	.byte	3,2,1,5,34,9
+	.half	.L418-.L417
+	.byte	1,5,32,9
+	.half	.L419-.L418
+	.byte	1,5,16,9
+	.half	.L420-.L419
+	.byte	3,1,1,5,9,9
+	.half	.L421-.L420
+	.byte	1,5,16,9
+	.half	.L35-.L421
+	.byte	3,3,1,5,9,9
+	.half	.L422-.L35
+	.byte	1,5,1,9
+	.half	.L36-.L422
+	.byte	3,1,1,7,9
+	.half	.L154-.L36
+	.byte	0,1,1
+.L406:
+	.sdecl	'.debug_ranges',debug,cluster('Check_Encoder_Left_Fault')
+	.sect	'.debug_ranges'
+.L153:
+	.word	-1,.L73,0,.L154-.L73,0,0
+	.sdecl	'.debug_info',debug,cluster('Check_Encoder_Right_Fault')
+	.sect	'.debug_info'
+.L155:
+	.word	291
+	.half	3
+	.word	.L156
+	.byte	4,1
+	.byte	'../BSW/UDS/Diagnostic.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\COM_SSV\\TriCore Debug (TASKING)\\',0
+	.byte	12,1
+	.word	.L158,.L157
+	.byte	2
+	.word	.L76
+	.byte	3
+	.byte	'Check_Encoder_Right_Fault',0,1,177,1,5
+	.word	.L170
+	.byte	1,1,1
+	.word	.L75,.L199,.L74
+	.byte	4
+	.word	.L75,.L199
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Check_Encoder_Right_Fault')
+	.sect	'.debug_abbrev'
+.L156:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Check_Encoder_Right_Fault')
+	.sect	'.debug_line'
+.L157:
+	.word	.L424-.L423
+.L423:
+	.half	3
+	.word	.L426-.L425
+.L425:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../BSW/UDS/Diagnostic.c',0,0,0,0,0
+.L426:
+	.byte	5,26,7,0,5,2
+	.word	.L75
+	.byte	3,178,1,1,5,5,9
+	.half	.L427-.L75
+	.byte	1,5,33,7,9
+	.half	.L428-.L427
+	.byte	3,2,1,5,9,9
+	.half	.L429-.L428
+	.byte	1,5,13,7,9
+	.half	.L430-.L429
+	.byte	3,1,1,5,36,9
+	.half	.L431-.L430
+	.byte	1,5,9,9
+	.half	.L39-.L431
+	.byte	3,127,1,9
+	.half	.L38-.L39
+	.byte	3,5,1,5,35,9
+	.half	.L432-.L38
+	.byte	1,5,33,9
+	.half	.L433-.L432
+	.byte	1,5,8,9
+	.half	.L40-.L433
+	.byte	3,3,1,5,5,9
+	.half	.L434-.L40
+	.byte	1,5,9,7,9
+	.half	.L435-.L434
+	.byte	3,2,1,5,35,9
+	.half	.L436-.L435
+	.byte	1,5,33,9
+	.half	.L437-.L436
+	.byte	1,5,16,9
+	.half	.L438-.L437
+	.byte	3,1,1,5,9,9
+	.half	.L439-.L438
+	.byte	1,5,12,9
+	.half	.L41-.L439
+	.byte	3,2,1,5,5,9
+	.half	.L440-.L41
+	.byte	1,5,1,9
+	.half	.L42-.L440
+	.byte	3,1,1,7,9
+	.half	.L159-.L42
+	.byte	0,1,1
+.L424:
+	.sdecl	'.debug_ranges',debug,cluster('Check_Encoder_Right_Fault')
+	.sect	'.debug_ranges'
+.L158:
+	.word	-1,.L75,0,.L159-.L75,0,0
+	.sdecl	'.debug_info',debug,cluster('DTC_memory')
+	.sect	'.debug_info'
+.L160:
+	.word	249
+	.half	3
+	.word	.L161
+	.byte	4,1
+	.byte	'../BSW/UDS/Diagnostic.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\COM_SSV\\TriCore Debug (TASKING)\\',0
+	.byte	12,1,2
+	.word	.L76
+	.byte	3
+	.byte	'DTC_memory',0,6,8,12
+	.word	.L200
+	.byte	1,5,3
+	.word	DTC_memory
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('DTC_memory')
+	.sect	'.debug_abbrev'
+.L161:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('DTC_Setting_Flag')
+	.sect	'.debug_info'
+.L162:
+	.word	254
+	.half	3
+	.word	.L163
+	.byte	4,1
+	.byte	'../BSW/UDS/Diagnostic.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\COM_SSV\\TriCore Debug (TASKING)\\',0
+	.byte	12,1,2
+	.word	.L76
+	.byte	3
+	.byte	'DTC_Setting_Flag',0,6,10,14
+	.word	.L201
+	.byte	5,3
+	.word	DTC_Setting_Flag
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('DTC_Setting_Flag')
+	.sect	'.debug_abbrev'
+.L163:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('Encoder_Fault_Left_Cnt')
+	.sect	'.debug_info'
+.L164:
+	.word	260
+	.half	3
+	.word	.L165
+	.byte	4,1
+	.byte	'../BSW/UDS/Diagnostic.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\COM_SSV\\TriCore Debug (TASKING)\\',0
+	.byte	12,1,2
+	.word	.L76
+	.byte	3
+	.byte	'Encoder_Fault_Left_Cnt',0,6,13,15
+	.word	.L176
+	.byte	5,3
+	.word	Encoder_Fault_Left_Cnt
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Encoder_Fault_Left_Cnt')
+	.sect	'.debug_abbrev'
+.L165:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('Encoder_Fault_Right_Cnt')
+	.sect	'.debug_info'
+.L166:
+	.word	261
+	.half	3
+	.word	.L167
+	.byte	4,1
+	.byte	'../BSW/UDS/Diagnostic.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\USER\\Desktop\\workspace_all\\project2\\autonomous-vehicle-FreeRTOS\\COM_SSV\\TriCore Debug (TASKING)\\',0
+	.byte	12,1,2
+	.word	.L76
+	.byte	3
+	.byte	'Encoder_Fault_Right_Cnt',0,6,14,15
+	.word	.L176
+	.byte	5,3
+	.word	Encoder_Fault_Right_Cnt
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Encoder_Fault_Right_Cnt')
+	.sect	'.debug_abbrev'
+.L167:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_loc',debug,cluster('Check_Encoder_Left_Fault')
+	.sect	'.debug_loc'
+.L72:
+	.word	-1,.L73,0,.L198-.L73
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Check_Encoder_Right_Fault')
+	.sect	'.debug_loc'
+.L74:
+	.word	-1,.L75,0,.L199-.L75
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Check_ToF_Fault')
+	.sect	'.debug_loc'
+.L62:
+	.word	-1,.L63,0,.L196-.L63
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L197:
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Check_Ultrasonic_Back_Fault')
+	.sect	'.debug_loc'
+.L60:
+	.word	-1,.L61,0,.L194-.L61
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L195:
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Check_Ultrasonic_Left_Fault')
+	.sect	'.debug_loc'
+.L56:
+	.word	-1,.L57,0,.L189-.L57
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L191:
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Check_Ultrasonic_Right_Fault')
+	.sect	'.debug_loc'
+.L58:
+	.word	-1,.L59,0,.L192-.L59
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L193:
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('DTC_Manager_Check')
+	.sect	'.debug_loc'
+.L54:
+	.word	-1,.L55,0,.L183-.L55
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L184:
+	.word	-1,.L55,0,.L183-.L55
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('DTC_Manager_Clear')
+	.sect	'.debug_loc'
+.L48:
+	.word	-1,.L49,0,.L172-.L49
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L174:
+	.word	-1,.L49,.L202-.L49,.L172-.L49
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('DTC_Manager_Count')
+	.sect	'.debug_loc'
+.L52:
+	.word	-1,.L53,0,.L177-.L53
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L178:
+	.word	-1,.L53,.L179-.L53,.L203-.L53
+	.half	1
+	.byte	82
+	.word	.L15-.L53,.L177-.L53
+	.half	1
+	.byte	82
+	.word	0,0
+.L181:
+	.word	-1,.L53,.L204-.L53,.L177-.L53
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('DTC_Manager_Init')
+	.sect	'.debug_loc'
+.L44:
+	.word	-1,.L45,0,.L168-.L45
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('DTC_Manager_Setting')
+	.sect	'.debug_loc'
+.L46:
+	.word	-1,.L47,0,.L169-.L47
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L171:
+	.word	-1,.L47,0,.L169-.L47
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('DTC_Manager_Update')
+	.sect	'.debug_loc'
+.L50:
+	.word	-1,.L51,0,.L175-.L51
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Encoder_Fault_Left_Inc')
+	.sect	'.debug_loc'
+.L68:
+	.word	-1,.L69,0,.L187-.L69
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Encoder_Fault_Left_Init')
+	.sect	'.debug_loc'
+.L64:
+	.word	-1,.L65,0,.L185-.L65
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Encoder_Fault_Right_Inc')
+	.sect	'.debug_loc'
+.L70:
+	.word	-1,.L71,0,.L188-.L71
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Encoder_Fault_Right_Init')
+	.sect	'.debug_loc'
+.L66:
+	.word	-1,.L67,0,.L186-.L67
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L441:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('DTC_Manager_Init')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L441,.L45,.L168-.L45
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('DTC_Manager_Setting')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L441,.L47,.L169-.L47
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('DTC_Manager_Clear')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L441,.L49,.L172-.L49
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('DTC_Manager_Update')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L441,.L51,.L175-.L51
+	.sdecl	'.debug_frame',debug,cluster('DTC_Manager_Count')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L441,.L53,.L177-.L53
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('DTC_Manager_Check')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L441,.L55,.L183-.L55
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('Check_Ultrasonic_Left_Fault')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L441,.L57,.L189-.L57
+	.sdecl	'.debug_frame',debug,cluster('Check_Ultrasonic_Right_Fault')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L441,.L59,.L192-.L59
+	.sdecl	'.debug_frame',debug,cluster('Check_Ultrasonic_Back_Fault')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L441,.L61,.L194-.L61
+	.sdecl	'.debug_frame',debug,cluster('Check_ToF_Fault')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L441,.L63,.L196-.L63
+	.sdecl	'.debug_frame',debug,cluster('Encoder_Fault_Left_Init')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L441,.L65,.L185-.L65
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('Encoder_Fault_Right_Init')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L441,.L67,.L186-.L67
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('Encoder_Fault_Left_Inc')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L441,.L69,.L187-.L69
+	.byte	8,19,8,20,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('Encoder_Fault_Right_Inc')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L441,.L71,.L188-.L71
+	.byte	8,19,8,20,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('Check_Encoder_Left_Fault')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L441,.L73,.L198-.L73
+	.sdecl	'.debug_frame',debug,cluster('Check_Encoder_Right_Fault')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L441,.L75,.L199-.L75
+	; Module end

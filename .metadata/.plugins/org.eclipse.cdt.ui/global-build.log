@@ -1,0 +1,27 @@
+Build started...
+18:30:48 **** Incremental Build of configuration TriCore Debug (TASKING) for project COM_SSV ****
+amk -j12 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="BSW/SOMEIP/Someip.d" --misrac-version=2004 -D__CPU__=tc37x "-fC:/Users/USER/Desktop/workspace_all/project2/autonomous-vehicle-FreeRTOS/COM_SSV/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc37x -Y0 -N0 -Z0 -o "BSW/SOMEIP/Someip.src" "../BSW/SOMEIP/Someip.c"
+ctc W505: ["../BSW/SOMEIP/Someip.c" 376/23] implicit declaration of function "Encoder_Get_Rpm_Left"
+ctc W577: ["../BSW/SOMEIP/Someip.c" 376/43] calling a function without a prototype
+ctc W505: ["../BSW/SOMEIP/Someip.c" 377/23] implicit declaration of function "Encoder_Get_Rpm_Right"
+ctc W577: ["../BSW/SOMEIP/Someip.c" 377/44] calling a function without a prototype
+ctc W505: ["../BSW/SOMEIP/Someip.c" 390/26] implicit declaration of function "Tof_getDist"
+ctc W577: ["../BSW/SOMEIP/Someip.c" 390/37] calling a function without a prototype
+ctc W505: ["../BSW/SOMEIP/Someip.c" 396/25] implicit declaration of function "Ultrasonic_Get_Back_Dist"
+ctc W577: ["../BSW/SOMEIP/Someip.c" 396/49] calling a function without a prototype
+0 errors, 8 warnings
+astc -Og -Os --no-warnings= --error-limit=42 -o  "BSW/SOMEIP/Someip.o" "BSW/SOMEIP/Someip.src"
+Building target: COM_SSV.elf
+Invoking: TASKING Linker
+cctc -f .COM_SSV.elf.opt
+Finished building target: COM_SSV.elf
+ 
+Invoking: Print Size
+elfsize  "COM_SSV.elf"
+Total sizes:
+ROM: 0x24afe (150270) = code: 0x1c822 (116770) + romdata: 0x82dc (33500)
+RAM: 0x18033 (98355) = data + bss
+Finished building: COM_SSV.siz
+ 
