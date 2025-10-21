@@ -1,0 +1,26 @@
+#ifndef BSW_ISR_ISR_PRIORITY_H_
+#define BSW_ISR_ISR_PRIORITY_H_
+
+// for sensor
+#define ISR_PRIORITY_ERU0 10 //Encoder
+#define ISR_PRIORITY_ERU1 11 //Encoder
+#define ISR_PRIORITY_ERU2 12 //Ultrasonic
+
+// for timer
+#define ISR_PRIORITY_STM0_CMP1 21
+#define ISR_PRIORITY_STM1_CMP0 22
+#define ISR_PRIORITY_STM1_CMP1 23
+#define ISR_PRIORITY_STM2_CMP0 24
+#define ISR_PRIORITY_STM2_CMP1 25
+#define ISR_PRIORITY_GPT1T3_TIMER 26
+#define ISR_PRIORITY_GPT2T6_TIMER 27
+
+// for can (remote control)
+#define ISR_PRIORITY_CAN_RX 30
+#define ISR_PRIORITY_CAN_TX 31
+
+// for debug
+#define ISR_PRIORITY_ASCLIN0_TX 90
+#define ISR_PRIORITY_ASCLIN0_RX 91
+
+#endif /* BSW_ISR_ISR_PRIORITY_H_ */
