@@ -20,11 +20,11 @@ struct udp_pcb *g_SOMEIPEVENT_PCB;
 Service serviceList[] = {
     {//SetValue
         .service_id = 0x0100,
-        .port = 0x772D  //htons(30509),
+        .port = 0x772D  //htons(30501),
     },
     {//GetStatus
         .service_id = 0x0200,
-        .port = 0x772E // htons(30510),
+        .port = 0x772E // htons(30502),
     }
 };
 
